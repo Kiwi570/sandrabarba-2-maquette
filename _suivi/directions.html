@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><title>Sandra Barba · trois directions</title>
+<style>
+@font-face{font-family:Fraunces;src:url(../../outils-planche/node_modules/@fontsource/fraunces/files/fraunces-latin-400-normal.woff2)}
+@font-face{font-family:Fraunces;font-style:italic;src:url(../../outils-planche/node_modules/@fontsource/fraunces/files/fraunces-latin-400-italic.woff2)}
+@font-face{font-family:Figtree;src:url(../../outils-planche/node_modules/@fontsource/figtree/files/figtree-latin-400-normal.woff2)}
+@font-face{font-family:Figtree;font-weight:600;src:url(../../outils-planche/node_modules/@fontsource/figtree/files/figtree-latin-600-normal.woff2)}
+@font-face{font-family:Gloock;src:url(../../outils-planche/node_modules/@fontsource/gloock/files/gloock-latin-400-normal.woff2)}
+@font-face{font-family:Manrope;src:url(../../outils-planche/node_modules/@fontsource/manrope/files/manrope-latin-400-normal.woff2)}
+@font-face{font-family:Manrope;font-weight:700;src:url(../../outils-planche/node_modules/@fontsource/manrope/files/manrope-latin-700-normal.woff2)}
+@font-face{font-family:DMSerif;src:url(../../outils-planche/node_modules/@fontsource/dm-serif-display/files/dm-serif-display-latin-400-normal.woff2)}
+@font-face{font-family:DMSerif;font-style:italic;src:url(../../outils-planche/node_modules/@fontsource/dm-serif-display/files/dm-serif-display-latin-400-italic.woff2)}
+@font-face{font-family:Karla;src:url(../../outils-planche/node_modules/@fontsource/karla/files/karla-latin-400-normal.woff2)}
+@font-face{font-family:Karla;font-weight:700;src:url(../../outils-planche/node_modules/@fontsource/karla/files/karla-latin-700-normal.woff2)}
+*{box-sizing:border-box;margin:0}
+body{background:#d9d6d0;font-family:Figtree,sans-serif;padding:28px;width:1680px}
+h1{font:600 22px Figtree;color:#222;margin-bottom:18px}
+.grille{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.carte{border-radius:14px;overflow:hidden;background:#fff;box-shadow:0 2px 10px rgba(0,0,0,.08)}
+.tete{padding:16px 20px;font:600 15px Figtree;color:#222;border-bottom:1px solid #eee}
+.tete small{display:block;font-weight:400;color:#666;margin-top:3px;font-size:13px}
+.hero{height:390px;position:relative;padding:26px 26px;display:flex;flex-direction:column;justify-content:flex-end;overflow:hidden}
+.nav{position:absolute;top:0;left:0;right:0;display:flex;justify-content:space-between;align-items:center;padding:14px 22px;font-size:11px}
+.nav b{font-size:13px}
+.btn{display:inline-block;padding:9px 16px;border-radius:99px;font-size:12px;font-weight:600}
+.sw{display:flex}
+.sw div{flex:1;height:70px;padding:8px;font:600 10.5px Figtree;display:flex;flex-direction:column;justify-content:flex-end}
+.typo{padding:16px 20px;font-size:13px;color:#333;line-height:1.5}
+.typo b{font-weight:600}
+/* A */
+.a{background:#F3EEE6;color:#2B2622}
+.a h2{font:400 38px/1.04 Fraunces;letter-spacing:-.01em}
+.a h2 em{color:#B23A5E}
+.a p{font:15px/1.5 Figtree;max-width:300px;margin:12px 0 14px}
+.a .rond{position:absolute;right:-60px;top:46px;width:210px;height:210px;opacity:.9;border-radius:50%;background:radial-gradient(circle at 40% 35%,#f6dccb,#e7a98f 60%,#c7798a);box-shadow:0 0 0 18px rgba(178,58,94,.08),0 0 0 40px rgba(178,58,94,.05)}
+/* B */
+.b{background:#EFE8DD;color:#22252B}
+.b h2{font:400 38px/1.06 Gloock}
+.b h2 em{font-style:normal;color:#B9572E}
+.b p{font:14px/1.5 Manrope;max-width:290px;margin:12px 0 14px}
+.b .arche{position:absolute;right:22px;top:58px;width:120px;height:170px;border-radius:85px 85px 6px 6px;background:linear-gradient(180deg,#d8c3a4,#a98a66 70%,#7d6448)}
+.b .arche:after{content:"";position:absolute;inset:14px;border-radius:72px 72px 3px 3px;border:1.5px solid rgba(255,255,255,.55)}
+/* C */
+.c{background:linear-gradient(180deg,#15231D 0%,#1c3027 55%,#5a4a35 100%);color:#F2EBDD}
+.c h2{font:400 40px/1.04 DMSerif}
+.c h2 em{color:#F0A46B}
+.c p{font:14px/1.5 Karla;max-width:300px;margin:12px 0 14px;color:#d9d2c3}
+.c .soleil{position:absolute;right:40px;top:70px;width:120px;height:120px;border-radius:50%;background:radial-gradient(circle,#ffd9a8,#f0a46b 55%,rgba(240,164,107,0) 72%)}
+.c .colline{position:absolute;left:0;right:0;bottom:0;height:150px;background:#0f1a15;clip-path:polygon(0 60%,18% 40%,35% 55%,52% 28%,70% 50%,85% 36%,100% 52%,100% 100%,0 100%)}
+.c > h2,.c > p,.c > div:not(.nav):not(.soleil):not(.colline){position:relative}
+.hero h2,.hero p,.hero > div:last-child{position:relative;z-index:2}
+</style></head><body>
+<h1>Sandra Barba · trois directions (palette, typographies, ouverture de l'accueil)</h1>
+<div class="grille">
+ <div class="carte">
+  <div class="tete">A · Respirer (recommandée)<small>Clair, lin et laurier-rose · niveau visé : Château Haut-Piquat</small></div>
+  <div class="hero a"><div class="nav"><b>Sandra Barba</b><span>Psychothérapie · Sophrologie · Violences · <span class="btn" style="background:#B23A5E;color:#fff;padding:6px 12px">Prendre rendez-vous</span></span></div>
+   <div class="rond"></div>
+   <h2>La vie est un combat.<br><em>Ne le vivez plus</em> seul·e.</h2>
+   <p>Psychothérapie, sophrologie et coaching de couple à Aubignan et en visio, depuis 2005. Séance d'une heure, 65 €.</p>
+   <div><span class="btn" style="background:#B23A5E;color:#fff">Prendre rendez-vous</span> &nbsp;<span class="btn" style="border:1px solid #2B2622">07 60 36 58 32</span></div></div>
+  <div class="sw"><div style="background:#F3EEE6;color:#555">fond lin<br>#F3EEE6</div><div style="background:#E8DCCC;color:#555">argile<br>#E8DCCC</div><div style="background:#26332C;color:#eee">olive nuit<br>#26332C</div><div style="background:#B23A5E;color:#fff">laurier-rose<br>#B23A5E</div><div style="background:#2B2622;color:#eee">texte<br>#2B2622</div></div>
+  <div class="typo"><b>Titres</b> Fraunces, très grande, un mot en italique laurier-rose · <b>Texte</b> Figtree 17 px<br><b>Ouverture</b> un cercle de lumière inspire puis expire et s'ouvre sur le portrait de Sandra ; le titre se pose ligne par ligne.</div>
+ </div>
+ <div class="carte">
+  <div class="tete">B · Le Portail Neuf<small>Pierre claire, arches, bleu volet · niveau visé : Laure Polin, Haut-Piquat</small></div>
+  <div class="hero b"><div class="nav"><b>Sandra Barba</b><span>Psychothérapie · Sophrologie · Violences · <span class="btn" style="background:#23395B;color:#fff;padding:6px 12px">Rendez-vous</span></span></div>
+   <div class="arche"></div>
+   <h2>Une porte<br>qui s'ouvre, <em>enfin.</em></h2>
+   <p>Cabinet de psychothérapie et de sophrologie, 89 rue du Portail Neuf à Aubignan, et en visio. Depuis 2005.</p>
+   <div><span class="btn" style="background:#23395B;color:#fff">Prendre rendez-vous</span> &nbsp;<span class="btn" style="border:1px solid #22252B">07 60 36 58 32</span></div></div>
+  <div class="sw"><div style="background:#EFE8DD;color:#555">pierre<br>#EFE8DD</div><div style="background:#E2D2BB;color:#555">ocre pâle<br>#E2D2BB</div><div style="background:#23395B;color:#eee">bleu volet<br>#23395B</div><div style="background:#B9572E;color:#fff">ocre rouge<br>#B9572E</div><div style="background:#22252B;color:#eee">texte<br>#22252B</div></div>
+  <div class="typo"><b>Titres</b> Gloock, franche et chaleureuse · <b>Texte</b> Manrope 17 px<br><b>Ouverture</b> une arche s'ouvre comme une porte sur la lumière du cabinet ; les grandes photos du site gardent ce cadre en arche.</div>
+ </div>
+ <div class="carte">
+  <div class="tete">C · L'aube<small>Sombre vert nuit puis lumière dorée · niveau visé : Les Plus Hautes Eaux</small></div>
+  <div class="hero c"><div class="nav"><b>Sandra Barba</b><span>Psychothérapie · Sophrologie · Violences · <span class="btn" style="background:#F0A46B;color:#15231D;padding:6px 12px">Rendez-vous</span></span></div>
+   <div class="soleil"></div><div class="colline"></div>
+   <h2>Après la nuit,<br><em>retrouver le jour.</em></h2>
+   <p>Psychothérapie et sophrologie à Aubignan et en visio. La vie est un combat : ne le vivez plus seul·e.</p>
+   <div><span class="btn" style="background:#F0A46B;color:#15231D">Prendre rendez-vous</span> &nbsp;<span class="btn" style="border:1px solid #F2EBDD">07 60 36 58 32</span></div></div>
+  <div class="sw"><div style="background:#15231D;color:#eee">vert nuit<br>#15231D</div><div style="background:#1F3229;color:#eee">sapin<br>#1F3229</div><div style="background:#F5EFE4;color:#555">crème (2 bandes)<br>#F5EFE4</div><div style="background:#F0A46B;color:#15231D">abricot<br>#F0A46B</div><div style="background:#F2EBDD;color:#555">texte<br>#F2EBDD</div></div>
+  <div class="typo"><b>Titres</b> DM Serif Display, italique abricot · <b>Texte</b> Karla 17 px<br><b>Ouverture</b> paysage du Vaucluse à l'heure bleue ; au défilement le soleil monte et la lumière dorée gagne l'écran.</div>
+ </div>
+</div>
+</body></html>

@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-curseur>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Prendre rendez-vous : Sandra Barba, Aubignan et visio</title>
+<meta name="description" content="Séance d&#39;une heure à 65 €, au cabinet d&#39;Aubignan ou en visio, du lundi au samedi sur rendez-vous. Demande en trois étapes, téléphone, SMS et accès.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://sandrabarba-2-maquette.vercel.app/rendez-vous">
+<style>:root{--fond:#F3EEE6;--texte:#2B2622;--voile-fond:#26332C;--ouverture-fond:#F3EEE6;--menu-fond:#F3EEE6}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/figtree.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#F3EEE6">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Sandra Barba">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Prendre rendez-vous : Sandra Barba, Aubignan et visio">
+<meta property="og:description" content="Séance d&#39;une heure à 65 €, au cabinet d&#39;Aubignan ou en visio, du lundi au samedi sur rendez-vous. Demande en trois étapes, téléphone, SMS et accès.">
+<meta property="og:url" content="https://sandrabarba-2-maquette.vercel.app/rendez-vous">
+<meta property="og:image" content="https://sandrabarba-2-maquette.vercel.app/assets/partage/rendez-vous-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Sandra Barba souriante, page Rendez-vous">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Cabinet Sandra Barba, psychothérapie et sophrologie","description":"Psychothérapie, sophrologie, coaching de couple et de famille, à Aubignan et en visio, depuis 2005.","telephone":"+33760365832","email":"info@sandrabarba.fr","address":{"@type":"PostalAddress","streetAddress":"89 rue du Portail Neuf","postalCode":"84810","addressLocality":"Aubignan","addressCountry":"FR"},"priceRange":"65 €","sameAs":["https://www.facebook.com/psrcom","https://www.instagram.com/cabinet_psrcom/","https://www.linkedin.com/in/sandra-barba-37282977/"]}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="vague" aria-hidden="true"><svg class="voile-vague voile-vague--haut" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 120 C 240 20 480 20 720 70 S 1200 130 1440 40 V 120 H 0 Z"/></svg><svg class="voile-vague voile-vague--bas" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 C 240 100 480 100 720 50 S 1200 -10 1440 80 V 0 H 0 Z"/></svg><div class="voile-contenu"><img src="/assets/images/logo-clair.svg" alt="" width="64" height="47"><span data-voile-libelle>Rendez-vous</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <div class="ouverture-souffle" data-ouverture-objet><span class="ouverture-mot ouverture-mot--in">Inspirez</span><span class="ouverture-mot ouverture-mot--out">Soufflez</span></div>
+  <p class="ouverture-nom">Sandra Barba</p>
+  <p class="ouverture-ligne">Psychothérapie · Sophrologie</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil">
+      <img src="/assets/images/logo.svg" alt="" width="44" height="32"><span class="entete-nom">Sandra Barba<small>Psychothérapie · Sophrologie</small></span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/psychotherapie" data-libelle="Psychothérapie">Psychothérapie</a></li><li><a href="/sophrologie" data-libelle="Sophrologie">Sophrologie</a></li><li><a href="/violences" data-libelle="Violences">Violences</a></li><li><a href="/rendez-vous" data-libelle="Rendez-vous" aria-current="page">Rendez-vous</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/rendez-vous#demande" data-libelle="Rendez-vous">Prendre rendez-vous</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/psychotherapie" class="menu-lien" data-libelle="Psychothérapie">Psychothérapie</a></li><li style="--i:2"><a href="/sophrologie" class="menu-lien" data-libelle="Sophrologie">Sophrologie</a></li><li style="--i:3"><a href="/violences" class="menu-lien" data-libelle="Violences">Violences</a></li><li style="--i:4"><a href="/rendez-vous" class="menu-lien" data-libelle="Rendez-vous" aria-current="page">Rendez-vous</a></li></ul>
+  <p><a class="bouton" href="tel:+33760365832">Appeler 07 60 36 58 32</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="hero hero-prix" id="debut">
+  <div class="hx-texte">
+    <p class="surtitre" data-anime="gsap"><span class="ouv-suite">Prendre rendez-vous</span></p>
+    <h1 class="hx-titre" data-anime="gsap"><span class="ligne-masque"><span class="ouv-ligne">Une heure</span></span><span class="ligne-masque"><span class="ouv-ligne"><em>pour vous.</em></span></span></h1>
+    <p class="hx-prix" data-anime="gsap" data-info-cle><span class="ouv-suite"><strong data-prix>65 €</strong><span>la séance d&#39;une heure, au cabinet d&#39;Aubignan ou en visio</span></span></p>
+    <p class="hero-actions" data-anime="gsap"><span class="ouv-suite hero-boutons"><a class="bouton" href="#demande" data-action-principale data-survol="magnetique">Faire une demande</a><a class="bouton bouton--contour" href="tel:+33760365832">07 60 36 58 32</a></span></p>
+    <p class="hero-info masque-ecran-tres-bas" data-anime="gsap"><span class="ouv-suite">Du lundi au samedi, sur rendez-vous</span></p>
+  </div>
+  <figure class="media hx-media" data-fx="parallaxe" data-fx-force="6" data-iris-centre style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/sandra-rampe-portrait-960.webp" srcset="/assets/images/sandra-rampe-portrait-480.webp 480w, /assets/images/sandra-rampe-portrait-640.webp 640w, /assets/images/sandra-rampe-portrait-960.webp 960w" sizes="(max-width: 760px) 50vw, 36vw" alt="Sandra Barba souriante, appuyée à une rampe en fer forgé" width="960" height="1200" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+</section>
+<section class="section seances fond-argile" id="seances">
+  <div class="conteneur">
+    <p class="surtitre">Les séances</p>
+    <h2 class="titre-section" data-anime="lignes">Quatre façons <em>de venir.</em></h2>
+    <ul class="seances-liste" data-anime="cascade" data-visuel>
+      <li class="seance-ligne">
+        <span class="sl-icone"><svg class="fpe__icone" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 15 16 6l11 9v11H5z"/><path d="M13 26v-7h6v7"/></svg></span>
+        <span class="sl-titre"><strong>Séance au cabinet</strong><span>Psychanalyse, psychothérapie ou sophrologie</span></span>
+        <span class="sl-duree">1 h</span>
+        <span class="sl-prix" data-prix>65 €</span>
+        <a class="lien-fleche" href="?seance=cabinet#demande" data-seance="cabinet" data-sans-transition>Choisir<span class="visuellement-cache"> : Séance au cabinet</span></a>
+      </li><li class="seance-ligne">
+        <span class="sl-icone"><svg class="fpe__icone" viewBox="0 0 32 32" aria-hidden="true"><rect x="4" y="8" width="18" height="15" rx="2"/><path d="m22 13 6-3v12l-6-3"/></svg></span>
+        <span class="sl-titre"><strong>Consultation en visio</strong><span>Identique au cabinet, de chez vous</span></span>
+        <span class="sl-duree">1 h</span>
+        <span class="sl-prix" data-prix>65 €</span>
+        <a class="lien-fleche" href="?seance=visio#demande" data-seance="visio" data-sans-transition>Choisir<span class="visuellement-cache"> : Consultation en visio</span></a>
+      </li><li class="seance-ligne">
+        <span class="sl-icone"><svg class="fpe__icone" viewBox="0 0 32 32" aria-hidden="true"><circle cx="11" cy="11" r="4"/><circle cx="21" cy="11" r="4"/><path d="M4 26c1-5 4-7 7-7s5 1 5 1 2-1 5-1 6 2 7 7"/></svg></span>
+        <span class="sl-titre"><strong>Coaching couple</strong><span>Se comprendre, communiquer, prendre une décision</span></span>
+        <span class="sl-duree">1 h 15</span>
+        <span class="sl-prix" data-prix>65 €</span>
+        <a class="lien-fleche" href="?seance=couple#demande" data-seance="couple" data-sans-transition>Choisir<span class="visuellement-cache"> : Coaching couple</span></a>
+      </li><li class="seance-ligne">
+        <span class="sl-icone"><svg class="fpe__icone" viewBox="0 0 32 32" aria-hidden="true"><circle cx="11" cy="10" r="4"/><circle cx="22" cy="14" r="3"/><path d="M4 27c1-6 4-8 7-8s6 2 7 8M17 27c1-4 3-6 5-6s4 2 5 6"/></svg></span>
+        <span class="sl-titre"><strong>Coaching famille</strong><span>Les liens familiaux, mère et fille</span></span>
+        <span class="sl-duree">1 h</span>
+        <span class="sl-prix" data-prix>65 €</span>
+        <a class="lien-fleche" href="?seance=famille#demande" data-seance="famille" data-sans-transition>Choisir<span class="visuellement-cache"> : Coaching famille</span></a>
+      </li>
+    </ul>
+    <p class="seances-note" data-anime>Pour les personnes à mobilité réduite, un rendez-vous à domicile est possible sur demande, au 07 60 36 58 32.</p>
+  </div>
+</section>
+<section class="section fpe demande" id="demande" data-module="formulaire-par-etapes">
+  <div class="conteneur demande-grille">
+    <div class="fpe__tete">
+      <p class="surtitre">Votre demande</p>
+      <h2 class="titre-section" data-anime="lignes">Trois questions, <em>puis Sandra vous recontacte.</em></h2>
+      <p class="fpe__intro">Choisissez une séance, vos préférences, puis vos coordonnées. Vous pourrez tout relire avant d&#39;envoyer.</p>
+      <p class="fpe__note">Démonstration : rien n&#39;est envoyé.</p>
+      <figure class="media demande-media" data-grok data-fx="zoom" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/rdv-bureau-784.webp" srcset="/assets/images/grok/rdv-bureau-480.webp 480w, /assets/images/grok/rdv-bureau-640.webp 640w, /assets/images/grok/rdv-bureau-784.webp 784w" sizes="(max-width: 760px) 90vw, 30vw" alt="Un carnet fermé et un brin d&#39;olivier sur un bureau clair" width="784" height="980" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    </div>
+    <div class="fpe__carton">
+      <form class="fpe__form" action="mailto:info@sandrabarba.fr" method="post" enctype="text/plain" novalidate>
+        <div class="fpe__progression">
+          <ol class="fpe__reperes" aria-label="Progression"></ol>
+          <div class="fpe__barre" aria-hidden="true"><span></span></div>
+          <p class="fpe__etat" aria-live="polite"></p>
+        </div>
+        <fieldset class="fpe__etape" data-etape="Séance">
+          <legend class="fpe__legende"><h3 class="fpe__titre">Quelle séance souhaitez-vous ?</h3></legend>
+          <div class="fpe__groupe fpe__cartes" data-libelle="Séance">
+            <label class="fpe__carte"><input type="radio" name="seance" value="cabinet" required><svg class="fpe__icone" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 15 16 6l11 9v11H5z"/><path d="M13 26v-7h6v7"/></svg><span class="fpe__carte-titre">Séance au cabinet</span><span class="fpe__carte-texte">1 h · 65 €</span></label><label class="fpe__carte"><input type="radio" name="seance" value="visio"><svg class="fpe__icone" viewBox="0 0 32 32" aria-hidden="true"><rect x="4" y="8" width="18" height="15" rx="2"/><path d="m22 13 6-3v12l-6-3"/></svg><span class="fpe__carte-titre">Consultation en visio</span><span class="fpe__carte-texte">1 h · 65 €</span></label><label class="fpe__carte"><input type="radio" name="seance" value="couple"><svg class="fpe__icone" viewBox="0 0 32 32" aria-hidden="true"><circle cx="11" cy="11" r="4"/><circle cx="21" cy="11" r="4"/><path d="M4 26c1-5 4-7 7-7s5 1 5 1 2-1 5-1 6 2 7 7"/></svg><span class="fpe__carte-titre">Coaching couple</span><span class="fpe__carte-texte">1 h 15 · 65 €</span></label><label class="fpe__carte"><input type="radio" name="seance" value="famille"><svg class="fpe__icone" viewBox="0 0 32 32" aria-hidden="true"><circle cx="11" cy="10" r="4"/><circle cx="22" cy="14" r="3"/><path d="M4 27c1-6 4-8 7-8s6 2 7 8M17 27c1-4 3-6 5-6s4 2 5 6"/></svg><span class="fpe__carte-titre">Coaching famille</span><span class="fpe__carte-texte">1 h · 65 €</span></label>
+          </div>
+        </fieldset>
+        <fieldset class="fpe__etape" data-etape="Quand">
+          <legend class="fpe__legende"><h3 class="fpe__titre">Quand seriez-vous disponible ?</h3></legend>
+          <fieldset class="fpe__groupe" data-min="1" data-libelle="Jours">
+            <legend class="fpe__groupe-titre">Les jours qui vous conviennent <i aria-hidden="true">*</i></legend>
+            <div class="fpe__puces"><label class="fpe__puce"><input type="checkbox" name="jours" value="Lundi"><span class="fpe__choix-texte">Lundi</span></label><label class="fpe__puce"><input type="checkbox" name="jours" value="Mardi"><span class="fpe__choix-texte">Mardi</span></label><label class="fpe__puce"><input type="checkbox" name="jours" value="Mercredi"><span class="fpe__choix-texte">Mercredi</span></label><label class="fpe__puce"><input type="checkbox" name="jours" value="Jeudi"><span class="fpe__choix-texte">Jeudi</span></label><label class="fpe__puce"><input type="checkbox" name="jours" value="Vendredi"><span class="fpe__choix-texte">Vendredi</span></label><label class="fpe__puce"><input type="checkbox" name="jours" value="Samedi"><span class="fpe__choix-texte">Samedi</span></label></div>
+          </fieldset>
+          <fieldset class="fpe__groupe" data-libelle="Moment">
+            <legend class="fpe__groupe-titre">Le moment de la journée</legend>
+            <div class="fpe__puces">
+              <label class="fpe__puce"><input type="radio" name="moment" value="Le matin"><span class="fpe__choix-texte">Le matin</span></label>
+              <label class="fpe__puce"><input type="radio" name="moment" value="L&#39;après-midi"><span class="fpe__choix-texte">L&#39;après-midi</span></label>
+              <label class="fpe__puce"><input type="radio" name="moment" value="En fin de journée"><span class="fpe__choix-texte">En fin de journée</span></label>
+              <label class="fpe__puce"><input type="radio" name="moment" value="Peu importe" checked><span class="fpe__choix-texte">Peu importe</span></label>
+            </div>
+          </fieldset>
+        </fieldset>
+        <fieldset class="fpe__etape" data-etape="Contact">
+          <legend class="fpe__legende"><h3 class="fpe__titre">Comment vous joindre ?</h3></legend>
+          <div class="fpe__grille">
+            <div class="fpe__champ"><label for="f-prenom">Prénom <i aria-hidden="true">*</i></label><input id="f-prenom" name="prenom" autocomplete="given-name" required></div>
+            <div class="fpe__champ"><label for="f-tel">Téléphone <i aria-hidden="true">*</i></label><input id="f-tel" name="tel" type="tel" inputmode="tel" autocomplete="tel" pattern="[0-9 +().-]{8,20}" required></div>
+            <div class="fpe__champ"><label for="f-email">E-mail</label><input id="f-email" name="email" type="email" autocomplete="email"></div>
+          </div>
+          <fieldset class="fpe__groupe" data-libelle="Recontacter par">
+            <legend class="fpe__groupe-titre">Être recontacté·e par</legend>
+            <div class="fpe__puces">
+              <label class="fpe__puce"><input type="radio" name="par" value="Téléphone" checked><span class="fpe__choix-texte">Téléphone</span></label>
+              <label class="fpe__puce"><input type="radio" name="par" value="SMS"><span class="fpe__choix-texte">SMS</span></label>
+              <label class="fpe__puce"><input type="radio" name="par" value="E-mail"><span class="fpe__choix-texte">E-mail</span></label>
+            </div>
+          </fieldset>
+          <div class="fpe__champ"><label for="f-message">Un mot, si vous le souhaitez</label><textarea id="f-message" name="message" rows="3" placeholder="Rien n&#39;est obligatoire ici"></textarea></div>
+          <label class="fpe__case"><input type="checkbox" name="accord" value="oui" required data-libelle="Accord" data-hors-recap><span class="fpe__choix-texte">J&#39;accepte que ces informations servent uniquement à répondre à ma demande. <i aria-hidden="true">*</i></span></label>
+          <p class="fpe__aide mention-donnees">Vos données restent à l'usage exclusif du cabinet. <span class="a-completer">Politique de confidentialité : à compléter</span>. Les champs marqués d&#39;un astérisque sont obligatoires.</p>
+        </fieldset>
+        <fieldset class="fpe__etape" data-etape="Relire" data-recap>
+          <legend class="fpe__legende"><h3 class="fpe__titre">Tout est juste ?</h3></legend>
+          <div class="fpe__recap"><p>Le récapitulatif de vos réponses s&#39;affiche ici.</p></div>
+        </fieldset>
+        <div class="fpe__nav">
+          <button class="fpe__bouton fpe__bouton--ligne" type="button" data-precedent>Retour</button>
+          <button class="fpe__bouton" type="button" data-suivant data-retour="Revenir au récapitulatif">Continuer</button>
+          <button class="fpe__bouton" type="submit">Envoyer la demande</button>
+        </div>
+      </form>
+      <div class="fpe__fin" hidden tabindex="-1">
+        <svg class="fpe__coche" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="28"/><path d="M20 33l8 8 16-17"/></svg>
+        <h3>Merci, votre demande est prête.</h3>
+        <p data-resume></p>
+        <p>Démonstration : rien n&#39;a été envoyé. Sur le site en ligne, Sandra Barba recevrait votre demande et vous recontacterait par le moyen choisi.</p>
+        <div class="fpe__fin-actions">
+          <a class="fpe__bouton" href="mailto:info@sandrabarba.fr" data-mailto hidden>L&#39;envoyer par e-mail</a>
+          <button class="fpe__bouton fpe__bouton--ligne" type="button" data-recommencer>Nouvelle demande</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section direct fond-argile" id="contact">
+  <div class="conteneur">
+    <p class="surtitre">Plus simple encore</p>
+    <h2 class="titre-section" data-anime="lignes">Un appel, <em>un SMS, un e-mail.</em></h2>
+    <ul class="direct-grille" data-anime="cascade" data-visuel>
+      <li><a class="direct-carte" href="tel:+33760365832"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M9 4h5l2 7-3 2c1.5 3 4 5.5 7 7l2-3 7 2v5c0 1.5-1.5 3-3 3C14 27 5 18 5 7c0-1.5 1.5-3 4-3z"/></svg><span class="direct-titre">Appeler</span><span>07 60 36 58 32</span></a></li>
+      <li><a class="direct-carte" href="sms:+33760365832"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5 7h22v15H14l-6 5v-5H5z"/></svg><span class="direct-titre">Envoyer un SMS</span><span>07 60 36 58 32</span></a></li>
+      <li><a class="direct-carte" href="mailto:info@sandrabarba.fr"><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="4" y="7" width="24" height="18" rx="2"/><path d="m5 9 11 8 11-8"/></svg><span class="direct-titre">Écrire un e-mail</span><span>info@sandrabarba.fr</span></a></li>
+    </ul>
+  </div>
+</section>
+<section class="section acces" id="acces">
+  <div class="conteneur acces-grille">
+    <figure class="media acces-media" data-anime="rideau" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/cabinet-photo-800.webp" srcset="/assets/images/cabinet-photo-480.webp 480w, /assets/images/cabinet-photo-640.webp 640w, /assets/images/cabinet-photo-800.webp 800w" sizes="(max-width: 760px) 90vw, 34vw" alt="La pièce du cabinet d&#39;Aubignan : divan gris, fauteuil, tapis rond et poutres blanchies" width="800" height="1000" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div>
+      <p class="surtitre">Le cabinet</p>
+      <h2 class="titre-section" data-anime="lignes">89 rue du Portail Neuf, <em>Aubignan.</em></h2>
+      <ul class="acces-liste" data-anime="cascade">
+        <li>Parking gratuit à proximité.</li>
+        <li>Du lundi au samedi, sur rendez-vous.</li>
+        <li>À domicile pour les personnes à mobilité réduite, sur demande.</li>
+        <li>En visio, de chez vous : la séance se déroule de façon identique.</li>
+      </ul>
+      <p data-anime><a class="bouton bouton--contour" href="https://www.google.com/maps/search/?api=1&amp;query=89+rue+du+Portail+Neuf+84810+Aubignan" target="_blank" rel="noopener">Ouvrir l&#39;itinéraire<span class="visuellement-cache"> (s&#39;ouvre dans un nouvel onglet)</span></a></p>
+    </div>
+  </div>
+</section>
+<section class="section faq fond-argile" id="questions">
+  <div class="conteneur faq-grille">
+    <div>
+      <p class="surtitre">Questions fréquentes</p>
+      <h2 class="titre-section" data-anime="lignes">Avant de vous lancer</h2>
+    </div>
+    <div class="faq-liste" data-anime="cascade">
+      <details class="faq-item"><summary>Combien coûte une séance ?</summary><p>65 € la séance d&#39;une heure, au cabinet comme en visio. Le coaching de couple dure 1 h 15, pour le même prix.</p></details><details class="faq-item"><summary>Comment se passe la première séance ?</summary><p>On fait le point sur vos besoins. Ensemble, vous choisissez ensuite un accompagnement adapté, qui peut évoluer.</p></details><details class="faq-item"><summary>Combien de séances faut-il ?</summary><p>Il n&#39;y a pas de nombre fixé à l&#39;avance : vous restez décisionnaire de vos séances et de leur rythme.</p></details><details class="faq-item"><summary>La visio, est-ce vraiment pareil ?</summary><p>Oui : la consultation en ligne se déroule de façon identique à la séance au cabinet, de chez vous.</p></details><details class="faq-item"><summary>Et entre deux séances ?</summary><p>Sandra Barba reste joignable par SMS et par e-mail, sans supplément.</p></details><details class="faq-item"><summary>Je ne peux pas me déplacer.</summary><p>Pour les personnes à mobilité réduite, un rendez-vous à domicile est possible sur demande, au 07 60 36 58 32.</p></details>
+    </div>
+  </div>
+</section>
+<section class="fin fond-olive" id="fin">
+  <div class="conteneur fin-grille">
+    <figure class="media fin-portrait" data-fx="zoom" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/sandra-bibliotheque-480.webp" srcset="/assets/images/sandra-bibliotheque-320.webp 320w, /assets/images/sandra-bibliotheque-480.webp 480w" sizes="200px" alt="Sandra Barba, portrait en noir et blanc" width="480" height="480" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="fin-texte">
+      <p class="surtitre">Un premier pas</p>
+      <h2 class="titre-section" data-anime="lignes">Et si vous commenciez <em>par en parler ?</em></h2>
+      <p class="fin-intro" data-anime>Un appel, un SMS ou un e-mail suffit. La première séance sert à faire le point sur vos besoins, à votre rythme.</p>
+      <p class="fin-actions" data-anime="cascade">
+        <a href="/rendez-vous#demande" class="bouton" data-libelle="Rendez-vous" data-survol="magnetique">Prendre rendez-vous</a>
+        <a class="bouton bouton--contour" href="tel:+33760365832" data-survol="magnetique">07 60 36 58 32</a>
+        <a class="bouton bouton--contour" href="sms:+33760365832" data-survol="magnetique">Envoyer un SMS</a>
+      </p>
+      <p class="fin-info">Du lundi au samedi, sur rendez-vous · au cabinet d&#39;Aubignan ou en visio</p>
+    </div>
+  </div>
+  <div class="fin-lueur" aria-hidden="true" data-effet="lueur" data-boucle-css data-audit-ignorer></div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <p class="pied-logo"><img src="/assets/images/logo-clair.svg" alt="" width="56" height="41"><strong>Sandra Barba</strong></p>
+      <p>Psychothérapie · Sophrologie<br>89 rue du Portail Neuf, 84810 Aubignan</p>
+      <p><a href="tel:+33760365832">07 60 36 58 32</a><br><a href="mailto:info@sandrabarba.fr">info@sandrabarba.fr</a></p>
+    </div>
+    <nav aria-label="Le site">
+      <p class="pied-titre">Le site</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/psychotherapie" data-libelle="Psychothérapie">Psychothérapie</a></li><li><a href="/sophrologie" data-libelle="Sophrologie">Sophrologie</a></li><li><a href="/violences" data-libelle="Violences">Violences</a></li><li><a href="/rendez-vous" data-libelle="Rendez-vous" aria-current="page">Rendez-vous</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Suivre le cabinet</p>
+      <ul><li><a href="https://www.facebook.com/psrcom" target="_blank" rel="noopener">Facebook<span class="visuellement-cache"> (s&#39;ouvre dans un nouvel onglet)</span></a></li><li><a href="https://www.instagram.com/cabinet_psrcom/" target="_blank" rel="noopener">Instagram<span class="visuellement-cache"> (s&#39;ouvre dans un nouvel onglet)</span></a></li><li><a href="https://www.linkedin.com/in/sandra-barba-37282977/" target="_blank" rel="noopener">LinkedIn<span class="visuellement-cache"> (s&#39;ouvre dans un nouvel onglet)</span></a></li><li><a href="#haut" data-sans-transition>Retour en haut</a></li></ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas">
+    <p>Pratique de psychothérapie hors du cadre réglementé du titre de psychothérapeute. SIRET 514 610 393 00019.</p>
+    <p class="a-completer">Mentions légales · à compléter</p>
+    <p class="a-completer">Politique de confidentialité · à compléter</p>
+    <p>Maquette de démonstration : formulaires simulés, rien n&#39;est envoyé. © Sandra Barba</p>
+  </div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33760365832">Appeler</a>
+  <a class="bouton" href="/rendez-vous#demande" data-libelle="Rendez-vous">Rendez-vous</a>
+</div>
+</body>
+</html>

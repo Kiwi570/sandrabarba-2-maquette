@@ -1,0 +1,6357 @@
+{
+  "dossier": "/Users/paul/Downloads/sandrabarba-recu",
+  "date": "2026-11-16T13:16:49.747Z",
+  "detection": "Vision (macOS) + mesures sharp",
+  "planches": [
+    "planche.jpg",
+    "planche-2.jpg",
+    "planche-3.jpg",
+    "planche-4.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [
+    {
+      "garder": "diplomes-certificats-7.jpg",
+      "ecarter": "nouveau-diplome-meilleur-accompagnement.jpg",
+      "type": "doublon",
+      "distance": 5,
+      "ressemblance": 0.98
+    }
+  ],
+  "images": [
+    {
+      "fichier": "logo.png",
+      "nom": "logo",
+      "drapeau": "logo",
+      "largeur": 733,
+      "hauteur": 490,
+      "ratio": "3:2",
+      "ratio_valeur": 1.496,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 71758,
+      "transparence": true,
+      "sujet": {
+        "x": 11.7,
+        "y": 10.5,
+        "l": 75.4,
+        "h": 79.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        48
+      ],
+      "cadrage_css": "54% 48%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.64,
+          "ton": "clair",
+          "recouvre_sujet": 0.57
+        },
+        {
+          "cote": "haut",
+          "score": 0.6,
+          "ton": "clair",
+          "recouvre_sujet": 0.53
+        },
+        {
+          "cote": "bas",
+          "score": 0.51,
+          "ton": "clair",
+          "recouvre_sujet": 0.55
+        },
+        {
+          "cote": "droite",
+          "score": 0.37,
+          "ton": "clair",
+          "recouvre_sujet": 0.54
+        }
+      ],
+      "qualite": {
+        "nettete": 20.2,
+        "bruit": 0.14,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "1c080d0f23452702",
+      "drapeaux": [
+        "logo"
+      ]
+    },
+    {
+      "fichier": "couple-distancie.jpg",
+      "nom": "couple-distancie",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 213628,
+      "transparence": false,
+      "sujet": {
+        "x": 16.4,
+        "y": 6.3,
+        "l": 69.4,
+        "h": 93.3,
+        "source": "corps"
+      },
+      "visages": 2,
+      "cadrage": [
+        48,
+        36
+      ],
+      "cadrage_css": "48% 36%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.42,
+          "ton": "clair",
+          "recouvre_sujet": 0.55
+        },
+        {
+          "cote": "haut",
+          "score": 0.32,
+          "ton": "clair",
+          "recouvre_sujet": 0.57
+        },
+        {
+          "cote": "bas",
+          "score": 0.12,
+          "ton": "clair",
+          "recouvre_sujet": 0.69
+        },
+        {
+          "cote": "droite",
+          "score": 0.05,
+          "ton": "clair",
+          "recouvre_sujet": 0.6
+        }
+      ],
+      "qualite": {
+        "nettete": 21.8,
+        "bruit": 0.57,
+        "compression": 1.23,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "0292929214141696",
+      "drapeaux": [
+        "autre",
+        "2 visages"
+      ]
+    },
+    {
+      "fichier": "pose-yoga.jpg",
+      "nom": "pose-yoga",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 176960,
+      "transparence": false,
+      "sujet": {
+        "x": 10.3,
+        "y": 29.8,
+        "l": 73.9,
+        "h": 51.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        54
+      ],
+      "cadrage_css": "50% 54%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.66,
+          "ton": "clair",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "droite",
+          "score": 0.37,
+          "ton": "moyen",
+          "recouvre_sujet": 0.31
+        },
+        {
+          "cote": "gauche",
+          "score": 0.34,
+          "ton": "clair",
+          "recouvre_sujet": 0.38
+        },
+        {
+          "cote": "bas",
+          "score": 0.28,
+          "ton": "moyen",
+          "recouvre_sujet": 0.35
+        }
+      ],
+      "qualite": {
+        "nettete": 8.6,
+        "bruit": 0.33,
+        "compression": 1.62,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "a5854d3139322c09",
+      "drapeaux": [
+        "autre",
+        "compression visible",
+        "calme haut"
+      ]
+    },
+    {
+      "fichier": "psychotherapie-sophrologie-sandra-barba.jpg",
+      "nom": "psychotherapie-sophrologie-sandra-barba",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 327015,
+      "transparence": false,
+      "sujet": {
+        "x": 27.2,
+        "y": 8.8,
+        "l": 37.6,
+        "h": 60.2,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        46,
+        41
+      ],
+      "cadrage_css": "46% 41%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.39,
+          "ton": "moyen",
+          "recouvre_sujet": 0.28
+        },
+        {
+          "cote": "droite",
+          "score": 0.32,
+          "ton": "moyen",
+          "recouvre_sujet": 0.07
+        },
+        {
+          "cote": "gauche",
+          "score": 0.28,
+          "ton": "moyen",
+          "recouvre_sujet": 0.19
+        },
+        {
+          "cote": "bas",
+          "score": 0.28,
+          "ton": "sombre",
+          "recouvre_sujet": 0.04
+        }
+      ],
+      "qualite": {
+        "nettete": 20,
+        "bruit": 0.71,
+        "compression": 1.27,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "a1486cc9968c8c0c",
+      "drapeaux": [
+        "autre",
+        "visage"
+      ]
+    },
+    {
+      "fichier": "psychotherapie.jpg",
+      "nom": "psychotherapie",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1331,
+      "ratio": "3:2",
+      "ratio_valeur": 1.503,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 316297,
+      "transparence": false,
+      "sujet": {
+        "x": 0.5,
+        "y": 0.6,
+        "l": 91.2,
+        "h": 98.3,
+        "source": "corps"
+      },
+      "visages": 1,
+      "cadrage": [
+        46,
+        30
+      ],
+      "cadrage_css": "46% 30%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.18,
+          "ton": "moyen",
+          "recouvre_sujet": 0.9
+        },
+        {
+          "cote": "gauche",
+          "score": 0.1,
+          "ton": "moyen",
+          "recouvre_sujet": 0.97
+        },
+        {
+          "cote": "droite",
+          "score": 0.06,
+          "ton": "moyen",
+          "recouvre_sujet": 0.78
+        },
+        {
+          "cote": "bas",
+          "score": 0.01,
+          "ton": "moyen",
+          "recouvre_sujet": 0.88
+        }
+      ],
+      "qualite": {
+        "nettete": 14.1,
+        "bruit": 0.56,
+        "compression": 1.51,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "4b6322233332352d",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "compression visible"
+      ]
+    },
+    {
+      "fichier": "service-image.jpg",
+      "nom": "service-image",
+      "drapeau": "autre",
+      "largeur": 1100,
+      "hauteur": 733,
+      "ratio": "3:2",
+      "ratio_valeur": 1.501,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 51066,
+      "transparence": false,
+      "sujet": {
+        "x": 0.5,
+        "y": 7.6,
+        "l": 87,
+        "h": 92.3,
+        "source": "corps"
+      },
+      "visages": 1,
+      "cadrage": [
+        44,
+        35
+      ],
+      "cadrage_css": "44% 35%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.31,
+          "ton": "clair",
+          "recouvre_sujet": 0.68
+        },
+        {
+          "cote": "gauche",
+          "score": 0.24,
+          "ton": "clair",
+          "recouvre_sujet": 0.91
+        },
+        {
+          "cote": "droite",
+          "score": 0.11,
+          "ton": "clair",
+          "recouvre_sujet": 0.63
+        },
+        {
+          "cote": "bas",
+          "score": 0.1,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 21.6,
+        "bruit": 0.44,
+        "compression": 0.92,
+        "faible": true,
+        "raisons": [
+          "1100 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "585252d3c34f7373",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "psychotherapie-sophrologie-sandra-barba-2.jpg",
+      "nom": "psychotherapie-sophrologie-sandra-barba-2",
+      "drapeau": "autre",
+      "largeur": 851,
+      "hauteur": 851,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 38229,
+      "transparence": false,
+      "sujet": {
+        "x": 32.9,
+        "y": 28.5,
+        "l": 31.3,
+        "h": 32.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        41
+      ],
+      "cadrage_css": "50% 41%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 1,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.91,
+          "ton": "clair",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "droite",
+          "score": 0.9,
+          "ton": "clair",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "haut",
+          "score": 0.87,
+          "ton": "clair",
+          "recouvre_sujet": 0.06
+        }
+      ],
+      "qualite": {
+        "nettete": 7.2,
+        "bruit": 0.02,
+        "compression": 1.15,
+        "faible": true,
+        "raisons": [
+          "851 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "02001a1e5a1a0810",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme bas/gauche/droite/haut"
+      ]
+    },
+    {
+      "fichier": "sortir-dependance-affective.jpg",
+      "nom": "sortir-dependance-affective",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1325,
+      "ratio": "3:2",
+      "ratio_valeur": 1.509,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 163689,
+      "transparence": false,
+      "sujet": {
+        "x": 12,
+        "y": 23,
+        "l": 85.2,
+        "h": 53.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        51
+      ],
+      "cadrage_css": "51% 51%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.61,
+          "ton": "clair",
+          "recouvre_sujet": 0.28
+        },
+        {
+          "cote": "gauche",
+          "score": 0.59,
+          "ton": "clair",
+          "recouvre_sujet": 0.38
+        },
+        {
+          "cote": "haut",
+          "score": 0.51,
+          "ton": "clair",
+          "recouvre_sujet": 0.29
+        },
+        {
+          "cote": "droite",
+          "score": 0.33,
+          "ton": "moyen",
+          "recouvre_sujet": 0.5
+        }
+      ],
+      "qualite": {
+        "nettete": 10.7,
+        "bruit": 0.29,
+        "compression": 1.64,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "ecdcc97b3bdac2a0",
+      "drapeaux": [
+        "autre",
+        "compression visible"
+      ]
+    },
+    {
+      "fichier": "se-refaire-beaute.jpg",
+      "nom": "se-refaire-beaute",
+      "drapeau": "autre",
+      "largeur": 1500,
+      "hauteur": 2000,
+      "ratio": "3:4",
+      "ratio_valeur": 0.75,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 468365,
+      "transparence": false,
+      "sujet": {
+        "x": 29.4,
+        "y": 10.3,
+        "l": 48.5,
+        "h": 51.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        38
+      ],
+      "cadrage_css": "53% 38%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.42,
+          "ton": "moyen",
+          "recouvre_sujet": 0.14
+        },
+        {
+          "cote": "bas",
+          "score": 0.42,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.32,
+          "ton": "clair",
+          "recouvre_sujet": 0.34
+        },
+        {
+          "cote": "droite",
+          "score": 0.23,
+          "ton": "moyen",
+          "recouvre_sujet": 0.23
+        }
+      ],
+      "qualite": {
+        "nettete": 24.2,
+        "bruit": 0.85,
+        "compression": 0.9,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "0000 · AIMER · LA VIE",
+        "blocs": 3,
+        "surface": 0.7,
+        "details": [
+          {
+            "texte": "0000",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "AIMER",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "LA VIE",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "c9899cbcb23ee1e9",
+      "drapeaux": [
+        "autre",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "specialisee-e-therapie.jpg",
+      "nom": "specialisee-e-therapie",
+      "drapeau": "autre",
+      "largeur": 750,
+      "hauteur": 1096,
+      "ratio": "0.68",
+      "ratio_valeur": 0.684,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 274196,
+      "transparence": false,
+      "sujet": {
+        "x": 4.4,
+        "y": 0,
+        "l": 76.5,
+        "h": 63.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        41,
+        24
+      ],
+      "cadrage_css": "41% 24%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.3,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.18,
+          "ton": "clair",
+          "recouvre_sujet": 0.33
+        },
+        {
+          "cote": "gauche",
+          "score": 0.1,
+          "ton": "clair",
+          "recouvre_sujet": 0.56
+        },
+        {
+          "cote": "haut",
+          "score": 0.02,
+          "ton": "clair",
+          "recouvre_sujet": 0.77
+        }
+      ],
+      "qualite": {
+        "nettete": 112,
+        "bruit": 0.54,
+        "compression": 1.03,
+        "faible": true,
+        "raisons": [
+          "750 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "La thérapie en ligne comporte plusieurs aspects positifs, · dont les principaux sont les suivants: · • En ce qui concerne la thérapie proprement dite, · des étu",
+        "blocs": 24,
+        "surface": 45,
+        "details": [
+          {
+            "texte": "La thérapie en ligne comporte plusieurs aspects positifs,",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "dont les principaux sont les suivants:",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "• En ce qui concerne la thérapie proprement dite,",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "des études ont montré que les thérapeutes online",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "et leurs patients peuvent former de réelles",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "alliances thérapeutiques efficaces. Par ailleurs,",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "certains patients rapportent qu'ils ont partagé des",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "choses avec leur e-thérapeuthe qu'ils n'auraient",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "jamais partagé avec aucun autre thérapeute car",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "en face à face, ils contrôlaient parfois ce qu'ils",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "disaient pour ne pas voir apparaître sur le visage",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "du thérapeute des expressions négatives. En",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "6d1d252539113131",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "pervers-narcissique-enfant-capricieux.png",
+      "nom": "pervers-narcissique-enfant-capricieux",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "png",
+      "poids": 462754,
+      "transparence": false,
+      "sujet": {
+        "x": 7.5,
+        "y": 0,
+        "l": 84.7,
+        "h": 90.5,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        50,
+        44
+      ],
+      "cadrage_css": "50% 44%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.56,
+          "ton": "sombre",
+          "recouvre_sujet": 0.74
+        },
+        {
+          "cote": "droite",
+          "score": 0.49,
+          "ton": "sombre",
+          "recouvre_sujet": 0.73
+        },
+        {
+          "cote": "haut",
+          "score": 0.35,
+          "ton": "sombre",
+          "recouvre_sujet": 0.85
+        },
+        {
+          "cote": "bas",
+          "score": 0.32,
+          "ton": "sombre",
+          "recouvre_sujet": 0.62
+        }
+      ],
+      "qualite": {
+        "nettete": 39.6,
+        "bruit": 1.45,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "cc92b2b0923333b1",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "10-secrets-rester-positif.jpg",
+      "nom": "10-secrets-rester-positif",
+      "drapeau": "portrait",
+      "largeur": 1335,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.668,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 462522,
+      "transparence": false,
+      "sujet": {
+        "x": 14.7,
+        "y": 42.9,
+        "l": 37.2,
+        "h": 32.8,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        33,
+        57
+      ],
+      "cadrage_css": "33% 57%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.5,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.44,
+          "ton": "clair",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "haut",
+          "score": 0.36,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.22,
+          "ton": "moyen",
+          "recouvre_sujet": 0.21
+        }
+      ],
+      "qualite": {
+        "nettete": 18.9,
+        "bruit": 1.17,
+        "compression": 0.92,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "6fdbbb71dbccc69e",
+      "drapeaux": [
+        "portrait",
+        "visage"
+      ]
+    },
+    {
+      "fichier": "nouvel-espace.jpg",
+      "nom": "nouvel-espace",
+      "drapeau": "lieu",
+      "largeur": 1500,
+      "hauteur": 2000,
+      "ratio": "3:4",
+      "ratio_valeur": 0.75,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 365066,
+      "transparence": false,
+      "sujet": {
+        "x": 3.9,
+        "y": 43.6,
+        "l": 42.2,
+        "h": 24.8,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        36,
+        50
+      ],
+      "cadrage_css": "36% 50%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.59,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.39,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.39,
+          "ton": "moyen",
+          "recouvre_sujet": 0.04
+        },
+        {
+          "cote": "gauche",
+          "score": 0.33,
+          "ton": "moyen",
+          "recouvre_sujet": 0.22
+        }
+      ],
+      "qualite": {
+        "nettete": 21.7,
+        "bruit": 0.6,
+        "compression": 0.94,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "f82637363a31f07c",
+      "drapeaux": [
+        "lieu"
+      ]
+    },
+    {
+      "fichier": "venez-feter-halloween-cabinet.jpg",
+      "nom": "venez-feter-halloween-cabinet",
+      "drapeau": "lieu",
+      "largeur": 1500,
+      "hauteur": 1500,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 298953,
+      "transparence": false,
+      "sujet": {
+        "x": 32.3,
+        "y": 26.5,
+        "l": 49.2,
+        "h": 59.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        53,
+        46
+      ],
+      "cadrage_css": "53% 46%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.43,
+          "ton": "sombre",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "gauche",
+          "score": 0.34,
+          "ton": "sombre",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "droite",
+          "score": 0.17,
+          "ton": "sombre",
+          "recouvre_sujet": 0.32
+        },
+        {
+          "cote": "bas",
+          "score": 0.1,
+          "ton": "sombre",
+          "recouvre_sujet": 0.3
+        }
+      ],
+      "qualite": {
+        "nettete": 31.5,
+        "bruit": 0.46,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "+LE++31+OCTOBRE++ · A l'heure où se confondent chiens et loups, · Oserez-vous pénétrer dans l'hantre du cabinet ? · +DE-+18H-A-19H30-+ · Sandra BARBA · Pratique",
+        "blocs": 12,
+        "surface": 26,
+        "details": [
+          {
+            "texte": "+LE++31+OCTOBRE++",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "A l'heure où se confondent chiens et loups,",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Oserez-vous pénétrer dans l'hantre du cabinet ?",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "+DE-+18H-A-19H30-+",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Sandra BARBA",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Pratique de psychothérapie",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Sophrologie",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Tél. 07.60.36.58.32",
+            "niveau": "document"
+          },
+          {
+            "texte": "Bonbons pour les enfants",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Tirage de cartes magiques pour les parents",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Bons de participation au jeu d'halloween",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "89 Rue du portail neuf - Aubignan",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "69d0f170f49cdcc4",
+      "drapeaux": [
+        "lieu",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "cabinet-est-ferme-lundi.jpg",
+      "nom": "cabinet-est-ferme-lundi",
+      "drapeau": "lieu",
+      "largeur": 1080,
+      "hauteur": 1920,
+      "ratio": "9:16",
+      "ratio_valeur": 0.563,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 376171,
+      "transparence": false,
+      "sujet": {
+        "x": 41.2,
+        "y": 36.8,
+        "l": 19.1,
+        "h": 20.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        47
+      ],
+      "cadrage_css": "51% 47%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.85,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.85,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.62,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.6,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        }
+      ],
+      "qualite": {
+        "nettete": 24,
+        "bruit": 1.05,
+        "compression": 0.96,
+        "faible": true,
+        "raisons": [
+          "1080 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "e0f0cc3270c81068",
+      "drapeaux": [
+        "lieu",
+        "petite",
+        "calme haut/bas"
+      ]
+    },
+    {
+      "fichier": "conference-pervers-pervers-narcissiques.jpg",
+      "nom": "conference-pervers-pervers-narcissiques",
+      "drapeau": "lieu",
+      "largeur": 821,
+      "hauteur": 1500,
+      "ratio": "0.55",
+      "ratio_valeur": 0.547,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 165967,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 43.8,
+        "l": 57.2,
+        "h": 41.2,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        27,
+        62
+      ],
+      "cadrage_css": "27% 62%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.34,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.2,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.13,
+          "ton": "clair",
+          "recouvre_sujet": 0.33
+        },
+        {
+          "cote": "gauche",
+          "score": 0.09,
+          "ton": "clair",
+          "recouvre_sujet": 0.41
+        }
+      ],
+      "qualite": {
+        "nettete": 54.5,
+        "bruit": 0.36,
+        "compression": 0.96,
+        "faible": true,
+        "raisons": [
+          "821 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "emmes · 3000 · Bouches-du-Rhône · Antenne Salon de Provence · LA CONFERENCE · d'AUTOMNE · Lemme · 300 · Bouches-du-Rhône · PERVERS · PERVERS · NARCISSIQUE · 28 ",
+        "blocs": 19,
+        "surface": 17.3,
+        "details": [
+          {
+            "texte": "emmes",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "3000",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Bouches-du-Rhône",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Antenne Salon de Provence",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "LA CONFERENCE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "d'AUTOMNE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Lemme",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "300",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Bouches-du-Rhône",
+            "niveau": "marque"
+          },
+          {
+            "texte": "PERVERS",
+            "niveau": "marque"
+          },
+          {
+            "texte": "PERVERS",
+            "niveau": "marque"
+          },
+          {
+            "texte": "NARCISSIQUE",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "3b1f071b79691707",
+      "drapeaux": [
+        "lieu",
+        "visage",
+        "petite",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "conference-prevention-violences.jpg",
+      "nom": "conference-prevention-violences",
+      "drapeau": "lieu",
+      "largeur": 841,
+      "hauteur": 963,
+      "ratio": "0.87",
+      "ratio_valeur": 0.873,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 248953,
+      "transparence": false,
+      "sujet": {
+        "x": 36.9,
+        "y": 21,
+        "l": 28.4,
+        "h": 32.5,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        51,
+        35
+      ],
+      "cadrage_css": "51% 35%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.31,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.21,
+          "ton": "clair",
+          "recouvre_sujet": 0.04
+        },
+        {
+          "cote": "gauche",
+          "score": 0.2,
+          "ton": "clair",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "haut",
+          "score": 0.16,
+          "ton": "clair",
+          "recouvre_sujet": 0.11
+        }
+      ],
+      "qualite": {
+        "nettete": 83.3,
+        "bruit": 1.39,
+        "compression": 1.13,
+        "faible": true,
+        "raisons": [
+          "841 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "\"Eveiller les consciences · sur les violences invisibles\" · Sandra Barba, specialisee en prevention des violences conjugales et presidente · de l'association \"V",
+        "blocs": 137,
+        "surface": 61.2,
+        "details": [
+          {
+            "texte": "\"Eveiller les consciences",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "sur les violences invisibles\"",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Sandra Barba, specialisee en prevention des violences conjugales et presidente",
+            "niveau": "marque"
+          },
+          {
+            "texte": "de l'association \"Vivre femmes\" donne une conférence aujourd'hui à 14 h",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "pprendre à se positionner",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "et savoir dit stop,",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "connaître ses droits, les li-",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "mites et les moyens de se dé-",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "fendre, repérer le schéma amou-",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "reux qui mène à la peur et l'isole-",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "ment\". C'est en partie les clefs",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "que va donner aujourd'hui San-",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "63992f07979dd5d1",
+      "drapeaux": [
+        "lieu",
+        "visage",
+        "petite",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "sophrologie-quelques-mots.jpg",
+      "nom": "sophrologie-quelques-mots",
+      "drapeau": "lieu",
+      "largeur": 1230,
+      "hauteur": 639,
+      "ratio": "1.92",
+      "ratio_valeur": 1.925,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 125875,
+      "transparence": false,
+      "sujet": {
+        "x": 4,
+        "y": 1.2,
+        "l": 86.3,
+        "h": 45.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        49,
+        33
+      ],
+      "cadrage_css": "49% 33%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.41,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.21,
+          "ton": "clair",
+          "recouvre_sujet": 0.35
+        },
+        {
+          "cote": "haut",
+          "score": 0.18,
+          "ton": "clair",
+          "recouvre_sujet": 0.83
+        },
+        {
+          "cote": "gauche",
+          "score": 0.14,
+          "ton": "clair",
+          "recouvre_sujet": 0.41
+        }
+      ],
+      "qualite": {
+        "nettete": 33.7,
+        "bruit": 0.56,
+        "compression": 0.99,
+        "faible": true,
+        "raisons": [
+          "1230 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "TROUBLES DU · SOMMEIL · PREPARATION A DES · EVENEMENTS · IMPORTANTS · ABANDON DES · DEPENDANCES · DOULEURS · QUELQUES · INDICATIONS · STRESS · INSOMNIES · DESEQ",
+        "blocs": 17,
+        "surface": 9.3,
+        "details": [
+          {
+            "texte": "TROUBLES DU",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "SOMMEIL",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "PREPARATION A DES",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "EVENEMENTS",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "IMPORTANTS",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "ABANDON DES",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "DEPENDANCES",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "DOULEURS",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "QUELQUES",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "INDICATIONS",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "STRESS",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "INSOMNIES",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "4d2b334d4d332b0c",
+      "drapeaux": [
+        "lieu",
+        "petite",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "stand-conference-salon-bien.jpg",
+      "nom": "stand-conference-salon-bien",
+      "drapeau": "lieu",
+      "largeur": 1200,
+      "hauteur": 628,
+      "ratio": "1.91",
+      "ratio_valeur": 1.911,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 111153,
+      "transparence": false,
+      "sujet": {
+        "x": 1.4,
+        "y": 16.3,
+        "l": 69,
+        "h": 83.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        40,
+        51
+      ],
+      "cadrage_css": "40% 51%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.54,
+          "ton": "clair",
+          "recouvre_sujet": 0.22
+        },
+        {
+          "cote": "bas",
+          "score": 0.37,
+          "ton": "clair",
+          "recouvre_sujet": 0.69
+        },
+        {
+          "cote": "gauche",
+          "score": 0.26,
+          "ton": "clair",
+          "recouvre_sujet": 0.81
+        },
+        {
+          "cote": "haut",
+          "score": 0.24,
+          "ton": "clair",
+          "recouvre_sujet": 0.37
+        }
+      ],
+      "qualite": {
+        "nettete": 41.8,
+        "bruit": 0.62,
+        "compression": 1.21,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Salon du r · Bien-etre · Osmo'len",
+        "blocs": 3,
+        "surface": 8.4,
+        "details": [
+          {
+            "texte": "Salon du r",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Bien-etre",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Osmo'len",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "67972a6f2f3f9f97",
+      "drapeaux": [
+        "lieu",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "vous-vous-faites-quoi.jpg",
+      "nom": "vous-vous-faites-quoi",
+      "drapeau": "lieu",
+      "largeur": 800,
+      "hauteur": 800,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 122998,
+      "transparence": false,
+      "sujet": {
+        "x": 42.2,
+        "y": 17.6,
+        "l": 46,
+        "h": 68.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        61,
+        47
+      ],
+      "cadrage_css": "61% 47%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.47,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.41,
+          "ton": "clair",
+          "recouvre_sujet": 0.23
+        },
+        {
+          "cote": "bas",
+          "score": 0.19,
+          "ton": "clair",
+          "recouvre_sujet": 0.28
+        },
+        {
+          "cote": "droite",
+          "score": 0.17,
+          "ton": "clair",
+          "recouvre_sujet": 0.48
+        }
+      ],
+      "qualite": {
+        "nettete": 93.1,
+        "bruit": 0.61,
+        "compression": 1.01,
+        "faible": true,
+        "raisons": [
+          "800 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "Et vous, vous faites quoi le 2 juin à 9h30 ? · 1 2016 · NOTKS · SATURDAY · Rendez-vous au 89 rue du portail neuf à · Aubignan · Petit déjeuner découverte de la ",
+        "blocs": 11,
+        "surface": 21,
+        "details": [
+          {
+            "texte": "Et vous, vous faites quoi le 2 juin à 9h30 ?",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "1 2016",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "NOTKS",
+            "niveau": "marque"
+          },
+          {
+            "texte": "SATURDAY",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Rendez-vous au 89 rue du portail neuf à",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Aubignan",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Petit déjeuner découverte de la relaxation",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "De 9h30 à 1lh",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Réservation et renseignements",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "07 60 36 58 32",
+            "niveau": "document"
+          },
+          {
+            "texte": "Tarif 10 euros",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "d913636333070e8c",
+      "drapeaux": [
+        "lieu",
+        "petite",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "nouveau-diplome-meilleur-accompagnement.jpg",
+      "nom": "nouveau-diplome-meilleur-accompagnement",
+      "drapeau": "lieu",
+      "largeur": 828,
+      "hauteur": 582,
+      "ratio": "1.42",
+      "ratio_valeur": 1.423,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 122490,
+      "transparence": false,
+      "sujet": {
+        "x": 7.6,
+        "y": 10.7,
+        "l": 83.2,
+        "h": 74.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        46
+      ],
+      "cadrage_css": "46% 46%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.4,
+          "ton": "clair",
+          "recouvre_sujet": 0.57
+        },
+        {
+          "cote": "gauche",
+          "score": 0.39,
+          "ton": "clair",
+          "recouvre_sujet": 0.6
+        },
+        {
+          "cote": "bas",
+          "score": 0.37,
+          "ton": "clair",
+          "recouvre_sujet": 0.48
+        },
+        {
+          "cote": "haut",
+          "score": 0.24,
+          "ton": "clair",
+          "recouvre_sujet": 0.58
+        }
+      ],
+      "qualite": {
+        "nettete": 74.6,
+        "bruit": 1.47,
+        "compression": 1.1,
+        "faible": true,
+        "raisons": [
+          "828 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "FORMALIS · CERTIFICAT DE FORMATION · EN COACHING CONJUGAL · Ce présent document atteste que · Sandra BARBA · a réussi avec succès Texamen final · Décerné le 15 ",
+        "blocs": 11,
+        "surface": 12.8,
+        "details": [
+          {
+            "texte": "FORMALIS",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "CERTIFICAT DE FORMATION",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "EN COACHING CONJUGAL",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Ce présent document atteste que",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Sandra BARBA",
+            "niveau": "marque"
+          },
+          {
+            "texte": "a réussi avec succès Texamen final",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Décerné le 15 hovembre 2019",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "LORMAIS",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "VANN VE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "daie",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Directeur de Formali",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "21171717070f2d55",
+      "doublon_de": {
+        "fichier": "diplomes-certificats-7.jpg",
+        "type": "doublon",
+        "distance": 5,
+        "ressemblance": 0.98
+      },
+      "drapeaux": [
+        "lieu",
+        "petite",
+        "document lisible",
+        "doublon de diplomes-certificats-7.jpg"
+      ]
+    },
+    {
+      "fichier": "10-conseils-vous-preparer.png",
+      "nom": "10-conseils-vous-preparer",
+      "drapeau": "lieu",
+      "largeur": 940,
+      "hauteur": 470,
+      "ratio": "2:1",
+      "ratio_valeur": 2,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 804936,
+      "transparence": true,
+      "sujet": {
+        "x": 16.2,
+        "y": 15.4,
+        "l": 81.8,
+        "h": 84.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        64,
+        44
+      ],
+      "cadrage_css": "64% 44%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.07,
+          "ton": "moyen",
+          "recouvre_sujet": 0.46
+        },
+        {
+          "cote": "gauche",
+          "score": 0.04,
+          "ton": "moyen",
+          "recouvre_sujet": 0.5
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.8
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.81
+        }
+      ],
+      "qualite": {
+        "nettete": 43.9,
+        "bruit": 1.34,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "940 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "cf232d2d2d2c2ea1",
+      "drapeaux": [
+        "lieu",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "ecole-arrive-si-nous.jpg",
+      "nom": "ecole-arrive-si-nous",
+      "drapeau": "autre",
+      "largeur": 1228,
+      "hauteur": 826,
+      "ratio": "3:2",
+      "ratio_valeur": 1.487,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 148571,
+      "transparence": false,
+      "sujet": {
+        "x": 2.9,
+        "y": 18.2,
+        "l": 74.1,
+        "h": 71.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        44,
+        49
+      ],
+      "cadrage_css": "44% 49%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.37,
+          "ton": "clair",
+          "recouvre_sujet": 0.36
+        },
+        {
+          "cote": "droite",
+          "score": 0.18,
+          "ton": "clair",
+          "recouvre_sujet": 0.3
+        },
+        {
+          "cote": "bas",
+          "score": 0.05,
+          "ton": "clair",
+          "recouvre_sujet": 0.53
+        },
+        {
+          "cote": "gauche",
+          "score": 0.04,
+          "ton": "clair",
+          "recouvre_sujet": 0.66
+        }
+      ],
+      "qualite": {
+        "nettete": 27.6,
+        "bruit": 0.3,
+        "compression": 0.99,
+        "faible": true,
+        "raisons": [
+          "1228 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "école ) · C Fabrice Levacher 2005",
+        "blocs": 2,
+        "surface": 1.3,
+        "details": [
+          {
+            "texte": "école )",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "C Fabrice Levacher 2005",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "0c0c0e2b0f2d0d15",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "psycho.jpg",
+      "nom": "psycho",
+      "drapeau": "autre",
+      "largeur": 526,
+      "hauteur": 526,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 32351,
+      "transparence": false,
+      "sujet": {
+        "x": 45.9,
+        "y": 23.4,
+        "l": 31.8,
+        "h": 34.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        33
+      ],
+      "cadrage_css": "54% 33%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.65,
+          "ton": "clair",
+          "recouvre_sujet": 0.15
+        },
+        {
+          "cote": "bas",
+          "score": 0.48,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.41,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.41,
+          "ton": "clair",
+          "recouvre_sujet": 0.11
+        }
+      ],
+      "qualite": {
+        "nettete": 64.9,
+        "bruit": 0.4,
+        "compression": 1.12,
+        "faible": true,
+        "raisons": [
+          "526 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "Pourquoi l'anxiété est-elle si difficile à vivre ? · Anticipations · Confrontation. · Réalité · TEMPS",
+        "blocs": 5,
+        "surface": 8.3,
+        "details": [
+          {
+            "texte": "Pourquoi l'anxiété est-elle si difficile à vivre ?",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Anticipations",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Confrontation.",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Réalité",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "TEMPS",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "f3c4dcf0f8fe71cc",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "filigrane ou marque",
+        "calme droite"
+      ]
+    },
+    {
+      "fichier": "sandrabarba.jpg",
+      "nom": "sandrabarba",
+      "drapeau": "autre",
+      "largeur": 960,
+      "hauteur": 960,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 118417,
+      "transparence": false,
+      "sujet": {
+        "x": 1.7,
+        "y": 0,
+        "l": 98.3,
+        "h": 100,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        52,
+        35
+      ],
+      "cadrage_css": "52% 35%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.11,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0.09,
+          "ton": "moyen",
+          "recouvre_sujet": 0.98
+        },
+        {
+          "cote": "droite",
+          "score": 0.05,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0.03,
+          "ton": "clair",
+          "recouvre_sujet": 0.98
+        }
+      ],
+      "qualite": {
+        "nettete": 20.2,
+        "bruit": 0.83,
+        "compression": 1.35,
+        "faible": true,
+        "raisons": [
+          "960 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "3032030321f488e4",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "sandra-barba-specialisee-femmes.jpg",
+      "nom": "sandra-barba-specialisee-femmes",
+      "drapeau": "autre",
+      "largeur": 544,
+      "hauteur": 960,
+      "ratio": "9:16",
+      "ratio_valeur": 0.567,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 54131,
+      "transparence": false,
+      "sujet": {
+        "x": 23.6,
+        "y": 13.6,
+        "l": 58.3,
+        "h": 43.5,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        53,
+        32
+      ],
+      "cadrage_css": "53% 32%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.21,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.17,
+          "ton": "moyen",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "droite",
+          "score": 0.12,
+          "ton": "clair",
+          "recouvre_sujet": 0.24
+        },
+        {
+          "cote": "haut",
+          "score": 0.08,
+          "ton": "moyen",
+          "recouvre_sujet": 0.36
+        }
+      ],
+      "qualite": {
+        "nettete": 24.3,
+        "bruit": 0.52,
+        "compression": 1.05,
+        "faible": true,
+        "raisons": [
+          "544 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Aurore Soumille · Photographe Portraitiste",
+        "blocs": 2,
+        "surface": 0.9,
+        "details": [
+          {
+            "texte": "Aurore Soumille",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Photographe Portraitiste",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "1839396c78797959",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "quoi.jpg",
+      "nom": "quoi",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 177968,
+      "transparence": false,
+      "sujet": {
+        "x": 3.7,
+        "y": 2.3,
+        "l": 53.5,
+        "h": 85.8,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        30,
+        48
+      ],
+      "cadrage_css": "30% 48%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.7,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.44,
+          "ton": "clair",
+          "recouvre_sujet": 0.35
+        },
+        {
+          "cote": "haut",
+          "score": 0.42,
+          "ton": "clair",
+          "recouvre_sujet": 0.5
+        },
+        {
+          "cote": "gauche",
+          "score": 0.15,
+          "ton": "clair",
+          "recouvre_sujet": 0.78
+        }
+      ],
+      "qualite": {
+        "nettete": 10.5,
+        "bruit": 0.34,
+        "compression": 1.62,
+        "faible": true,
+        "raisons": [
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "806c6e4f0b89c3ea",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "compression visible",
+        "calme droite"
+      ]
+    },
+    {
+      "fichier": "quoi-2.jpg",
+      "nom": "quoi-2",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1222,
+      "ratio": "16:10",
+      "ratio_valeur": 1.637,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 119894,
+      "transparence": false,
+      "sujet": {
+        "x": 32.1,
+        "y": 6.9,
+        "l": 24.5,
+        "h": 92.2,
+        "source": "corps"
+      },
+      "visages": 1,
+      "cadrage": [
+        46,
+        34
+      ],
+      "cadrage_css": "46% 34%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.83,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.71,
+          "ton": "clair",
+          "recouvre_sujet": 0.18
+        },
+        {
+          "cote": "bas",
+          "score": 0.68,
+          "ton": "clair",
+          "recouvre_sujet": 0.24
+        },
+        {
+          "cote": "haut",
+          "score": 0.66,
+          "ton": "clair",
+          "recouvre_sujet": 0.2
+        }
+      ],
+      "qualite": {
+        "nettete": 14.6,
+        "bruit": 0.43,
+        "compression": 1.21,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "4a4d4c8c8c4c984c",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "calme droite/gauche/bas/haut"
+      ]
+    },
+    {
+      "fichier": "quoi-3.jpg",
+      "nom": "quoi-3",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 380322,
+      "transparence": false,
+      "sujet": {
+        "x": 0.3,
+        "y": 34,
+        "l": 99.6,
+        "h": 51.8,
+        "source": "corps"
+      },
+      "visages": 5,
+      "cadrage": [
+        50,
+        53
+      ],
+      "cadrage_css": "50% 53%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.39,
+          "ton": "moyen",
+          "recouvre_sujet": 0.03
+        },
+        {
+          "cote": "gauche",
+          "score": 0.07,
+          "ton": "moyen",
+          "recouvre_sujet": 0.51
+        },
+        {
+          "cote": "droite",
+          "score": 0.06,
+          "ton": "moyen",
+          "recouvre_sujet": 0.52
+        },
+        {
+          "cote": "bas",
+          "score": 0.01,
+          "ton": "moyen",
+          "recouvre_sujet": 0.59
+        }
+      ],
+      "qualite": {
+        "nettete": 40.7,
+        "bruit": 0.64,
+        "compression": 1.18,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "e62eacf570e89c94",
+      "drapeaux": [
+        "autre",
+        "5 visages"
+      ]
+    },
+    {
+      "fichier": "sophrologue-depuis-2005-entreprise.jpg",
+      "nom": "sophrologue-depuis-2005-entreprise",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 2000,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 646563,
+      "transparence": false,
+      "sujet": {
+        "x": 15.2,
+        "y": 0.5,
+        "l": 24.5,
+        "h": 64.4,
+        "source": "corps"
+      },
+      "visages": 0,
+      "cadrage": [
+        27,
+        20
+      ],
+      "cadrage_css": "27% 20%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.37,
+          "ton": "clair",
+          "recouvre_sujet": 0.24
+        },
+        {
+          "cote": "droite",
+          "score": 0.27,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.21,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.06,
+          "ton": "clair",
+          "recouvre_sujet": 0.39
+        }
+      ],
+      "qualite": {
+        "nettete": 35.9,
+        "bruit": 0.98,
+        "compression": 1.25,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "3036606021a0b4e3",
+      "drapeaux": [
+        "autre"
+      ]
+    },
+    {
+      "fichier": "quoi-4.jpg",
+      "nom": "quoi-4",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1429,
+      "ratio": "1.4",
+      "ratio_valeur": 1.4,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 260084,
+      "transparence": false,
+      "sujet": {
+        "x": 37.5,
+        "y": 3.7,
+        "l": 24.7,
+        "h": 76.9,
+        "source": "corps"
+      },
+      "visages": 1,
+      "cadrage": [
+        50,
+        27
+      ],
+      "cadrage_css": "50% 27%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.72,
+          "ton": "moyen",
+          "recouvre_sujet": 0.04
+        },
+        {
+          "cote": "gauche",
+          "score": 0.66,
+          "ton": "moyen",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "bas",
+          "score": 0.61,
+          "ton": "moyen",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "haut",
+          "score": 0.5,
+          "ton": "moyen",
+          "recouvre_sujet": 0.22
+        }
+      ],
+      "qualite": {
+        "nettete": 29.4,
+        "bruit": 0.44,
+        "compression": 1.22,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "GGIANT · ViE: RIDE GIAN · GIANT. · RIDE LIFER · RIDE LI",
+        "blocs": 5,
+        "surface": 1.1,
+        "details": [
+          {
+            "texte": "GGIANT",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "ViE: RIDE GIAN",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "GIANT.",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "RIDE LIFER",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "RIDE LI",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "c8cc9ac8c8ccecbc",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "texte décoratif",
+        "calme droite/gauche"
+      ]
+    },
+    {
+      "fichier": "quoi-5.jpg",
+      "nom": "quoi-5",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 287880,
+      "transparence": false,
+      "sujet": {
+        "x": 10.2,
+        "y": 7.6,
+        "l": 80.4,
+        "h": 92.4,
+        "source": "corps"
+      },
+      "visages": 2,
+      "cadrage": [
+        50,
+        35
+      ],
+      "cadrage_css": "50% 35%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.05,
+          "ton": "moyen",
+          "recouvre_sujet": 0.8
+        },
+        {
+          "cote": "gauche",
+          "score": 0.04,
+          "ton": "clair",
+          "recouvre_sujet": 0.69
+        },
+        {
+          "cote": "haut",
+          "score": 0.01,
+          "ton": "clair",
+          "recouvre_sujet": 0.63
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.71
+        }
+      ],
+      "qualite": {
+        "nettete": 24.2,
+        "bruit": 0.45,
+        "compression": 1.17,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "936363656d6d6343",
+      "drapeaux": [
+        "autre",
+        "2 visages"
+      ]
+    },
+    {
+      "fichier": "quoi-6.jpg",
+      "nom": "quoi-6",
+      "drapeau": "autre",
+      "largeur": 1200,
+      "hauteur": 800,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 222456,
+      "transparence": false,
+      "sujet": {
+        "x": 2.5,
+        "y": 0,
+        "l": 94.4,
+        "h": 91.5,
+        "source": "visage"
+      },
+      "visages": 3,
+      "cadrage": [
+        50,
+        37
+      ],
+      "cadrage_css": "50% 37%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.06,
+          "ton": "sombre",
+          "recouvre_sujet": 0.71
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.86
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.94
+        }
+      ],
+      "qualite": {
+        "nettete": 12.4,
+        "bruit": 0.6,
+        "compression": 1.11,
+        "faible": true,
+        "raisons": [
+          "1200 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "e2b6b2b4a4c6ced0",
+      "drapeaux": [
+        "autre",
+        "3 visages",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "agrement-sophrologie-confiance-securite.jpg",
+      "nom": "agrement-sophrologie-confiance-securite",
+      "drapeau": "autre",
+      "largeur": 567,
+      "hauteur": 614,
+      "ratio": "0.92",
+      "ratio_valeur": 0.923,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 190691,
+      "transparence": false,
+      "sujet": {
+        "x": 1.5,
+        "y": 11.7,
+        "l": 95.2,
+        "h": 81.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        40,
+        54
+      ],
+      "cadrage_css": "40% 54%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.3,
+          "ton": "clair",
+          "recouvre_sujet": 0.63
+        },
+        {
+          "cote": "droite",
+          "score": 0.17,
+          "ton": "clair",
+          "recouvre_sujet": 0.75
+        },
+        {
+          "cote": "gauche",
+          "score": 0.07,
+          "ton": "clair",
+          "recouvre_sujet": 0.78
+        },
+        {
+          "cote": "bas",
+          "score": 0.01,
+          "ton": "clair",
+          "recouvre_sujet": 0.77
+        }
+      ],
+      "qualite": {
+        "nettete": 9.7,
+        "bruit": 0.31,
+        "compression": 1.02,
+        "faible": true,
+        "raisons": [
+          "567 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "SFS · SOCIÉTÉ · FRANÇAISE · DE SOPHROLOGIE",
+        "blocs": 4,
+        "surface": 26,
+        "details": [
+          {
+            "texte": "SFS",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "SOCIÉTÉ",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "FRANÇAISE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "DE SOPHROLOGIE",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "9f233333b303e0f0",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "sophrologie-aide-soutien-professionnelle.jpg",
+      "nom": "sophrologie-aide-soutien-professionnelle",
+      "drapeau": "autre",
+      "largeur": 761,
+      "hauteur": 331,
+      "ratio": "21:9",
+      "ratio_valeur": 2.299,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 26736,
+      "transparence": false,
+      "sujet": {
+        "x": 9.9,
+        "y": 12.8,
+        "l": 64.4,
+        "h": 60.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        37,
+        41
+      ],
+      "cadrage_css": "37% 41%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.58,
+          "ton": "clair",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "droite",
+          "score": 0.2,
+          "ton": "clair",
+          "recouvre_sujet": 0.22
+        },
+        {
+          "cote": "gauche",
+          "score": 0.16,
+          "ton": "clair",
+          "recouvre_sujet": 0.46
+        },
+        {
+          "cote": "haut",
+          "score": 0.15,
+          "ton": "clair",
+          "recouvre_sujet": 0.41
+        }
+      ],
+      "qualite": {
+        "nettete": 34.7,
+        "bruit": 0.45,
+        "compression": 1.21,
+        "faible": true,
+        "raisons": [
+          "761 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "OBSERVATOIRE · NATIONAL DE LA · Sophrolôgie",
+        "blocs": 3,
+        "surface": 36.9,
+        "details": [
+          {
+            "texte": "OBSERVATOIRE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "NATIONAL DE LA",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Sophrolôgie",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "06133b5355332b01",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "therapie-couple.jpg",
+      "nom": "therapie-couple",
+      "drapeau": "portrait",
+      "largeur": 2000,
+      "hauteur": 1333,
+      "ratio": "3:2",
+      "ratio_valeur": 1.5,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 184029,
+      "transparence": false,
+      "sujet": {
+        "x": 4.8,
+        "y": 1.9,
+        "l": 94.4,
+        "h": 98,
+        "source": "corps"
+      },
+      "visages": 2,
+      "cadrage": [
+        52,
+        31
+      ],
+      "cadrage_css": "52% 31%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.19,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "gauche",
+          "score": 0.16,
+          "ton": "clair",
+          "recouvre_sujet": 0.86
+        },
+        {
+          "cote": "haut",
+          "score": 0.16,
+          "ton": "clair",
+          "recouvre_sujet": 0.89
+        },
+        {
+          "cote": "bas",
+          "score": 0.07,
+          "ton": "clair",
+          "recouvre_sujet": 0.94
+        }
+      ],
+      "qualite": {
+        "nettete": 20.5,
+        "bruit": 0.56,
+        "compression": 1.27,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "b96d6d4c6c6d6979",
+      "drapeaux": [
+        "portrait",
+        "2 visages"
+      ]
+    },
+    {
+      "fichier": "mere-fille.jpg",
+      "nom": "mere-fille",
+      "drapeau": "portrait",
+      "largeur": 780,
+      "hauteur": 450,
+      "ratio": "16:9",
+      "ratio_valeur": 1.733,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 62440,
+      "transparence": false,
+      "sujet": {
+        "x": 0.1,
+        "y": 0,
+        "l": 99.7,
+        "h": 100,
+        "source": "corps"
+      },
+      "visages": 2,
+      "cadrage": [
+        50,
+        36
+      ],
+      "cadrage_css": "50% 36%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.13,
+          "ton": "clair",
+          "recouvre_sujet": 0.99
+        },
+        {
+          "cote": "haut",
+          "score": 0.03,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 40.2,
+        "bruit": 0.98,
+        "compression": 1.19,
+        "faible": true,
+        "raisons": [
+          "780 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "3233f3696cf9b1f0",
+      "drapeaux": [
+        "portrait",
+        "2 visages",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "psycho-sandra-barba.png",
+      "nom": "psycho-sandra-barba",
+      "drapeau": "autre",
+      "largeur": 792,
+      "hauteur": 1480,
+      "ratio": "0.54",
+      "ratio_valeur": 0.535,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 162306,
+      "transparence": false,
+      "sujet": {
+        "x": 30.9,
+        "y": 13.2,
+        "l": 33.8,
+        "h": 50,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        39
+      ],
+      "cadrage_css": "48% 39%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.44,
+          "ton": "sombre",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "gauche",
+          "score": 0.41,
+          "ton": "sombre",
+          "recouvre_sujet": 0.11
+        },
+        {
+          "cote": "haut",
+          "score": 0.34,
+          "ton": "sombre",
+          "recouvre_sujet": 0.21
+        },
+        {
+          "cote": "bas",
+          "score": 0.34,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        }
+      ],
+      "qualite": {
+        "nettete": 66.6,
+        "bruit": 0.11,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "792 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "Anxiété · Stress au · travail · STRESS · ANGOISSE · Déprime · Troubles du · sommeil · MAL-ÊTRE · Addiction · Solitude · Parentalité · Séparation · PROBLÈME · DE",
+        "blocs": 37,
+        "surface": 10.8,
+        "details": [
+          {
+            "texte": "Anxiété",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Stress au",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "travail",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "STRESS",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "ANGOISSE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Déprime",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Troubles du",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "sommeil",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "MAL-ÊTRE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Addiction",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Solitude",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Parentalité",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "987064e0f958f064",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "psychotherapie-2.jpg",
+      "nom": "psychotherapie-2",
+      "drapeau": "autre",
+      "largeur": 1300,
+      "hauteur": 600,
+      "ratio": "2.17",
+      "ratio_valeur": 2.167,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 26503,
+      "transparence": false,
+      "sujet": {
+        "x": 28.1,
+        "y": 68.5,
+        "l": 56.2,
+        "h": 31.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        57,
+        76
+      ],
+      "cadrage_css": "57% 76%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.55,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.47,
+          "ton": "moyen",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "droite",
+          "score": 0.29,
+          "ton": "clair",
+          "recouvre_sujet": 0.19
+        },
+        {
+          "cote": "bas",
+          "score": 0.14,
+          "ton": "moyen",
+          "recouvre_sujet": 0.51
+        }
+      ],
+      "qualite": {
+        "nettete": 10.7,
+        "bruit": 0.27,
+        "compression": 0.94,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "maron El second",
+        "blocs": 1,
+        "surface": 0.4,
+        "details": [
+          {
+            "texte": "maron El second",
+            "niveau": "marque"
+          }
+        ]
+      },
+      "empreinte": "cccccc6d670b193c",
+      "drapeaux": [
+        "autre",
+        "filigrane ou marque"
+      ]
+    },
+    {
+      "fichier": "service-image-2.jpg",
+      "nom": "service-image-2",
+      "drapeau": "portrait",
+      "largeur": 426,
+      "hauteur": 282,
+      "ratio": "3:2",
+      "ratio_valeur": 1.511,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 49630,
+      "transparence": false,
+      "sujet": {
+        "x": 34.7,
+        "y": 14.5,
+        "l": 23.1,
+        "h": 45.8,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        46,
+        34
+      ],
+      "cadrage_css": "46% 34%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.22,
+          "ton": "moyen",
+          "recouvre_sujet": 0.06
+        },
+        {
+          "cote": "droite",
+          "score": 0.2,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.2,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.15,
+          "ton": "clair",
+          "recouvre_sujet": 0.14
+        }
+      ],
+      "qualite": {
+        "nettete": 54.2,
+        "bruit": 1.23,
+        "compression": 1.11,
+        "faible": true,
+        "raisons": [
+          "426 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "bd1f6b6969f1f363",
+      "drapeaux": [
+        "portrait",
+        "visage",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "consultation-ligne.jpg",
+      "nom": "consultation-ligne",
+      "drapeau": "autre",
+      "largeur": 1500,
+      "hauteur": 784,
+      "ratio": "1.91",
+      "ratio_valeur": 1.913,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 171575,
+      "transparence": false,
+      "sujet": {
+        "x": 12.7,
+        "y": 0,
+        "l": 77,
+        "h": 88.7,
+        "source": "visage"
+      },
+      "visages": 2,
+      "cadrage": [
+        51,
+        36
+      ],
+      "cadrage_css": "51% 36%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.15,
+          "ton": "clair",
+          "recouvre_sujet": 0.61
+        },
+        {
+          "cote": "haut",
+          "score": 0.14,
+          "ton": "moyen",
+          "recouvre_sujet": 0.77
+        },
+        {
+          "cote": "bas",
+          "score": 0.12,
+          "ton": "clair",
+          "recouvre_sujet": 0.52
+        },
+        {
+          "cote": "droite",
+          "score": 0.03,
+          "ton": "clair",
+          "recouvre_sujet": 0.66
+        }
+      ],
+      "qualite": {
+        "nettete": 8.6,
+        "bruit": 0.45,
+        "compression": 1.03,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "c9d9d999991c2c0c",
+      "drapeaux": [
+        "autre",
+        "2 visages"
+      ]
+    },
+    {
+      "fichier": "stock-vector-stop-violence.jpg",
+      "nom": "stock-vector-stop-violence",
+      "drapeau": "lieu",
+      "largeur": 1317,
+      "hauteur": 1600,
+      "ratio": "0.82",
+      "ratio_valeur": 0.823,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 385014,
+      "transparence": false,
+      "sujet": {
+        "x": 29.7,
+        "y": 21.2,
+        "l": 43,
+        "h": 62.3,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        52
+      ],
+      "cadrage_css": "51% 52%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.52,
+          "ton": "clair",
+          "recouvre_sujet": 0.17
+        },
+        {
+          "cote": "gauche",
+          "score": 0.46,
+          "ton": "clair",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "droite",
+          "score": 0.41,
+          "ton": "clair",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "bas",
+          "score": 0.16,
+          "ton": "clair",
+          "recouvre_sujet": 0.23
+        }
+      ],
+      "qualite": {
+        "nettete": 34.4,
+        "bruit": 0.49,
+        "compression": 1.05,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "shutterstack · shutt · shutte · STOP · VIOLENCE · shutterstock® · IMAGE ID: 392023534 · www.shutterstock.com",
+        "blocs": 8,
+        "surface": 13.7,
+        "details": [
+          {
+            "texte": "shutterstack",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "shutt",
+            "niveau": "marque"
+          },
+          {
+            "texte": "shutte",
+            "niveau": "marque"
+          },
+          {
+            "texte": "STOP",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "VIOLENCE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "shutterstock®",
+            "niveau": "marque"
+          },
+          {
+            "texte": "IMAGE ID: 392023534",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "www.shutterstock.com",
+            "niveau": "marque"
+          }
+        ]
+      },
+      "empreinte": "4c8f8f0656869e91",
+      "drapeaux": [
+        "lieu",
+        "filigrane ou marque"
+      ]
+    },
+    {
+      "fichier": "victime-violence.jpg",
+      "nom": "victime-violence",
+      "drapeau": "lieu",
+      "largeur": 800,
+      "hauteur": 540,
+      "ratio": "3:2",
+      "ratio_valeur": 1.481,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 55091,
+      "transparence": false,
+      "sujet": {
+        "x": 13.2,
+        "y": 10.3,
+        "l": 61.8,
+        "h": 23.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        47,
+        22
+      ],
+      "cadrage_css": "47% 22%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.36,
+          "ton": "moyen",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "bas",
+          "score": 0.28,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.26,
+          "ton": "sombre",
+          "recouvre_sujet": 0.41
+        },
+        {
+          "cote": "droite",
+          "score": 0.25,
+          "ton": "moyen",
+          "recouvre_sujet": 0.09
+        }
+      ],
+      "qualite": {
+        "nettete": 26.5,
+        "bruit": 0.99,
+        "compression": 1.54,
+        "faible": true,
+        "raisons": [
+          "800 px de large",
+          "compression visible"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "e624f6b2b29c98f2",
+      "drapeaux": [
+        "lieu",
+        "petite",
+        "compression visible"
+      ]
+    },
+    {
+      "fichier": "cb-scout5-hdpi.png",
+      "nom": "cb-scout5-hdpi",
+      "drapeau": "autre",
+      "largeur": 430,
+      "hauteur": 1670,
+      "ratio": "0.26",
+      "ratio_valeur": 0.257,
+      "orientation": "portrait",
+      "format": "png",
+      "poids": 104139,
+      "transparence": true,
+      "sujet": {
+        "x": 5.9,
+        "y": 4.4,
+        "l": 69.1,
+        "h": 63.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        37,
+        34
+      ],
+      "cadrage_css": "37% 34%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.77,
+          "ton": "clair",
+          "recouvre_sujet": 0.24
+        },
+        {
+          "cote": "bas",
+          "score": 0.65,
+          "ton": "clair",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "haut",
+          "score": 0.28,
+          "ton": "clair",
+          "recouvre_sujet": 0.6
+        },
+        {
+          "cote": "gauche",
+          "score": 0.14,
+          "ton": "clair",
+          "recouvre_sujet": 0.54
+        }
+      ],
+      "qualite": {
+        "nettete": 54.7,
+        "bruit": 0.17,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "430 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "d7555552d0d0d0d0",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "calme droite/bas"
+      ]
+    },
+    {
+      "fichier": "89-rue-portail-neuf.webp",
+      "nom": "89-rue-portail-neuf",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 24766,
+      "transparence": false,
+      "sujet": {
+        "x": 32,
+        "y": 36.7,
+        "l": 46.9,
+        "h": 44,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        56,
+        51
+      ],
+      "cadrage_css": "56% 51%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.67,
+          "ton": "clair",
+          "recouvre_sujet": 0.21
+        },
+        {
+          "cote": "droite",
+          "score": 0.64,
+          "ton": "clair",
+          "recouvre_sujet": 0.21
+        },
+        {
+          "cote": "gauche",
+          "score": 0.63,
+          "ton": "clair",
+          "recouvre_sujet": 0.09
+        },
+        {
+          "cote": "haut",
+          "score": 0.61,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        }
+      ],
+      "qualite": {
+        "nettete": 65.2,
+        "bruit": 0.5,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "ICANE · Av. Joseph Vernet · Rte · oseph Vernet · Chem. de Saint-Martin",
+        "blocs": 5,
+        "surface": 11.6,
+        "details": [
+          {
+            "texte": "ICANE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Av. Joseph Vernet",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rte",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "oseph Vernet",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Chem. de Saint-Martin",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "cad1153181910181",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme bas"
+      ]
+    },
+    {
+      "fichier": "89-rue-portail-neuf-2.webp",
+      "nom": "89-rue-portail-neuf-2",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 30964,
+      "transparence": false,
+      "sujet": {
+        "x": 26.5,
+        "y": 17.6,
+        "l": 45.6,
+        "h": 23.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        30
+      ],
+      "cadrage_css": "51% 30%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.68,
+          "ton": "clair",
+          "recouvre_sujet": 0.08
+        },
+        {
+          "cote": "bas",
+          "score": 0.66,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.5,
+          "ton": "clair",
+          "recouvre_sujet": 0.07
+        },
+        {
+          "cote": "haut",
+          "score": 0.45,
+          "ton": "clair",
+          "recouvre_sujet": 0.23
+        }
+      ],
+      "qualite": {
+        "nettete": 51.1,
+        "bruit": 0.59,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "LA CH · de Sarrians- · Aubignan · Carrefour Contact · LES GORGUES",
+        "blocs": 5,
+        "surface": 9.6,
+        "details": [
+          {
+            "texte": "LA CH",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "de Sarrians-",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Aubignan",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Carrefour Contact",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "LES GORGUES",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "e0c2338a699f860b",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme gauche/bas"
+      ]
+    },
+    {
+      "fichier": "89-rue-portail-neuf-3.webp",
+      "nom": "89-rue-portail-neuf-3",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 36192,
+      "transparence": false,
+      "sujet": {
+        "x": 14.7,
+        "y": 0,
+        "l": 69.1,
+        "h": 91.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        55,
+        35
+      ],
+      "cadrage_css": "55% 35%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.52,
+          "ton": "clair",
+          "recouvre_sujet": 0.52
+        },
+        {
+          "cote": "droite",
+          "score": 0.49,
+          "ton": "clair",
+          "recouvre_sujet": 0.54
+        },
+        {
+          "cote": "gauche",
+          "score": 0.47,
+          "ton": "clair",
+          "recouvre_sujet": 0.58
+        },
+        {
+          "cote": "haut",
+          "score": 0.31,
+          "ton": "clair",
+          "recouvre_sujet": 0.69
+        }
+      ],
+      "qualite": {
+        "nettete": 55.8,
+        "bruit": 0.63,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Bistrot de la Gare - · Loriol du Comtat · Av. de la Gare · D187 · LE MAS · FAUGIER",
+        "blocs": 6,
+        "surface": 13.4,
+        "details": [
+          {
+            "texte": "Bistrot de la Gare -",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Loriol du Comtat",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Av. de la Gare",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "D187",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "LE MAS",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "FAUGIER",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "0d7dc62229812034",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "89-rue-portail-neuf-4.webp",
+      "nom": "89-rue-portail-neuf-4",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 29280,
+      "transparence": false,
+      "sujet": {
+        "x": 2.9,
+        "y": 14.7,
+        "l": 91.2,
+        "h": 72.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        53
+      ],
+      "cadrage_css": "51% 53%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.62,
+          "ton": "clair",
+          "recouvre_sujet": 0.53
+        },
+        {
+          "cote": "gauche",
+          "score": 0.51,
+          "ton": "clair",
+          "recouvre_sujet": 0.67
+        },
+        {
+          "cote": "droite",
+          "score": 0.38,
+          "ton": "clair",
+          "recouvre_sujet": 0.61
+        },
+        {
+          "cote": "bas",
+          "score": 0.26,
+          "ton": "clair",
+          "recouvre_sujet": 0.57
+        }
+      ],
+      "qualite": {
+        "nettete": 62.9,
+        "bruit": 0.58,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Rterd'Orange · LE DEGA · Loriol-du-Comtat · pterder",
+        "blocs": 4,
+        "surface": 11.6,
+        "details": [
+          {
+            "texte": "Rterd'Orange",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "LE DEGA",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Loriol-du-Comtat",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "pterder",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "4251548adab20f43",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "89-rue-portail-neuf-5.webp",
+      "nom": "89-rue-portail-neuf-5",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 14970,
+      "transparence": false,
+      "sujet": {
+        "x": 52.9,
+        "y": 26.5,
+        "l": 22.1,
+        "h": 20.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        64,
+        37
+      ],
+      "cadrage_css": "64% 37%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.89,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.88,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.83,
+          "ton": "clair",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "droite",
+          "score": 0.76,
+          "ton": "clair",
+          "recouvre_sujet": 0.08
+        }
+      ],
+      "qualite": {
+        "nettete": 20.2,
+        "bruit": 0.34,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Rte de Sarrians",
+        "blocs": 1,
+        "surface": 6.1,
+        "details": [
+          {
+            "texte": "Rte de Sarrians",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "819d4163ac021313",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme gauche/bas/haut/droite"
+      ]
+    },
+    {
+      "fichier": "89-rue-portail-neuf-6.webp",
+      "nom": "89-rue-portail-neuf-6",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 27894,
+      "transparence": false,
+      "sujet": {
+        "x": 24.1,
+        "y": 23.4,
+        "l": 24.3,
+        "h": 29.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        35,
+        31
+      ],
+      "cadrage_css": "35% 31%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.88,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.79,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.7,
+          "ton": "clair",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "haut",
+          "score": 0.62,
+          "ton": "clair",
+          "recouvre_sujet": 0.08
+        }
+      ],
+      "qualite": {
+        "nettete": 48.5,
+        "bruit": 0.5,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "ite de · Rte de Saint-Véran · Rte de Saint-Vé",
+        "blocs": 3,
+        "surface": 11.4,
+        "details": [
+          {
+            "texte": "ite de",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rte de Saint-Véran",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rte de Saint-Vé",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "557c083139b119aa",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme bas/droite/gauche"
+      ]
+    },
+    {
+      "fichier": "89-rue-portail-neuf-7.webp",
+      "nom": "89-rue-portail-neuf-7",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 26776,
+      "transparence": false,
+      "sujet": {
+        "x": 32.4,
+        "y": 30.8,
+        "l": 56.6,
+        "h": 68.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        58,
+        48
+      ],
+      "cadrage_css": "58% 48%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.72,
+          "ton": "clair",
+          "recouvre_sujet": 0.13
+        },
+        {
+          "cote": "bas",
+          "score": 0.54,
+          "ton": "clair",
+          "recouvre_sujet": 0.55
+        },
+        {
+          "cote": "haut",
+          "score": 0.53,
+          "ton": "clair",
+          "recouvre_sujet": 0.07
+        },
+        {
+          "cote": "droite",
+          "score": 0.49,
+          "ton": "clair",
+          "recouvre_sujet": 0.49
+        }
+      ],
+      "qualite": {
+        "nettete": 48.8,
+        "bruit": 0.51,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "LES PLANTADES · Rte aaubigi · D90 · Anselme Mathieu",
+        "blocs": 4,
+        "surface": 8.9,
+        "details": [
+          {
+            "texte": "LES PLANTADES",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rte aaubigi",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "D90",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Anselme Mathieu",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "391b9a0aaa0aaa4a",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme gauche"
+      ]
+    },
+    {
+      "fichier": "89-rue-portail-neuf-8.webp",
+      "nom": "89-rue-portail-neuf-8",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 18816,
+      "transparence": false,
+      "sujet": {
+        "x": 39.7,
+        "y": 16.2,
+        "l": 42.6,
+        "h": 57.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        58,
+        43
+      ],
+      "cadrage_css": "58% 43%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.82,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.74,
+          "ton": "clair",
+          "recouvre_sujet": 0.1
+        },
+        {
+          "cote": "haut",
+          "score": 0.73,
+          "ton": "clair",
+          "recouvre_sujet": 0.23
+        },
+        {
+          "cote": "droite",
+          "score": 0.67,
+          "ton": "clair",
+          "recouvre_sujet": 0.32
+        }
+      ],
+      "qualite": {
+        "nettete": 30.5,
+        "bruit": 0.36,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "Rte · D55 · Chez la frangine (",
+        "blocs": 3,
+        "surface": 3.8,
+        "details": [
+          {
+            "texte": "Rte",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "D55",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Chez la frangine (",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "1626adb06894a056",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme gauche/bas/haut/droite"
+      ]
+    },
+    {
+      "fichier": "89-rue-portail-neuf-9.webp",
+      "nom": "89-rue-portail-neuf-9",
+      "drapeau": "autre",
+      "largeur": 512,
+      "hauteur": 512,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "webp",
+      "poids": 36554,
+      "transparence": false,
+      "sujet": {
+        "x": 22.2,
+        "y": 14.7,
+        "l": 75.2,
+        "h": 58.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        38
+      ],
+      "cadrage_css": "54% 38%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.77,
+          "ton": "clair",
+          "recouvre_sujet": 0.17
+        },
+        {
+          "cote": "gauche",
+          "score": 0.57,
+          "ton": "clair",
+          "recouvre_sujet": 0.26
+        },
+        {
+          "cote": "droite",
+          "score": 0.56,
+          "ton": "clair",
+          "recouvre_sujet": 0.54
+        },
+        {
+          "cote": "haut",
+          "score": 0.36,
+          "ton": "clair",
+          "recouvre_sujet": 0.44
+        }
+      ],
+      "qualite": {
+        "nettete": 48.2,
+        "bruit": 0.61,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "512 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "SAINT-SUO · Résidence Vacancéole · - Les Demeures du... · UMAJOUR · Rie de Carpentras · Rte c",
+        "blocs": 6,
+        "surface": 15,
+        "details": [
+          {
+            "texte": "SAINT-SUO",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Résidence Vacancéole",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "- Les Demeures du...",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "UMAJOUR",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rie de Carpentras",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rte c",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "013923d511534589",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif",
+        "calme bas"
+      ]
+    },
+    {
+      "fichier": "staticmapservice.png",
+      "nom": "staticmapservice",
+      "drapeau": "autre",
+      "largeur": 489,
+      "hauteur": 391,
+      "ratio": "5:4",
+      "ratio_valeur": 1.251,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 42289,
+      "transparence": false,
+      "sujet": {
+        "x": 35.3,
+        "y": 16.2,
+        "l": 36.8,
+        "h": 41.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        54,
+        38
+      ],
+      "cadrage_css": "54% 38%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.76,
+          "ton": "clair",
+          "recouvre_sujet": 0.05
+        },
+        {
+          "cote": "haut",
+          "score": 0.72,
+          "ton": "clair",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "bas",
+          "score": 0.72,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.7,
+          "ton": "clair",
+          "recouvre_sujet": 0.12
+        }
+      ],
+      "qualite": {
+        "nettete": 60.9,
+        "bruit": 0.83,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "489 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "Av. Anselme Mathieu · Rte de Sarian® · Aubignan · Carrefour Contact · la frangine · mporairement · LES GORGUES · LA CHICANE · Av. Joseph Vernet · Av. Joseph",
+        "blocs": 10,
+        "surface": 8.2,
+        "details": [
+          {
+            "texte": "Av. Anselme Mathieu",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Rte de Sarian®",
+            "niveau": "marque"
+          },
+          {
+            "texte": "Aubignan",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Carrefour Contact",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "la frangine",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "mporairement",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "LES GORGUES",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "LA CHICANE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Av. Joseph Vernet",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Av. Joseph",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "dbc98a6c8c34dc4c",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "filigrane ou marque",
+        "calme gauche/haut/bas/droite"
+      ]
+    },
+    {
+      "fichier": "diplomes-certificats.jpg",
+      "nom": "diplomes-certificats",
+      "drapeau": "autre",
+      "largeur": 1387,
+      "hauteur": 2000,
+      "ratio": "0.69",
+      "ratio_valeur": 0.694,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 251188,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0.6,
+        "l": 93.4,
+        "h": 82.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        35,
+        41
+      ],
+      "cadrage_css": "35% 41%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.41,
+          "ton": "clair",
+          "recouvre_sujet": 0.69
+        },
+        {
+          "cote": "haut",
+          "score": 0.15,
+          "ton": "clair",
+          "recouvre_sujet": 0.92
+        },
+        {
+          "cote": "bas",
+          "score": 0.09,
+          "ton": "clair",
+          "recouvre_sujet": 0.48
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.82
+        }
+      ],
+      "qualite": {
+        "nettete": 83.8,
+        "bruit": 0.33,
+        "compression": 0.95,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "S0S Femme · psychologique · isolement · economique · humilicion \" · insultes a · menaces · physique · psychologique · violence · victime · & violence · femmes ·",
+        "blocs": 49,
+        "surface": 16.4,
+        "details": [
+          {
+            "texte": "S0S Femme",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "psychologique",
+            "niveau": "marque"
+          },
+          {
+            "texte": "isolement",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "economique",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "humilicion \"",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "insultes a",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "menaces",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "physique",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "psychologique",
+            "niveau": "marque"
+          },
+          {
+            "texte": "violence",
+            "niveau": "marque"
+          },
+          {
+            "texte": "victime",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "& violence",
+            "niveau": "marque"
+          }
+        ]
+      },
+      "empreinte": "d0c7dbdbd3d3d3d4",
+      "drapeaux": [
+        "autre",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "diplomes-certificats-2.jpg",
+      "nom": "diplomes-certificats-2",
+      "drapeau": "autre",
+      "largeur": 2000,
+      "hauteur": 1405,
+      "ratio": "1.42",
+      "ratio_valeur": 1.423,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 598803,
+      "transparence": false,
+      "sujet": {
+        "x": 4.4,
+        "y": 6.3,
+        "l": 88.7,
+        "h": 87.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        36
+      ],
+      "cadrage_css": "48% 36%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.05,
+          "ton": "clair",
+          "recouvre_sujet": 0.73
+        },
+        {
+          "cote": "droite",
+          "score": 0.04,
+          "ton": "clair",
+          "recouvre_sujet": 0.72
+        },
+        {
+          "cote": "gauche",
+          "score": 0.01,
+          "ton": "clair",
+          "recouvre_sujet": 0.78
+        },
+        {
+          "cote": "haut",
+          "score": 0.01,
+          "ton": "clair",
+          "recouvre_sujet": 0.73
+        }
+      ],
+      "qualite": {
+        "nettete": 120.6,
+        "bruit": 0.84,
+        "compression": 1.1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "International NIP · Certification de coach professionnel · CORNAT · NL.P · HYPNOSIS · COACHING · Fermy Gilen Hanad · 4556 Australi · Alex Ross · Maître-Praticie",
+        "blocs": 34,
+        "surface": 24.9,
+        "details": [
+          {
+            "texte": "International NIP",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Certification de coach professionnel",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "CORNAT",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "NL.P",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "HYPNOSIS",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "COACHING",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Fermy Gilen Hanad",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "4556 Australi",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Alex Ross",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Maître-Praticien en hypnose clinique",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Maître PNL",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "a passé avec succès la certification de coach.",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "4796604ccececc6d",
+      "drapeaux": [
+        "autre",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "diplome-sandra-barba-tcc.jpg",
+      "nom": "diplome-sandra-barba-tcc",
+      "drapeau": "autre",
+      "largeur": 1684,
+      "hauteur": 1190,
+      "ratio": "1.42",
+      "ratio_valeur": 1.415,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 176557,
+      "transparence": false,
+      "sujet": {
+        "x": 23.5,
+        "y": 10.3,
+        "l": 42.6,
+        "h": 54.4,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        37
+      ],
+      "cadrage_css": "45% 37%",
+      "zones_calmes": [
+        {
+          "cote": "haut",
+          "score": 0.34,
+          "ton": "clair",
+          "recouvre_sujet": 0.3
+        },
+        {
+          "cote": "droite",
+          "score": 0.3,
+          "ton": "clair",
+          "recouvre_sujet": 0.08
+        },
+        {
+          "cote": "gauche",
+          "score": 0.23,
+          "ton": "clair",
+          "recouvre_sujet": 0.22
+        },
+        {
+          "cote": "bas",
+          "score": 0.2,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        }
+      ],
+      "qualite": {
+        "nettete": 72.3,
+        "bruit": 0.5,
+        "compression": 0.97,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "Spiri' Vie · CERTIFICAT DE FORMATION · SPÉCIALISTE DU STRESS · POST-TRAUMATIQUE · Ce présent document atteste que · Barba SANDRA · a réussi avec succès l'examen",
+        "blocs": 11,
+        "surface": 21.7,
+        "details": [
+          {
+            "texte": "Spiri' Vie",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "CERTIFICAT DE FORMATION",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "SPÉCIALISTE DU STRESS",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "POST-TRAUMATIQUE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Ce présent document atteste que",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Barba SANDRA",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "a réussi avec succès l'examen final, le 29 Décembre 2021",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "BRUNE FORMAN",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Courues",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Directeur Pédagogique",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Signature du titulaire",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "e8aab22b0786aee8",
+      "drapeaux": [
+        "autre",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "diplomes-certificats-3.jpg",
+      "nom": "diplomes-certificats-3",
+      "drapeau": "autre",
+      "largeur": 1592,
+      "hauteur": 1133,
+      "ratio": "1.41",
+      "ratio_valeur": 1.405,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 238444,
+      "transparence": false,
+      "sujet": {
+        "x": 3,
+        "y": 8.1,
+        "l": 92.9,
+        "h": 90.5,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        40
+      ],
+      "cadrage_css": "48% 40%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.24,
+          "ton": "clair",
+          "recouvre_sujet": 0.84
+        },
+        {
+          "cote": "bas",
+          "score": 0.24,
+          "ton": "clair",
+          "recouvre_sujet": 0.89
+        },
+        {
+          "cote": "droite",
+          "score": 0.2,
+          "ton": "clair",
+          "recouvre_sujet": 0.81
+        },
+        {
+          "cote": "haut",
+          "score": 0.09,
+          "ton": "clair",
+          "recouvre_sujet": 0.71
+        }
+      ],
+      "qualite": {
+        "nettete": 44.1,
+        "bruit": 0.7,
+        "compression": 1.01,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "ECOLE DE PROVENCE EN · SOPHROLOGIE ET COMMUNICATION R · 1882 chemin Saunier - 1369o Graveson · Certificat de Sophrologue en · Relaxation Dynamique et Relationne",
+        "blocs": 11,
+        "surface": 18.1,
+        "details": [
+          {
+            "texte": "ECOLE DE PROVENCE EN",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "SOPHROLOGIE ET COMMUNICATION R",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "1882 chemin Saunier - 1369o Graveson",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Certificat de Sophrologue en",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Relaxation Dynamique et Relationnelle",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Obtenu en 3 ans, soit 414 heures",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "délivré à",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Sandra CANO ROCHE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Le10 juillet 2005 - Promotion : Octobre 2002 à juillet 2005",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Joëlle Courcier",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Marie-José Leclerc",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "43676393ce869393",
+      "drapeaux": [
+        "autre",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "diplomes-certificats-4.jpg",
+      "nom": "diplomes-certificats-4",
+      "drapeau": "autre",
+      "largeur": 1313,
+      "hauteur": 932,
+      "ratio": "1.41",
+      "ratio_valeur": 1.409,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 153496,
+      "transparence": false,
+      "sujet": {
+        "x": 23.5,
+        "y": 13.2,
+        "l": 30.9,
+        "h": 39.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        39,
+        33
+      ],
+      "cadrage_css": "39% 33%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.3,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.29,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.22,
+          "ton": "clair",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "haut",
+          "score": 0.14,
+          "ton": "clair",
+          "recouvre_sujet": 0.19
+        }
+      ],
+      "qualite": {
+        "nettete": 43,
+        "bruit": 0.54,
+        "compression": 1.03,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "ATTESTATION · FORMATIONSPSY · Sandra Barba a complété le 15-11-2019 la formation · ainsi que le test de validation des connaissances: · \"Les facteurs de résilie",
+        "blocs": 10,
+        "surface": 11.9,
+        "details": [
+          {
+            "texte": "ATTESTATION",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "FORMATIONSPSY",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Sandra Barba a complété le 15-11-2019 la formation",
+            "niveau": "marque"
+          },
+          {
+            "texte": "ainsi que le test de validation des connaissances:",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "\"Les facteurs de résilience (3h)\"",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Cette formation a été animée par Boris Cyrulnik",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "c. Herter",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Christophe Herbert",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "DIRECTEUR.",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "FORMATIONSPSY.COM",
+            "niveau": "marque"
+          }
+        ]
+      },
+      "empreinte": "4d94d4d4dccccc45",
+      "drapeaux": [
+        "autre",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "diplomes-certificats-5.jpg",
+      "nom": "diplomes-certificats-5",
+      "drapeau": "autre",
+      "largeur": 1230,
+      "hauteur": 898,
+      "ratio": "1.37",
+      "ratio_valeur": 1.37,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 133031,
+      "transparence": false,
+      "sujet": {
+        "x": 2.2,
+        "y": 5.7,
+        "l": 92.1,
+        "h": 83.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        47
+      ],
+      "cadrage_css": "46% 47%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.23,
+          "ton": "clair",
+          "recouvre_sujet": 0.79
+        },
+        {
+          "cote": "bas",
+          "score": 0.19,
+          "ton": "clair",
+          "recouvre_sujet": 0.64
+        },
+        {
+          "cote": "droite",
+          "score": 0.14,
+          "ton": "clair",
+          "recouvre_sujet": 0.72
+        },
+        {
+          "cote": "haut",
+          "score": 0.13,
+          "ton": "clair",
+          "recouvre_sujet": 0.77
+        }
+      ],
+      "qualite": {
+        "nettete": 60.5,
+        "bruit": 0.61,
+        "compression": 1.01,
+        "faible": true,
+        "raisons": [
+          "1230 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "E.F.P.P · Ecole de Formation de Praticiens en Psychothérapie et de Psychanalystes · Association Loi 1901 - Insee 524 964 616 00014 - 685 Avenue Jean Dalmas - 13",
+        "blocs": 16,
+        "surface": 16.1,
+        "details": [
+          {
+            "texte": "E.F.P.P",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Ecole de Formation de Praticiens en Psychothérapie et de Psychanalystes",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Association Loi 1901 - Insee 524 964 616 00014 - 685 Avenue Jean Dalmas - 13090 - Aix-en-Provence",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "andra",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "verba",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Ayant honorablement réussi les épreuves théoriques et pratiques de l'examen de fin d'études de l'EFPP",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "et ayant suivi une thérapie personnelle de 50 heures minimum.",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Le jury lui accorde le titre de:",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "PRATICIEN EN PSYCHOTHERAPIE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "et le déclare digne de tous les honneurs, droits et privilèges associés à ce titre",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Fait à Aix-en-Provence le: .",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "11112019",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "458e8e968686ebcb",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "diplomes-certificats-6.jpg",
+      "nom": "diplomes-certificats-6",
+      "drapeau": "autre",
+      "largeur": 1195,
+      "hauteur": 788,
+      "ratio": "3:2",
+      "ratio_valeur": 1.516,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 96892,
+      "transparence": false,
+      "sujet": {
+        "x": 6.5,
+        "y": 11.8,
+        "l": 63.2,
+        "h": 83.7,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        42,
+        46
+      ],
+      "cadrage_css": "42% 46%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.63,
+          "ton": "clair",
+          "recouvre_sujet": 0.2
+        },
+        {
+          "cote": "bas",
+          "score": 0.45,
+          "ton": "clair",
+          "recouvre_sujet": 0.55
+        },
+        {
+          "cote": "haut",
+          "score": 0.42,
+          "ton": "clair",
+          "recouvre_sujet": 0.42
+        },
+        {
+          "cote": "gauche",
+          "score": 0.18,
+          "ton": "clair",
+          "recouvre_sujet": 0.7
+        }
+      ],
+      "qualite": {
+        "nettete": 82.9,
+        "bruit": 0.38,
+        "compression": 1,
+        "faible": true,
+        "raisons": [
+          "1195 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "FUN · FRANCE · UNIVERSITE · • NUMERIQUE · ATTESTATION DE SUIVI AVEC SUCCÈS · Barba Sandra · a suivi avec succès le MOOC* · Les conduites suicidaires : identifie",
+        "blocs": 22,
+        "surface": 14.4,
+        "details": [
+          {
+            "texte": "FUN",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "FRANCE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "UNIVERSITE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "• NUMERIQUE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "ATTESTATION DE SUIVI AVEC SUCCÈS",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Barba Sandra",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "a suivi avec succès le MOOC*",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Les conduites suicidaires : identifier et",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "prévenir",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "proposé par Université de Montpellier",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "et diffusé sur la plate-forme FUN",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Le 05/11/2019",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "69693329795c3839",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "diplomes-certificats-7.jpg",
+      "nom": "diplomes-certificats-7",
+      "drapeau": "autre",
+      "largeur": 1024,
+      "hauteur": 724,
+      "ratio": "1.41",
+      "ratio_valeur": 1.414,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 225587,
+      "transparence": false,
+      "sujet": {
+        "x": 7.1,
+        "y": 11.4,
+        "l": 80.9,
+        "h": 72.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        45
+      ],
+      "cadrage_css": "45% 45%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.43,
+          "ton": "clair",
+          "recouvre_sujet": 0.51
+        },
+        {
+          "cote": "gauche",
+          "score": 0.39,
+          "ton": "clair",
+          "recouvre_sujet": 0.59
+        },
+        {
+          "cote": "bas",
+          "score": 0.39,
+          "ton": "clair",
+          "recouvre_sujet": 0.43
+        },
+        {
+          "cote": "haut",
+          "score": 0.24,
+          "ton": "clair",
+          "recouvre_sujet": 0.55
+        }
+      ],
+      "qualite": {
+        "nettete": 72.5,
+        "bruit": 1.27,
+        "compression": 1.37,
+        "faible": true,
+        "raisons": [
+          "1024 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "FORMALIS · CERTIFICAT DE FORMATION · EN COACHING CONJUGAL · Ce présent document atteste que · Sandra BARBA · a réussi avec succès l'examen final · P HM · Décern",
+        "blocs": 11,
+        "surface": 12.6,
+        "details": [
+          {
+            "texte": "FORMALIS",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "CERTIFICAT DE FORMATION",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "EN COACHING CONJUGAL",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Ce présent document atteste que",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Sandra BARBA",
+            "niveau": "marque"
+          },
+          {
+            "texte": "a réussi avec succès l'examen final",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "P HM",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Décerné le 15 novembre 2019",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "UNIVERS",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Escudier",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Directeur de Formali:",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "211f1717070f2b11",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "diplomes-certificats-8.jpg",
+      "nom": "diplomes-certificats-8",
+      "drapeau": "autre",
+      "largeur": 586,
+      "hauteur": 819,
+      "ratio": "0.72",
+      "ratio_valeur": 0.716,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 36607,
+      "transparence": false,
+      "sujet": {
+        "x": 10.8,
+        "y": 19.9,
+        "l": 79,
+        "h": 54.6,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        44,
+        41
+      ],
+      "cadrage_css": "44% 41%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.86,
+          "ton": "clair",
+          "recouvre_sujet": 0.21
+        },
+        {
+          "cote": "droite",
+          "score": 0.75,
+          "ton": "clair",
+          "recouvre_sujet": 0.41
+        },
+        {
+          "cote": "haut",
+          "score": 0.7,
+          "ton": "clair",
+          "recouvre_sujet": 0.34
+        },
+        {
+          "cote": "gauche",
+          "score": 0.61,
+          "ton": "clair",
+          "recouvre_sujet": 0.4
+        }
+      ],
+      "qualite": {
+        "nettete": 103,
+        "bruit": 0.18,
+        "compression": 0.98,
+        "faible": true,
+        "raisons": [
+          "586 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "inrs · Le 26/08/2017 · ATTESTATION · Numéro 11151 · Décemée à : · Madame SANDRA BARBA · qui a suivi avec succès les modules · - Les bases en prévention · - Init",
+        "blocs": 15,
+        "surface": 7,
+        "details": [
+          {
+            "texte": "inrs",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Le 26/08/2017",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "ATTESTATION",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Numéro 11151",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Décemée à :",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Madame SANDRA BARBA",
+            "niveau": "marque"
+          },
+          {
+            "texte": "qui a suivi avec succès les modules",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "- Les bases en prévention",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "- Initiation à l'évaluation des risques professionnels",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "- Initiation à une méthode d'analyse d'accidents",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "- Initiation à l'analyse d'une situation de travail",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "de l'autoformation en ligne",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "400c0c7c1f010100",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "document lisible",
+        "calme bas/droite/haut"
+      ]
+    },
+    {
+      "fichier": "diplomes-certificats-9.jpg",
+      "nom": "diplomes-certificats-9",
+      "drapeau": "autre",
+      "largeur": 589,
+      "hauteur": 811,
+      "ratio": "0.73",
+      "ratio_valeur": 0.726,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 56941,
+      "transparence": false,
+      "sujet": {
+        "x": 32.6,
+        "y": 7.6,
+        "l": 63,
+        "h": 64,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        60,
+        39
+      ],
+      "cadrage_css": "60% 39%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.68,
+          "ton": "clair",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "gauche",
+          "score": 0.39,
+          "ton": "clair",
+          "recouvre_sujet": 0.12
+        },
+        {
+          "cote": "droite",
+          "score": 0.26,
+          "ton": "clair",
+          "recouvre_sujet": 0.57
+        },
+        {
+          "cote": "haut",
+          "score": 0.03,
+          "ton": "clair",
+          "recouvre_sujet": 0.49
+        }
+      ],
+      "qualite": {
+        "nettete": 123.9,
+        "bruit": 0.34,
+        "compression": 1.03,
+        "faible": true,
+        "raisons": [
+          "589 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "École de Formation des Psychothérapeutes et Psychanalystes- EFPP-PACA · ATTESTATION DE FORMATION · Année : 2005-2009 · Je soussigné : · Directeur de : · Monsieu",
+        "blocs": 18,
+        "surface": 13.6,
+        "details": [
+          {
+            "texte": "École de Formation des Psychothérapeutes et Psychanalystes- EFPP-PACA",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "ATTESTATION DE FORMATION",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Année : 2005-2009",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Je soussigné :",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Directeur de :",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Monsieur MADET Hervé",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "E.F.P.P. PACA",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Centre Médical Corsy",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "685 Avenue Jean Dalmas",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "13090 AIX-EN-PROVENCE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Certifie que : Mme CANO-ROCHE SANDRA est inscrit en formation de :",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "\"Praticien en Psychothérapie\"",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "1f7f2f260f370313",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "document lisible",
+        "calme bas"
+      ]
+    },
+    {
+      "fichier": "sortir-dependance-affective-2.jpg",
+      "nom": "sortir-dependance-affective-2",
+      "drapeau": "autre",
+      "largeur": 1333,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 843075,
+      "transparence": false,
+      "sujet": {
+        "x": 22.6,
+        "y": 22,
+        "l": 42.1,
+        "h": 65.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        46,
+        51
+      ],
+      "cadrage_css": "46% 51%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.72,
+          "ton": "clair",
+          "recouvre_sujet": 0.08
+        },
+        {
+          "cote": "gauche",
+          "score": 0.63,
+          "ton": "clair",
+          "recouvre_sujet": 0.28
+        },
+        {
+          "cote": "haut",
+          "score": 0.58,
+          "ton": "clair",
+          "recouvre_sujet": 0.16
+        },
+        {
+          "cote": "bas",
+          "score": 0.54,
+          "ton": "clair",
+          "recouvre_sujet": 0.27
+        }
+      ],
+      "qualite": {
+        "nettete": 50.5,
+        "bruit": 2.63,
+        "compression": 0.93,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "d8962ab6ccc84c04",
+      "drapeaux": [
+        "autre",
+        "calme droite"
+      ]
+    },
+    {
+      "fichier": "samedi-11-dimanche-12.jpg",
+      "nom": "samedi-11-dimanche-12",
+      "drapeau": "portrait",
+      "largeur": 1398,
+      "hauteur": 2000,
+      "ratio": "0.7",
+      "ratio_valeur": 0.699,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 311581,
+      "transparence": false,
+      "sujet": {
+        "x": 32.7,
+        "y": 5.7,
+        "l": 62.4,
+        "h": 76.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        58,
+        45
+      ],
+      "cadrage_css": "58% 45%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.32,
+          "ton": "clair",
+          "recouvre_sujet": 0.14
+        },
+        {
+          "cote": "bas",
+          "score": 0.24,
+          "ton": "clair",
+          "recouvre_sujet": 0.3
+        },
+        {
+          "cote": "haut",
+          "score": 0.17,
+          "ton": "clair",
+          "recouvre_sujet": 0.52
+        },
+        {
+          "cote": "droite",
+          "score": 0.11,
+          "ton": "clair",
+          "recouvre_sujet": 0.67
+        }
+      ],
+      "qualite": {
+        "nettete": 35.9,
+        "bruit": 0.44,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": {
+        "niveau": "document",
+        "a_verifier": true,
+        "texte": "CARPENTRAS 2019 · SALON · DES THÉRAPIES · DU BIEN-ÊTRE · 3 ème Édition · Salle AUZON les 11 et 12 Mai · Carpentras · BARBA Sandra · Stand N° 16 · Association Co",
+        "blocs": 15,
+        "surface": 22.9,
+        "details": [
+          {
+            "texte": "CARPENTRAS 2019",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "SALON",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "DES THÉRAPIES",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "DU BIEN-ÊTRE",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "3 ème Édition",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Salle AUZON les 11 et 12 Mai",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Carpentras",
+            "niveau": "marque"
+          },
+          {
+            "texte": "BARBA Sandra",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Stand N° 16",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Association Conscience et Vie",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "Tel: 06 74 08 15 20",
+            "niveau": "document"
+          },
+          {
+            "texte": "contact@conscienceetvie.fr",
+            "niveau": "document"
+          }
+        ]
+      },
+      "empreinte": "3d3d242757cfb7a7",
+      "drapeaux": [
+        "portrait",
+        "document lisible"
+      ]
+    },
+    {
+      "fichier": "temps-vous-separe-session.jpg",
+      "nom": "temps-vous-separe-session",
+      "drapeau": "autre",
+      "largeur": 800,
+      "hauteur": 800,
+      "ratio": "1:1",
+      "ratio_valeur": 1,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 129799,
+      "transparence": false,
+      "sujet": {
+        "x": 42.4,
+        "y": 0,
+        "l": 56.3,
+        "h": 60.2,
+        "source": "visage"
+      },
+      "visages": 1,
+      "cadrage": [
+        71,
+        30
+      ],
+      "cadrage_css": "71% 30%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.21,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.2,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.05,
+          "ton": "clair",
+          "recouvre_sujet": 0.56
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.58
+        }
+      ],
+      "qualite": {
+        "nettete": 50.4,
+        "bruit": 0.6,
+        "compression": 1.3,
+        "faible": true,
+        "raisons": [
+          "800 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "marque",
+        "a_verifier": true,
+        "texte": "SPECIAL · EXAMEN · www.sandrabarba.fr",
+        "blocs": 3,
+        "surface": 5.2,
+        "details": [
+          {
+            "texte": "SPECIAL",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "EXAMEN",
+            "niveau": "decoratif"
+          },
+          {
+            "texte": "www.sandrabarba.fr",
+            "niveau": "marque"
+          }
+        ]
+      },
+      "empreinte": "d3e125a5e5c743a4",
+      "drapeaux": [
+        "autre",
+        "visage",
+        "petite",
+        "filigrane ou marque"
+      ]
+    },
+    {
+      "fichier": "temps-vous-separe-session-2.jpg",
+      "nom": "temps-vous-separe-session-2",
+      "drapeau": "autre",
+      "largeur": 560,
+      "hauteur": 369,
+      "ratio": "3:2",
+      "ratio_valeur": 1.518,
+      "orientation": "paysage",
+      "format": "jpeg",
+      "poids": 87472,
+      "transparence": false,
+      "sujet": {
+        "x": 20.6,
+        "y": 13.2,
+        "l": 52.9,
+        "h": 63.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        48,
+        44
+      ],
+      "cadrage_css": "48% 44%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.14,
+          "ton": "moyen",
+          "recouvre_sujet": 0.17
+        },
+        {
+          "cote": "droite",
+          "score": 0.13,
+          "ton": "clair",
+          "recouvre_sujet": 0.21
+        },
+        {
+          "cote": "gauche",
+          "score": 0.09,
+          "ton": "clair",
+          "recouvre_sujet": 0.31
+        },
+        {
+          "cote": "haut",
+          "score": 0.08,
+          "ton": "clair",
+          "recouvre_sujet": 0.33
+        }
+      ],
+      "qualite": {
+        "nettete": 76.5,
+        "bruit": 1.66,
+        "compression": 1.05,
+        "faible": true,
+        "raisons": [
+          "560 px de large"
+        ]
+      },
+      "lisible": {
+        "niveau": "decoratif",
+        "a_verifier": false,
+        "texte": "EXAMENS,",
+        "blocs": 1,
+        "surface": 8,
+        "details": [
+          {
+            "texte": "EXAMENS,",
+            "niveau": "decoratif"
+          }
+        ]
+      },
+      "empreinte": "171f2733195d5913",
+      "drapeaux": [
+        "autre",
+        "petite",
+        "texte décoratif"
+      ]
+    },
+    {
+      "fichier": "pervers-narcissique-enfant-capricieux-2.jpg",
+      "nom": "pervers-narcissique-enfant-capricieux-2",
+      "drapeau": "autre",
+      "largeur": 518,
+      "hauteur": 539,
+      "ratio": "0.96",
+      "ratio_valeur": 0.961,
+      "orientation": "carre",
+      "format": "jpeg",
+      "poids": 124786,
+      "transparence": false,
+      "sujet": {
+        "x": 13.2,
+        "y": 5.8,
+        "l": 62.7,
+        "h": 94.2,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        45,
+        42
+      ],
+      "cadrage_css": "45% 42%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.26,
+          "ton": "clair",
+          "recouvre_sujet": 0.37
+        },
+        {
+          "cote": "haut",
+          "score": 0.04,
+          "ton": "clair",
+          "recouvre_sujet": 0.52
+        },
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.63
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.63
+        }
+      ],
+      "qualite": {
+        "nettete": 79.8,
+        "bruit": 1.86,
+        "compression": 1.36,
+        "faible": true,
+        "raisons": [
+          "518 px de large"
+        ]
+      },
+      "lisible": false,
+      "empreinte": "8c9e9c8c36362e96",
+      "drapeaux": [
+        "autre",
+        "petite"
+      ]
+    },
+    {
+      "fichier": "connaitre-7-etapes-deuil.jpg",
+      "nom": "connaitre-7-etapes-deuil",
+      "drapeau": "autre",
+      "largeur": 1693,
+      "hauteur": 2000,
+      "ratio": "0.85",
+      "ratio_valeur": 0.847,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 270266,
+      "transparence": false,
+      "sujet": {
+        "x": 9.7,
+        "y": 0.1,
+        "l": 90.3,
+        "h": 56.9,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        64,
+        31
+      ],
+      "cadrage_css": "64% 31%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.83,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.43,
+          "ton": "moyen",
+          "recouvre_sujet": 0.43
+        },
+        {
+          "cote": "droite",
+          "score": 0.28,
+          "ton": "moyen",
+          "recouvre_sujet": 0.57
+        },
+        {
+          "cote": "haut",
+          "score": 0.21,
+          "ton": "sombre",
+          "recouvre_sujet": 0.9
+        }
+      ],
+      "qualite": {
+        "nettete": 6,
+        "bruit": 0.4,
+        "compression": 0.94,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "c3ccc4c7dfc23ec8",
+      "drapeaux": [
+        "autre",
+        "calme bas"
+      ]
+    },
+    {
+      "fichier": "connaitre-7-etapes-deuil-2.jpg",
+      "nom": "connaitre-7-etapes-deuil-2",
+      "drapeau": "autre",
+      "largeur": 1333,
+      "hauteur": 2000,
+      "ratio": "2:3",
+      "ratio_valeur": 0.667,
+      "orientation": "portrait",
+      "format": "jpeg",
+      "poids": 150734,
+      "transparence": false,
+      "sujet": {
+        "x": 42.6,
+        "y": 39.7,
+        "l": 14.7,
+        "h": 19.1,
+        "source": "saillance"
+      },
+      "visages": 0,
+      "cadrage": [
+        50,
+        49
+      ],
+      "cadrage_css": "50% 49%",
+      "zones_calmes": [
+        {
+          "cote": "bas",
+          "score": 0.95,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "haut",
+          "score": 0.62,
+          "ton": "moyen",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "droite",
+          "score": 0.59,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "gauche",
+          "score": 0.53,
+          "ton": "sombre",
+          "recouvre_sujet": 0
+        }
+      ],
+      "qualite": {
+        "nettete": 12.8,
+        "bruit": 0.36,
+        "compression": 0.92,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": false,
+      "empreinte": "60c080ac08413000",
+      "drapeaux": [
+        "autre",
+        "calme bas"
+      ]
+    }
+  ]
+}

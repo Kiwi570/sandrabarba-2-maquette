@@ -1,0 +1,6 @@
+[
+  { "id": "cabinet", "titre": "Séance au cabinet", "detail": "Psychanalyse, psychothérapie ou sophrologie", "duree": "1 h", "prix": "65 €" },
+  { "id": "visio", "titre": "Consultation en visio", "detail": "Identique au cabinet, de chez vous", "duree": "1 h", "prix": "65 €" },
+  { "id": "couple", "titre": "Coaching couple", "detail": "Se comprendre, communiquer, prendre une décision", "duree": "1 h 15", "prix": "65 €" },
+  { "id": "famille", "titre": "Coaching famille", "detail": "Les liens familiaux, mère et fille", "duree": "1 h", "prix": "65 €" }
+]

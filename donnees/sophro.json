@@ -1,0 +1,11 @@
+{
+  "mots1": ["Sommeil", "Stress", "Émotions", "Examens", "Confiance"],
+  "mots2": ["Concentration", "Maternité", "Sport", "Page blanche", "Affirmation de soi"],
+  "pourqui": ["Mieux dormir", "Gérer le stress, les tensions et les émotions", "Préparer un examen", "Se concentrer", "Prendre confiance en soi", "Préparer l'arrivée d'un bébé", "Se dépasser dans le sport", "Dépasser la peur du dentiste", "Retrouver sa créativité, passer la page blanche", "Oser dire non, s'affirmer"],
+  "histoire": [
+    { "quand": "Il y a plus de 50 ans", "texte": "À l'Hôpital Provincial de Madrid, le jeune psychiatre Alfonso Caycedo est marqué par la brutalité des traitements de l'époque. Il se tourne vers l'étude de la conscience." },
+    { "quand": "Un nom", "texte": "Il appelle sa discipline « sophrologie », du grec : l'étude de la conscience en équilibre. Inspirée du yoga et de la méditation, elle cherche à harmoniser le corps, le cœur et l'esprit." },
+    { "quand": "De 1967 à 2000", "texte": "Il élabore les 12 degrés de la méthode Caycedo, aussi appelée Relaxation dynamique de Caycedo." },
+    { "quand": "Aujourd'hui", "texte": "Reconnue pour la gestion du stress, elle s'est ouverte à la pédagogie, au sport et au bien-être au quotidien." }
+  ]
+}

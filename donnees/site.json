@@ -1,0 +1,58 @@
+{
+  "nom": "Sandra Barba",
+  "adresse": "https://sandrabarba-2-maquette.vercel.app",
+  "siteActuel": "sandrabarba.fr",
+  "version": 1,
+  "langues": [
+    "fr"
+  ],
+  "navigation": [
+    "accueil",
+    "psychotherapie",
+    "sophrologie",
+    "violences",
+    "rendez-vous"
+  ],
+  "actionEntete": {
+    "page": "rendez-vous",
+    "ancre": "demande"
+  },
+  "couleurs": {
+    "fond": "#F3EEE6",
+    "texte": "#2B2622",
+    "voile": "#26332C",
+    "ouverture": "#F3EEE6",
+    "menu": "#F3EEE6",
+    "theme": "#F3EEE6"
+  },
+  "formeVoile": "vague",
+  "contact": {
+    "telephone": "07 60 36 58 32",
+    "telephoneLien": "+33760365832",
+    "sms": "sms:+33760365832",
+    "email": "info@sandrabarba.fr",
+    "adresse": "89 rue du Portail Neuf, 84810 Aubignan",
+    "itineraire": "https://www.google.com/maps/search/?api=1&query=89+rue+du+Portail+Neuf+84810+Aubignan"
+  },
+  "reseaux": [
+    {
+      "nom": "Facebook",
+      "url": "https://www.facebook.com/psrcom"
+    },
+    {
+      "nom": "Instagram",
+      "url": "https://www.instagram.com/cabinet_psrcom/"
+    },
+    {
+      "nom": "LinkedIn",
+      "url": "https://www.linkedin.com/in/sandra-barba-37282977/"
+    }
+  ],
+  "siret": "514 610 393 00019",
+  "polices": [
+    "/assets/fonts/fraunces.woff2",
+    "/assets/fonts/figtree.woff2"
+  ],
+  "imagePartage": "sandra-rampe-1200.webp",
+  "curseur": true
+}

@@ -1,0 +1,16 @@
+{
+ "id": "20261116-142442-standard-cible-partiel",
+ "date": "2026-11-16T14:25:55.557Z",
+ "niveau": "standard",
+ "pages": "/,/rendez-vous,/sophrologie",
+ "etapes": [
+  "fichiers",
+  "mesures"
+ ],
+ "version": "4",
+ "echecs": 0,
+ "aRegarder": 5,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "complet"
+}

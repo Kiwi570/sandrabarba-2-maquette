@@ -1,0 +1,5 @@
+[
+  { "titre": "Au cabinet", "prix": "1 h · 65 €", "texte": "89 rue du Portail Neuf à Aubignan, parking gratuit à proximité. Du lundi au samedi, sur rendez-vous.", "seance": "cabinet" },
+  { "titre": "En visio", "prix": "1 h · 65 €", "texte": "De chez vous, où que vous soyez : la séance se déroule de façon identique au cabinet.", "seance": "visio" },
+  { "titre": "À domicile", "prix": "Sur demande", "texte": "Pour les personnes à mobilité réduite, un rendez-vous à domicile est possible : appelez le 07 60 36 58 32.", "seance": "" }
+]

@@ -1,0 +1,5 @@
+[
+  { "besoin": "Besoin d'aide", "titre": "Psychothérapie", "texte": "Affronter un moment difficile, se reconstruire, retrouver le sourire.", "prix": "1 h · 65 € · au cabinet ou en visio", "image": "grok/divan", "page": "psychotherapie", "ancre": "" },
+  { "besoin": "Besoin de souffler", "titre": "Sophrologie", "texte": "Recontacter votre corps, gérer les stress, les tensions et les émotions.", "prix": "1 h · 65 €", "image": "grok/olivier-fenetre", "page": "sophrologie", "ancre": "" },
+  { "besoin": "Besoin de communiquer", "titre": "Couple et famille", "texte": "Se comprendre, s'écouter, se respecter.", "prix": "Couple 1 h 15 · Famille 1 h · 65 €", "image": "grok/deux-fauteuils", "page": "psychotherapie", "ancre": "couple" }
+]

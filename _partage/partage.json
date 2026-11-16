@@ -1,0 +1,192 @@
+{
+  "avertissements": [],
+  "cartes": [
+    {
+      "page": "accueil",
+      "langue": "fr",
+      "fichier": "assets/partage/accueil-fr.jpg",
+      "gabarit": "droite",
+      "image": "sandra-rampe-1200.webp",
+      "poids": 71734,
+      "sujet": {
+        "x": 722,
+        "y": 55,
+        "l": 355,
+        "h": 379
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 234,
+          "l": 480,
+          "h": 193
+        },
+        {
+          "x": 64,
+          "y": 542,
+          "l": 480,
+          "h": 36
+        },
+        {
+          "x": 600,
+          "y": 0,
+          "l": 90,
+          "h": 630
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "psychotherapie",
+      "langue": "fr",
+      "fichier": "assets/partage/psychotherapie-fr.jpg",
+      "gabarit": "droite",
+      "image": "grok/psy-fauteuil-1280.webp",
+      "poids": 60970,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 600,
+        "h": 630
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 227,
+          "l": 480,
+          "h": 208
+        },
+        {
+          "x": 64,
+          "y": 542,
+          "l": 480,
+          "h": 36
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "rendez-vous",
+      "langue": "fr",
+      "fichier": "assets/partage/rendez-vous-fr.jpg",
+      "gabarit": "droite",
+      "image": "sandra-rampe-portrait-960.webp",
+      "poids": 65784,
+      "sujet": {
+        "x": 688,
+        "y": 19,
+        "l": 423,
+        "h": 452
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 267,
+          "l": 480,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 542,
+          "l": 480,
+          "h": 36
+        },
+        {
+          "x": 600,
+          "y": 0,
+          "l": 80,
+          "h": 630
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "sophrologie",
+      "langue": "fr",
+      "fichier": "assets/partage/sophrologie-fr.jpg",
+      "gabarit": "droite",
+      "image": "grok/voilage-1280.webp",
+      "poids": 43745,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 600,
+        "h": 630
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 56,
+          "l": 280,
+          "h": 64
+        },
+        {
+          "x": 64,
+          "y": 234,
+          "l": 480,
+          "h": 193
+        },
+        {
+          "x": 64,
+          "y": 542,
+          "l": 480,
+          "h": 36
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "violences",
+      "langue": "fr",
+      "fichier": "assets/partage/violences-fr.jpg",
+      "gabarit": "plein",
+      "image": "grok/violences-matin-1280.webp",
+      "poids": 72515,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 450,
+        "h": 338
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 403,
+          "l": 820,
+          "h": 129
+        },
+        {
+          "x": 64,
+          "y": 546,
+          "l": 820,
+          "h": 36
+        },
+        {
+          "x": 1040,
+          "y": 518,
+          "l": 96,
+          "h": 64
+        }
+      ],
+      "recouvrement": 0
+    }
+  ]
+}

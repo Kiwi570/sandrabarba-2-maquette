@@ -1,0 +1,364 @@
+{
+  "commun": {
+    "navigation": "Navigation principale",
+    "menu": "Menu",
+    "fermer": "Fermer",
+    "langueAutre": "Version française",
+    "actionEntete": "Prendre rendez-vous",
+    "appeler": "Appeler",
+    "sms": "Envoyer un SMS",
+    "ecrire": "Écrire un e-mail",
+    "sommaire": "Le site",
+    "confort": "Suivre le cabinet",
+    "retourHaut": "Retour en haut",
+    "maquette": "Maquette de démonstration : formulaires simulés, rien n'est envoyé.",
+    "evitement": "Aller au contenu",
+    "mentionIa": "Illustration générée",
+    "pause": "Pause",
+    "lecture": "Lecture",
+    "introLigne": "Psychothérapie · Sophrologie",
+    "introInspirez": "Inspirez",
+    "introSoufflez": "Soufflez",
+    "sousTitre": "Psychothérapie · Sophrologie",
+    "mentions": "Mentions légales · à compléter",
+    "confidentialite": "Politique de confidentialité · à compléter",
+    "cadre": "Pratique de psychothérapie hors du cadre réglementé du titre de psychothérapeute.",
+    "siret": "SIRET",
+    "nouvelOnglet": "s'ouvre dans un nouvel onglet",
+    "fin": {
+      "surtitre": "Un premier pas",
+      "titre1": "Et si vous commenciez",
+      "titre2": "par en parler ?",
+      "texte": "Un appel, un SMS ou un e-mail suffit. La première séance sert à faire le point sur vos besoins, à votre rythme.",
+      "alt": "Sandra Barba, portrait en noir et blanc",
+      "info": "Du lundi au samedi, sur rendez-vous · au cabinet d'Aubignan ou en visio"
+    },
+    "visionneuse": {
+      "titre": "Visionneuse",
+      "fermer": "Fermer la visionneuse",
+      "precedent": "Image précédente",
+      "suivant": "Image suivante"
+    },
+    "actionCourte": "Rendez-vous"
+  },
+  "pages": {
+    "accueil": {
+      "titre": "Sandra Barba : psychothérapie et sophrologie à Aubignan et en visio",
+      "description": "Psychothérapie, sophrologie, coaching de couple et de famille à Aubignan (Vaucluse) et en visio, depuis 2005. Séance d'une heure : 65 €.",
+      "nav": "Accueil",
+      "partageAlt": "Sandra Barba souriante, et l'accroche « La vie est un combat, ne le vivez plus seul·e »",
+      "accroche": "La vie est un combat. Ne le vivez plus seul·e."
+    },
+    "psychotherapie": {
+      "titre": "Psychothérapie, couple et famille : Sandra Barba, Aubignan et visio",
+      "description": "Un travail de parole inspiré de la psychanalyse, complété par la sophrologie. Séance d'une heure à 65 €, coaching de couple et de famille, au cabinet d'Aubignan ou en visio.",
+      "nav": "Psychothérapie",
+      "partageAlt": "Fauteuil de velours et lampe allumée, page Psychothérapie de Sandra Barba",
+      "accroche": "Affronter un moment difficile, se reconstruire, retrouver le sourire."
+    },
+    "sophrologie": {
+      "titre": "Sophrologie, méthode Caycedo : Sandra Barba à Aubignan",
+      "description": "Relaxation et mouvements simples, accessibles à tous : sommeil, stress, émotions, examens, maternité. Séance d'une heure à 65 €, depuis 2005.",
+      "nav": "Sophrologie",
+      "partageAlt": "Voilage léger soulevé par l'air, page Sophrologie de Sandra Barba",
+      "accroche": "Il n'y a pas de magie : retrouvez-vous."
+    },
+    "violences": {
+      "titre": "Victimes de violences : sortir du silence avec Sandra Barba",
+      "description": "Accompagnement des victimes de violences, dans l'enfance ou dans le couple, depuis 2005. Numéros d'aide, formes de violences et prise de rendez-vous.",
+      "nav": "Violences",
+      "partageAlt": "Lumière du matin sur un mur blanchi, page Violences de Sandra Barba",
+      "accroche": "Mettre des mots. Sortir du silence."
+    },
+    "rendez-vous": {
+      "titre": "Prendre rendez-vous : Sandra Barba, Aubignan et visio",
+      "description": "Séance d'une heure à 65 €, au cabinet d'Aubignan ou en visio, du lundi au samedi sur rendez-vous. Demande en trois étapes, téléphone, SMS et accès.",
+      "nav": "Rendez-vous",
+      "partageAlt": "Sandra Barba souriante, page Rendez-vous",
+      "accroche": "Une heure pour vous, 65 €."
+    },
+    "404": {
+      "titre": "Page introuvable : Sandra Barba",
+      "description": "Cette page n'existe pas ou plus.",
+      "nav": "Page introuvable",
+      "partageAlt": "Page introuvable",
+      "accroche": "Page introuvable"
+    }
+  },
+  "accueil": {
+    "hero": {
+      "surtitre": "Psychothérapie · Sophrologie · Aubignan et en visio",
+      "titre1": "La vie est un combat.",
+      "titre2": "Ne le vivez",
+      "titre3": "plus seul·e.",
+      "texte": "Depuis 2005, Sandra Barba accompagne les adultes, seuls, en couple ou en famille. Un travail de parole, et la sophrologie pour retrouver son souffle.",
+      "action": "Prendre rendez-vous",
+      "info": "Séance d'une heure · 65 € · au cabinet ou en visio"
+    },
+    "amene": {
+      "surtitre": "Ce qui vous amène",
+      "titre": "Ce qui vous amène",
+      "phrase": "Un deuil. Une séparation. Un burn-out. Des nuits trop courtes, une angoisse qui ne part pas, un couple qui ne se parle plus. Ou un passé qui remonte, des années après.",
+      "suite": "Vous n'avez pas besoin de savoir par où commencer : la première séance sert à faire le point, ensemble."
+    },
+    "offres": {
+      "surtitre": "Trois accompagnements",
+      "titre1": "Besoin d'aide, de souffler,",
+      "titre2": "ou de vous parler ?",
+      "lien": "Découvrir"
+    },
+    "sandra": {
+      "surtitre": "Avec Sandra Barba",
+      "titre1": "Je suis comme vous.",
+      "titre2": "Une femme.",
+      "citation": "« J'ai toujours considéré la vie comme un combat. »",
+      "texte": "Depuis 2005, Sandra Barba accompagne des adultes, seuls, en couple ou en famille. Formée à la psychanalyse et à la pratique de la psychothérapie à l'EFPP d'Aix-en-Provence, puis aux thérapies cognitives et comportementales et au stress post-traumatique, elle s'est spécialisée dans l'accompagnement des victimes de violences. Elle intervient aussi en structures sociales, donne des conférences et forme des professionnels.",
+      "seuleTitre": "Plus jamais seule",
+      "seuleTexte": "Entre deux séances, Sandra reste joignable par SMS et par e-mail, sans supplément : le lien ne s'arrête pas à la porte du cabinet.",
+      "formations": "Formations",
+      "voir": "Voir"
+    },
+    "violences": {
+      "surtitre": "Spécialisation",
+      "titre1": "Victimes de violences,",
+      "titre2": "dans l'enfance ou dans le couple.",
+      "texte": "Beaucoup de femmes cachent leur passé derrière une grande force de vie, jusqu'au jour où tout remonte. Mettre des mots, en parler, sortir du silence, aidée par une professionnelle : c'est le cœur de son travail depuis 2005.",
+      "certifiee": "Certifiée en accompagnement sur les violences sexuelles et l'inceste.",
+      "urgence": "En danger maintenant (ou le 112).",
+      "ecoute": "Violences Femmes Info : écoute anonyme et gratuite.",
+      "lien": "Sortir du silence"
+    },
+    "deroule": {
+      "surtitre": "Comment ça se passe",
+      "titre1": "Un premier pas,",
+      "titre2": "à votre rythme."
+    },
+    "avis": {
+      "surtitre": "Témoignages",
+      "titre": "Elles en parlent",
+      "note": "Avis publiés sur Facebook et Resalib, repris mot pour mot."
+    },
+    "cabinet": {
+      "gauche": "Aubignan",
+      "droite": "ou en visio",
+      "titre1": "Un cabinet au calme,",
+      "titre2": "à Aubignan.",
+      "texte": "La séance en visio se déroule de façon identique au cabinet. Pour les personnes à mobilité réduite, un rendez-vous à domicile est possible sur demande.",
+      "lien": "Voir l'accès"
+    }
+  },
+  "psychotherapie": {
+    "hero": {
+      "surtitre": "Psychothérapie · adultes, couples, familles",
+      "titre1": "Affronter un moment difficile.",
+      "titre2": "Se reconstruire.",
+      "titre3": "Retrouver le sourire.",
+      "texte": "Un travail de parole inspiré de la psychanalyse, complété par la sophrologie, au cabinet d'Aubignan ou en visio.",
+      "action": "Prendre rendez-vous",
+      "info": "Séance d'une heure · 65 €"
+    },
+    "pourquoi": {
+      "surtitre": "Pourquoi consulter",
+      "titre1": "Pour soi,",
+      "titre2": "ou pour un proche.",
+      "aussi": "Et aussi : les peurs, les phobies, les troubles du sommeil et de l'appétit, les violences subies."
+    },
+    "approche": {
+      "surtitre": "L'approche",
+      "titre1": "Parler, pour",
+      "titre2": "ne plus être seul·e.",
+      "citation": "« Nous cherchons ensemble à répondre à vos propres questions, trouver vos propres solutions. »"
+    },
+    "couple": {
+      "surtitre": "Couple et famille",
+      "titre1": "Vivre en couple n'est pas toujours",
+      "titre2": "un long fleuve tranquille.",
+      "texte": "Cris, disputes, silences, l'impression de ne plus être écouté·e. L'argent, la jalousie, l'infidélité, la belle-famille, les enfants : tous les couples traversent des crises, et ce n'est pas une raison pour se séparer à la première difficulté. Les séances aident à comprendre la place et le rôle de chacun, à se parler, et à prendre une décision.",
+      "famille": "Mère et fille, entre « je t'aime » et « je te déteste » : faut-il couper les liens ? Le coaching famille ouvre un espace pour en parler.",
+      "action": "Demander une séance de couple",
+      "actionFamille": "Une séance en famille"
+    },
+    "modes": {
+      "surtitre": "Où et comment",
+      "titre1": "Au cabinet, en visio,",
+      "titre2": "ou chez vous."
+    }
+  },
+  "sophrologie": {
+    "hero": {
+      "surtitre": "Sophrologie · méthode Caycedo · depuis 2005",
+      "titre1": "Il n'y a pas de magie :",
+      "titre2": "retrouvez-vous.",
+      "texte": "Une technique de relaxation associée à des mouvements simples, accessibles à tous, pour mieux écouter son corps, ses besoins et ses envies.",
+      "action": "Réserver une séance",
+      "info": "Séance d'une heure · 65 €"
+    },
+    "methode": {
+      "surtitre": "La méthode",
+      "titre1": "Trois principes,",
+      "titre2": "une seule attention : vous.",
+      "texte": "Sandra Barba s'appuie sur les trois principes du Dr Caycedo. Ses valeurs : l'empathie, l'écoute et la bienveillance. Sa devise : « Rien n'est impossible ! »"
+    },
+    "souffle": {
+      "surtitre": "Essayez",
+      "titre1": "Respirez",
+      "titre2": "avec le cercle.",
+      "texte": "Quand le cercle grandit, inspirez doucement par le nez. Quand il se resserre, soufflez lentement par la bouche. Trois ou quatre respirations, à votre rythme.",
+      "note": "Un exercice simple pour découvrir, pas une séance.",
+      "inspirez": "Inspirez",
+      "soufflez": "Soufflez",
+      "pause": "Mettre en pause",
+      "reprendre": "Reprendre"
+    },
+    "pourqui": {
+      "surtitre": "Pour qui, pour quoi",
+      "titre1": "À tout âge,",
+      "titre2": "et pour la vie de tous les jours.",
+      "texte": "Pour les particuliers comme pour les entreprises. La sophrologie se pratique à tout âge et s'adapte aux conditions physiques de chacun."
+    },
+    "histoire": {
+      "surtitre": "Un peu d'histoire",
+      "titre1": "L'étude de la conscience",
+      "titre2": "en équilibre."
+    },
+    "seance": {
+      "surtitre": "Une séance",
+      "titre1": "C'est vous",
+      "titre2": "qui décidez du rythme.",
+      "texte": "La première séance fait le point sur vos besoins. Ensemble, vous choisissez un programme adapté, qui peut évoluer au fil des séances.",
+      "lieu": "Au cabinet, 89 rue du Portail Neuf à Aubignan. Pour les personnes à mobilité réduite, à domicile sur demande.",
+      "prix": "1 h · 65 €"
+    }
+  },
+  "violences": {
+    "hero": {
+      "surtitre": "Violences · dans l'enfance ou dans le couple",
+      "titre1": "Mettre des mots.",
+      "titre2": "Sortir du silence.",
+      "texte": "Depuis 2005, Sandra Barba accompagne des femmes victimes de violences psychologiques, physiques, sexuelles ou économiques. En parler, soutenue par une professionnelle, peut aider à se reconstruire.",
+      "action": "Prendre rendez-vous",
+      "info": "En danger maintenant : appelez le 17"
+    },
+    "quitter": "Quitter vite",
+    "quitterAide": "Quitter vite ce site (ouvre la page d'accueil de Google)",
+    "aide": {
+      "surtitre": "Besoin d'aide maintenant",
+      "titre1": "Vous n'êtes pas seule.",
+      "titre2": "Ces numéros répondent.",
+      "note": "Numéros publics et gratuits. Le cabinet n'est pas un service d'urgence : en cas de danger, appelez le 17 ou le 112."
+    },
+    "secret": {
+      "surtitre": "Un jour, tout remonte",
+      "titre1": "Le secret est bien caché",
+      "titre2": "au fond du placard.",
+      "texte": "Pendant des années, beaucoup de femmes dissimulent leur passé derrière une grande force de vie. Puis un jour, le placard ne reste plus fermé : les difficultés remontent à la surface. C'est souvent là qu'il devient possible d'en parler."
+    },
+    "culpabilite": {
+      "surtitre": "La culpabilité",
+      "titre1": "Coupable ?",
+      "titre2": "Mais de quoi ?",
+      "texte": "Les agresseurs savent gagner la confiance, puis la détourner, et faire porter la faute à la victime. La culpabilité qu'elle ressent ne dit rien de sa responsabilité : elle se travaille, avec le temps et avec la parole."
+    },
+    "formes": {
+      "surtitre": "Comprendre",
+      "titre1": "Qu'est-ce que",
+      "titre2": "la violence ?",
+      "definition": "L'usage de la force ou du pouvoir, physique ou psychique, pour contraindre, dominer ou détruire.",
+      "lien": "Vos droits sur service-public.fr"
+    },
+    "engagement": {
+      "surtitre": "Un engagement",
+      "titre1": "Aussi en dehors",
+      "titre2": "du cabinet.",
+      "texte": "Sandra Barba préside l'association Vivre Femmes, qui lutte contre les violences invisibles et porte le projet Transition-elles. Elle donne des conférences de prévention, intervient en structures sociales et forme des professionnels.",
+      "presse": "Article de presse : « Éveiller les consciences sur les violences invisibles »"
+    },
+    "fin": {
+      "titre1": "Vous pouvez commencer",
+      "titre2": "par un simple SMS.",
+      "texte": "Sans rien expliquer : un message pour demander un rendez-vous, au cabinet d'Aubignan ou en visio."
+    }
+  },
+  "rendezvous": {
+    "hero": {
+      "surtitre": "Prendre rendez-vous",
+      "titre1": "Une heure",
+      "titre2": "pour vous.",
+      "prix": "65 €",
+      "prixTexte": "la séance d'une heure, au cabinet d'Aubignan ou en visio",
+      "action": "Faire une demande",
+      "info": "Du lundi au samedi, sur rendez-vous"
+    },
+    "seances": {
+      "surtitre": "Les séances",
+      "titre1": "Quatre façons",
+      "titre2": "de venir.",
+      "choisir": "Choisir",
+      "domicile": "Pour les personnes à mobilité réduite, un rendez-vous à domicile est possible sur demande, au 07 60 36 58 32."
+    },
+    "demande": {
+      "surtitre": "Votre demande",
+      "titre1": "Trois questions,",
+      "titre2": "puis Sandra vous recontacte.",
+      "intro": "Choisissez une séance, vos préférences, puis vos coordonnées. Vous pourrez tout relire avant d'envoyer.",
+      "note": "Démonstration : rien n'est envoyé.",
+      "q1": "Quelle séance souhaitez-vous ?",
+      "q2": "Quand seriez-vous disponible ?",
+      "jours": "Les jours qui vous conviennent",
+      "moments": "Le moment de la journée",
+      "matin": "Le matin",
+      "apresmidi": "L'après-midi",
+      "soir": "En fin de journée",
+      "egal": "Peu importe",
+      "q3": "Comment vous joindre ?",
+      "prenom": "Prénom",
+      "tel": "Téléphone",
+      "email": "E-mail",
+      "contactPar": "Être recontacté·e par",
+      "parTel": "Téléphone",
+      "parSms": "SMS",
+      "parEmail": "E-mail",
+      "message": "Un mot, si vous le souhaitez",
+      "messagePlaceholder": "Rien n'est obligatoire ici",
+      "accord": "J'accepte que ces informations servent uniquement à répondre à ma demande.",
+      "donnees": "Vos données restent à l'usage exclusif du cabinet. <span class=\"a-completer\">Politique de confidentialité : à compléter</span>.",
+      "obligatoires": "Les champs marqués d'un astérisque sont obligatoires.",
+      "recap": "Tout est juste ?",
+      "recapVide": "Le récapitulatif de vos réponses s'affiche ici.",
+      "retour": "Retour",
+      "continuer": "Continuer",
+      "revenir": "Revenir au récapitulatif",
+      "envoyer": "Envoyer la demande",
+      "merci": "Merci, votre demande est prête.",
+      "simule": "Démonstration : rien n'a été envoyé. Sur le site en ligne, Sandra Barba recevrait votre demande et vous recontacterait par le moyen choisi.",
+      "parMail": "L'envoyer par e-mail",
+      "nouvelle": "Nouvelle demande",
+      "alt": "Un carnet fermé et un brin d'olivier sur un bureau clair"
+    },
+    "direct": {
+      "surtitre": "Plus simple encore",
+      "titre1": "Un appel,",
+      "titre2": "un SMS, un e-mail."
+    },
+    "acces": {
+      "surtitre": "Le cabinet",
+      "titre1": "89 rue du Portail Neuf,",
+      "titre2": "Aubignan.",
+      "parking": "Parking gratuit à proximité.",
+      "jours": "Du lundi au samedi, sur rendez-vous.",
+      "domicile": "À domicile pour les personnes à mobilité réduite, sur demande.",
+      "visio": "En visio, de chez vous : la séance se déroule de façon identique.",
+      "itineraire": "Ouvrir l'itinéraire"
+    },
+    "faq": {
+      "surtitre": "Questions fréquentes",
+      "titre": "Avant de vous lancer"
+    }
+  },
+  "introuvable": {
+    "titre1": "Respirez :",
+    "titre2": "cette page n'existe pas.",
+    "texte": "Elle a peut-être changé d'adresse. Revenez à l'accueil, ou prenez rendez-vous directement.",
+    "retour": "Revenir à l'accueil"
+  }
+}

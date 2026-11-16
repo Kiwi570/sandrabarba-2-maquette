@@ -1,0 +1,333 @@
+[
+ {
+  "source": "recu/site/logo.png",
+  "nom": "logo",
+  "role": "logo",
+  "alt": "Logo Sandra Barba : un B cerclé et trois traits de pinceau"
+ },
+ {
+  "source": "recu/site/psychotherapie-sophrologie-sandra-barba.jpg",
+  "nom": "sandra-rampe",
+  "role": "portrait",
+  "ratio": "1:1",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "cadrage": [
+   46,
+   42
+  ],
+  "beaute": 5,
+  "page": "Accueil",
+  "emplacement": "ouverture : portrait dans le cercle",
+  "alt": "Sandra Barba, souriante, accoudée à une rampe en fer forgé devant un mur de pierre"
+ },
+ {
+  "source": "recu/site/psychotherapie-sophrologie-sandra-barba.jpg",
+  "nom": "sandra-rampe-portrait",
+  "role": "portrait",
+  "ratio": "4:5",
+  "largeurs": [
+   480,
+   640,
+   960
+  ],
+  "cadrage": [
+   46,
+   40
+  ],
+  "beaute": 5,
+  "page": "Rendez-vous",
+  "emplacement": "ouverture de la page Rendez-vous",
+  "alt": "Sandra Barba souriante, appuyée à une rampe en fer forgé"
+ },
+ {
+  "source": "recu/site/sandrabarba.jpg",
+  "nom": "sandra-laine",
+  "role": "portrait",
+  "ratio": "4:5",
+  "cadrage": [
+   50,
+   40
+  ],
+  "beaute": 4,
+  "page": "Accueil",
+  "emplacement": "section Sandra",
+  "alt": "Sandra Barba souriante, emmitouflée dans un pull de laine blanc"
+ },
+ {
+  "source": "recu/site/sandra-barba-specialisee-femmes.jpg",
+  "nom": "sandra-bibliotheque",
+  "role": "vignette",
+  "ratio": "1:1",
+  "largeurs": [
+   320,
+   480
+  ],
+  "cadrage": [
+   50,
+   28
+  ],
+  "beaute": 3,
+  "page": "Accueil",
+  "emplacement": "appel final, petit portrait rond",
+  "alt": "Sandra Barba en noir et blanc, devant une bibliothèque"
+ },
+ {
+  "source": "recu/site/nouvel-espace.jpg",
+  "nom": "cabinet-photo",
+  "role": "vignette",
+  "ratio": "4:5",
+  "largeurs": [
+   480,
+   640,
+   800
+  ],
+  "cadrage": [
+   50,
+   62
+  ],
+  "beaute": 3,
+  "page": "Rendez-vous",
+  "emplacement": "accès au cabinet",
+  "alt": "La pièce du cabinet d'Aubignan : divan gris, fauteuil, tapis rond et poutres blanchies"
+ },
+ {
+  "source": "recu/site/conference-prevention-violences.jpg",
+  "nom": "presse",
+  "role": "vignette",
+  "ratio": "841:963",
+  "largeurs": [
+   480,
+   800
+  ],
+  "beaute": 3,
+  "page": "Violences",
+  "emplacement": "engagement associatif",
+  "alt": "Article de presse « Éveiller les consciences sur les violences invisibles », avec la photo de Sandra Barba"
+ },
+ {
+  "source": "recu/site/diplomes-certificats-5.jpg",
+  "nom": "diplome-efpp",
+  "role": "vignette",
+  "ratio": "1230:898",
+  "largeurs": [
+   480,
+   960
+  ],
+  "beaute": 3,
+  "page": "Accueil",
+  "emplacement": "formations (vignettes qui s'ouvrent)",
+  "alt": "Diplôme de praticien en psychothérapie de l'EFPP d'Aix-en-Provence"
+ },
+ {
+  "source": "recu/site/diplomes-certificats-3.jpg",
+  "nom": "diplome-sophrologie",
+  "role": "vignette",
+  "ratio": "1592:1133",
+  "largeurs": [
+   480,
+   960
+  ],
+  "beaute": 3,
+  "page": "Accueil",
+  "emplacement": "formations (vignettes qui s'ouvrent)",
+  "alt": "Certificat de sophrologie en relaxation dynamique et relationnelle, École de Provence, 2002-2005, 414 heures"
+ },
+ {
+  "source": "recu/site/diplome-sandra-barba-tcc.jpg",
+  "nom": "diplome-stress",
+  "role": "vignette",
+  "ratio": "1684:1190",
+  "largeurs": [
+   480,
+   960
+  ],
+  "beaute": 3,
+  "page": "Accueil",
+  "emplacement": "formations (vignettes qui s'ouvrent)",
+  "alt": "Certificat de formation spécialiste du stress post-traumatique, décembre 2021"
+ },
+ {
+  "source": "recu/site/diplomes-certificats-7.jpg",
+  "nom": "diplome-couple",
+  "role": "vignette",
+  "ratio": "1024:724",
+  "largeurs": [
+   480,
+   960
+  ],
+  "beaute": 3,
+  "page": "Accueil",
+  "emplacement": "formations (vignettes qui s'ouvrent)",
+  "alt": "Certificat de formation en coaching conjugal, Formalis, 2019"
+ },
+ {
+  "source": "recu/site/diplomes-certificats-4.jpg",
+  "nom": "diplome-resilience",
+  "role": "vignette",
+  "ratio": "1313:932",
+  "largeurs": [
+   480,
+   960
+  ],
+  "beaute": 3,
+  "page": "Accueil",
+  "emplacement": "formations (vignettes qui s'ouvrent)",
+  "alt": "Attestation de formation « Les facteurs de résilience », animée par Boris Cyrulnik, 2019"
+ },
+ {
+  "source": "recu/grok/cabinet-lumiere.jpg",
+  "source_mobile": "recu/grok/cabinet-lumiere-mobile.jpg",
+  "nom": "grok/cabinet-lumiere",
+  "role": "section-fond",
+  "mobile": true,
+  "ratio": "3:2",
+  "cadrage": [
+   55,
+   55
+  ],
+  "beaute": 5,
+  "page": "Accueil",
+  "emplacement": "le cabinet qui s'ouvre en plein écran",
+  "zone_texte": "gauche",
+  "alt": "La pièce du cabinet en lumière douce : poutres blanchies, divan de velours gris, fauteuil et lampe en bois flotté"
+ },
+ {
+  "source": "recu/grok/divan.jpg",
+  "nom": "grok/divan",
+  "role": "carte-service",
+  "ratio": "4:5",
+  "cadrage": [
+   45,
+   55
+  ],
+  "beaute": 4,
+  "page": "Accueil",
+  "emplacement": "carte Psychothérapie",
+  "alt": "Le divan de velours gris, un plaid plié et un coussin, dans la lumière d'une petite fenêtre"
+ },
+ {
+  "source": "recu/grok/deux-fauteuils.jpg",
+  "nom": "grok/deux-fauteuils",
+  "role": "carte-service",
+  "ratio": "4:5",
+  "beaute": 5,
+  "page": "Accueil et Psychothérapie",
+  "emplacement": "carte Couple et famille",
+  "alt": "Deux fauteuils de velours gris tournés l'un vers l'autre, dans la lumière du soir"
+ },
+ {
+  "source": "recu/grok/visio.jpg",
+  "nom": "grok/visio",
+  "role": "carte-service",
+  "ratio": "4:5",
+  "beaute": 5,
+  "page": "Accueil et Psychothérapie",
+  "emplacement": "en visio",
+  "alt": "Un ordinateur portable à demi ouvert sur un bureau en bois, à côté d'une tasse et d'un bocal de verre"
+ },
+ {
+  "source": "recu/grok/voilage.jpg",
+  "source_mobile": "recu/grok/voilage-mobile.jpg",
+  "nom": "grok/voilage",
+  "role": "ouverture",
+  "mobile": true,
+  "beaute": 5,
+  "page": "Sophrologie",
+  "emplacement": "ouverture de la page Sophrologie",
+  "zone_texte": "gauche",
+  "alt": "Un voilage léger soulevé par l'air devant une petite fenêtre"
+ },
+ {
+  "source": "recu/grok/galets.jpg",
+  "nom": "grok/galets",
+  "role": "404",
+  "ratio": "3:2",
+  "largeurs": [
+   800,
+   1500
+  ],
+  "beaute": 4,
+  "page": "404",
+  "emplacement": "page introuvable",
+  "alt": "Des galets empilés dans une lumière chaude"
+ },
+ {
+  "source": "recu/grok/violences-matin.jpg",
+  "source_mobile": "recu/grok/violences-matin-mobile.jpg",
+  "nom": "grok/violences-matin",
+  "role": "ouverture",
+  "mobile": true,
+  "beaute": 5,
+  "page": "Violences",
+  "emplacement": "ouverture de la page Violences, sortir du silence (titre à gauche)",
+  "zone_texte": "gauche",
+  "priorite": "Indispensable",
+  "alt": "La lumière du matin sur un mur blanchi à la chaux, avec l'ombre d'une branche d'olivier",
+  "consigne_scene": "A lime-plastered warm off-white wall in early morning, the soft moving shadow of an olive branch falling across the right part of the wall from a small deep window just out of frame on the right, a fine natural linen curtain at the right edge half drawn and glowing with gentle sunrise light, the left two thirds of the frame calm, pale and empty, hopeful and serene, no person, no furniture, no text, no symbol"
+ },
+ {
+  "source": "recu/grok/psy-fauteuil.jpg",
+  "source_mobile": "recu/grok/psy-fauteuil-mobile.jpg",
+  "nom": "grok/psy-fauteuil",
+  "role": "ouverture",
+  "mobile": true,
+  "beaute": 5,
+  "page": "Psychothérapie",
+  "emplacement": "ouverture de la page Psychothérapie (large bandeau sous le grand titre)",
+  "priorite": "Indispensable",
+  "alt": "Un fauteuil de velours gris avec un coussin de laine, une tasse de thé et une lampe allumée",
+  "consigne_scene": "Close inviting view of a grey velvet egg-shaped armchair with a cream wool cushion, beside it a small pale wood stool with a plain ceramic cup of tea, a tall floor lamp with a bleached driftwood base and a natural linen shade softly glowing, a sprig of olive leaves in a small clear glass vase on the stool, lime-plastered warm off-white wall behind, soft morning daylight from the left, calm and safe, empty chair, no person"
+ },
+ {
+  "source": "recu/grok/souffle-lin.jpg",
+  "nom": "grok/souffle-lin",
+  "role": "carte-service",
+  "ratio": "4:5",
+  "beaute": 5,
+  "page": "Accueil",
+  "emplacement": "section « Ce qui vous amène », image verticale à côté du texte",
+  "priorite": "Indispensable",
+  "alt": "Un pan de lin naturel soulevé par un souffle d'air devant une fenêtre ouverte",
+  "consigne_scene": "A long panel of natural undyed linen fabric hanging in front of a small open window, gently lifted and rounded by a breath of air, soft morning light passing through the weave, the silvery leaves of an olive tree softly blurred beyond the window, minimal and airy, pale beige and warm white tones, no person"
+ },
+ {
+  "source": "recu/grok/olivier-fenetre.jpg",
+  "nom": "grok/olivier-fenetre",
+  "role": "carte-service",
+  "ratio": "4:5",
+  "beaute": 5,
+  "page": "Accueil",
+  "emplacement": "carte Sophrologie",
+  "priorite": "Indispensable",
+  "alt": "Une petite fenêtre dans un mur épais, ouverte sur les feuilles argentées d'un olivier",
+  "consigne_scene": "A small deep window set in a thick lime-plastered off-white wall, opening onto the silvery green leaves of an olive tree softly blurred in morning light, a pale wooden windowsill with one small smooth round stone, gentle diffused light, peaceful, a feeling of fresh air, no person"
+ },
+ {
+  "source": "recu/grok/sophro-chaise.jpg",
+  "nom": "grok/sophro-chaise",
+  "role": "section-fond",
+  "ratio": "3:2",
+  "beaute": 5,
+  "page": "Sophrologie",
+  "emplacement": "section « Qu'est-ce que la sophrologie ? »",
+  "priorite": "Indispensable",
+  "alt": "Une chaise de bois clair et une couverture de lin pliée, dans une pièce lumineuse",
+  "consigne_scene": "A bright calm room with lime-plastered warm off-white walls and a pale wood floor, a simple empty pale wooden chair with a neatly folded natural linen blanket on its seat, facing a tall window with a sheer linen curtain, a small olive tree in a terracotta pot in the corner, soft morning light, lots of quiet empty space on the left, no person"
+ },
+ {
+  "source": "recu/grok/rdv-bureau.jpg",
+  "nom": "grok/rdv-bureau",
+  "role": "carte-service",
+  "ratio": "4:5",
+  "beaute": 5,
+  "page": "Rendez-vous",
+  "emplacement": "à côté du formulaire de demande de rendez-vous",
+  "priorite": "Conseillée",
+  "alt": "Un carnet fermé, un stylo et un brin d'olivier sur un bureau de bois clair",
+  "consigne_scene": "A pale wooden desk against a lime-plastered off-white wall, on it a closed notebook with a natural linen cover, a simple pen, a small glass of water holding a sprig of olive leaves, a smartphone lying face down, soft morning daylight from a window on the left, calm and welcoming, no person, no visible screen, no writing on anything"
+ }
+]

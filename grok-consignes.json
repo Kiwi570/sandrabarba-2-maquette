@@ -1,0 +1,116 @@
+{
+  "client": "Sandra Barba",
+  "activite": "bien-être",
+  "direction": "Respirer",
+  "date": "2026-11-16T13:20:37.019Z",
+  "images": [
+    {
+      "nom": "grok/violences-matin",
+      "fichier": "violences-matin.jpg",
+      "page": "Violences",
+      "emplacement": "ouverture de la page Violences, sortir du silence (titre à gauche) (ordinateur)",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [],
+      "consigne": "A lime-plastered warm off-white wall in early morning, the soft moving shadow of an olive branch falling across the right part of the wall from a small deep window just out of frame on the right, a fine natural linen curtain at the right edge half drawn and glowing with gentle sunrise light, the left two thirds of the frame calm, pale and empty, hopeful and serene, no person, no furniture, no text, no symbol. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, generous empty space on the left third of the frame for a title. Soft natural documentary photography, calm, bright, warm and quietly hopeful, like a slow breath in the morning mood, palette of natural linen beige and warm off-white, soft clay, muted olive green, with small touches of oleander pink, soft clear morning daylight from a small deep window, gentle and diffused, never harsh, tactile lime-plastered off-white walls, natural linen fabric, pale wood, olive leaves, cream wool, charcoal grey velvet, set in an old stone village house in the south of France on a mild late-autumn morning in Provence, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok/violences-matin",
+      "fichier": "violences-matin-mobile.jpg",
+      "page": "Violences",
+      "emplacement": "ouverture de la page Violences, sortir du silence (titre à gauche) (téléphone)",
+      "role": "ouverture",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [],
+      "consigne": "A lime-plastered warm off-white wall in early morning, the soft moving shadow of an olive branch falling across the right part of the wall from a small deep window just out of frame on the right, a fine natural linen curtain at the right edge half drawn and glowing with gentle sunrise light, the left two thirds of the frame calm, pale and empty, hopeful and serene, no person, no furniture, no text, no symbol. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, calm, bright, warm and quietly hopeful, like a slow breath in the morning mood, palette of natural linen beige and warm off-white, soft clay, muted olive green, with small touches of oleander pink, soft clear morning daylight from a small deep window, gentle and diffused, never harsh, tactile lime-plastered off-white walls, natural linen fabric, pale wood, olive leaves, cream wool, charcoal grey velvet, set in an old stone village house in the south of France on a mild late-autumn morning in Provence, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok/psy-fauteuil",
+      "fichier": "psy-fauteuil.jpg",
+      "page": "Psychothérapie",
+      "emplacement": "ouverture de la page Psychothérapie (large bandeau sous le grand titre) (ordinateur)",
+      "role": "ouverture",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [],
+      "consigne": "Close inviting view of a grey velvet egg-shaped armchair with a cream wool cushion, beside it a small pale wood stool with a plain ceramic cup of tea, a tall floor lamp with a bleached driftwood base and a natural linen shade softly glowing, a sprig of olive leaves in a small clear glass vase on the stool, lime-plastered warm off-white wall behind, soft morning daylight from the left, calm and safe, empty chair, no person. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, calm, bright, warm and quietly hopeful, like a slow breath in the morning mood, palette of natural linen beige and warm off-white, soft clay, muted olive green, with small touches of oleander pink, soft clear morning daylight from a small deep window, gentle and diffused, never harsh, tactile lime-plastered off-white walls, natural linen fabric, pale wood, olive leaves, cream wool, charcoal grey velvet, set in an old stone village house in the south of France on a mild late-autumn morning in Provence, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok/psy-fauteuil",
+      "fichier": "psy-fauteuil-mobile.jpg",
+      "page": "Psychothérapie",
+      "emplacement": "ouverture de la page Psychothérapie (large bandeau sous le grand titre) (téléphone)",
+      "role": "ouverture",
+      "format": "9:16",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "ouverture",
+      "pieges": [],
+      "consigne": "Close inviting view of a grey velvet egg-shaped armchair with a cream wool cushion, beside it a small pale wood stool with a plain ceramic cup of tea, a tall floor lamp with a bleached driftwood base and a natural linen shade softly glowing, a sprig of olive leaves in a small clear glass vase on the stool, lime-plastered warm off-white wall behind, soft morning daylight from the left, calm and safe, empty chair, no person. Vertical composition, aspect ratio 9:16, highest resolution available, at least 1080 pixels wide, main subject well inside the central area with generous margins on every side, so the image can be cropped, main subject in the lower half, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, calm, bright, warm and quietly hopeful, like a slow breath in the morning mood, palette of natural linen beige and warm off-white, soft clay, muted olive green, with small touches of oleander pink, soft clear morning daylight from a small deep window, gentle and diffused, never harsh, tactile lime-plastered off-white walls, natural linen fabric, pale wood, olive leaves, cream wool, charcoal grey velvet, set in an old stone village house in the south of France on a mild late-autumn morning in Provence, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok/souffle-lin",
+      "fichier": "souffle-lin.jpg",
+      "page": "Accueil",
+      "emplacement": "section « Ce qui vous amène », image verticale à côté du texte",
+      "role": "carte-service",
+      "format": "4:5",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "A long panel of natural undyed linen fabric hanging in front of a small open window, gently lifted and rounded by a breath of air, soft morning light passing through the weave, the silvery leaves of an olive tree softly blurred beyond the window, minimal and airy, pale beige and warm white tones, no person. Vertical composition, aspect ratio 4:5, main subject well inside the central area with generous margins on every side, so the image can be cropped. Soft natural documentary photography, calm, bright, warm and quietly hopeful, like a slow breath in the morning mood, palette of natural linen beige and warm off-white, soft clay, muted olive green, with small touches of oleander pink, soft clear morning daylight from a small deep window, gentle and diffused, never harsh, tactile lime-plastered off-white walls, natural linen fabric, pale wood, olive leaves, cream wool, charcoal grey velvet, set in an old stone village house in the south of France on a mild late-autumn morning in Provence, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok/olivier-fenetre",
+      "fichier": "olivier-fenetre.jpg",
+      "page": "Accueil",
+      "emplacement": "carte Sophrologie",
+      "role": "carte-service",
+      "format": "4:5",
+      "grok": "784×1168",
+      "priorite": "Indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "A small deep window set in a thick lime-plastered off-white wall, opening onto the silvery green leaves of an olive tree softly blurred in morning light, a pale wooden windowsill with one small smooth round stone, gentle diffused light, peaceful, a feeling of fresh air, no person. Vertical composition, aspect ratio 4:5, main subject well inside the central area with generous margins on every side, so the image can be cropped. Soft natural documentary photography, calm, bright, warm and quietly hopeful, like a slow breath in the morning mood, palette of natural linen beige and warm off-white, soft clay, muted olive green, with small touches of oleander pink, soft clear morning daylight from a small deep window, gentle and diffused, never harsh, tactile lime-plastered off-white walls, natural linen fabric, pale wood, olive leaves, cream wool, charcoal grey velvet, set in an old stone village house in the south of France on a mild late-autumn morning in Provence, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok/sophro-chaise",
+      "fichier": "sophro-chaise.jpg",
+      "page": "Sophrologie",
+      "emplacement": "section « Qu'est-ce que la sophrologie ? »",
+      "role": "section-fond",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "section-fond",
+      "pieges": [],
+      "consigne": "A bright calm room with lime-plastered warm off-white walls and a pale wood floor, a simple empty pale wooden chair with a neatly folded natural linen blanket on its seat, facing a tall window with a sheer linen curtain, a small olive tree in a terracotta pot in the corner, soft morning light, lots of quiet empty space on the left, no person. Landscape composition, aspect ratio 3:2, quiet uncluttered area in the upper half for a title. Soft natural documentary photography, calm, bright, warm and quietly hopeful, like a slow breath in the morning mood, palette of natural linen beige and warm off-white, soft clay, muted olive green, with small touches of oleander pink, soft clear morning daylight from a small deep window, gentle and diffused, never harsh, tactile lime-plastered off-white walls, natural linen fabric, pale wood, olive leaves, cream wool, charcoal grey velvet, set in an old stone village house in the south of France on a mild late-autumn morning in Provence, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok/rdv-bureau",
+      "fichier": "rdv-bureau.jpg",
+      "page": "Rendez-vous",
+      "emplacement": "à côté du formulaire de demande de rendez-vous",
+      "role": "carte-service",
+      "format": "4:5",
+      "grok": "784×1168",
+      "priorite": "Conseillée",
+      "gabarit": "scene-metier",
+      "pieges": [
+        "mains en trop",
+        "écrans",
+        "texte parasite"
+      ],
+      "consigne": "A pale wooden desk against a lime-plastered off-white wall, on it a closed notebook with a natural linen cover, a simple pen, a small glass of water holding a sprig of olive leaves, a smartphone lying face down, soft morning daylight from a window on the left, calm and welcoming, no person, no visible screen, no writing on anything. Vertical composition, aspect ratio 4:5, main subject well inside the central area with generous margins on every side, so the image can be cropped. Soft natural documentary photography, calm, bright, warm and quietly hopeful, like a slow breath in the morning mood, palette of natural linen beige and warm off-white, soft clay, muted olive green, with small touches of oleander pink, soft clear morning daylight from a small deep window, gentle and diffused, never harsh, tactile lime-plastered off-white walls, natural linen fabric, pale wood, olive leaves, cream wool, charcoal grey velvet, set in an old stone village house in the south of France on a mild late-autumn morning in Provence, gentle mist, fine film grain, calm and hopeful, realistic. No religious or spiritual symbols (no buddha, no mandala, no incense, no dreamcatcher), no violet or neon light, no therapy session, no face, no extra hands, no power lines, no pylons. Only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame. Screen turned away from the camera, or showing only a soft abstract glow with no interface; plain unbranded devices. Pages completely blank, blank book spines, abstract unreadable marks, plain unmarked surfaces, dials with tick marks only and no numbers. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "siteActuel": "www.sandrabarba.fr",
+  "pagesTypes": [
+    "/",
+    "/psychotherapie",
+    "/sophrologie",
+    "/violences",
+    "/rendez-vous"
+  ],
+  "effets": [
+    "souffle",
+    "phrase-eclaire",
+    "lumiere",
+    "respiration"
+  ],
+  "grille": {
+    "dispenses": {}
+  }
+}

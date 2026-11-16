@@ -1,0 +1,248 @@
+{
+ "explication": "Maquettes favorites de l'utilisateur : le niveau et le style visés, sur l'accueil ET les pages intérieures. Jamais à copier (ni leur idée, ni leur mise en page) : même harmonie, même fluidité, même soin.",
+ "activite": [
+  "santé"
+ ],
+ "metier": "psychothérapie sophrologie",
+ "besoin": [],
+ "ton": [
+  "doux"
+ ],
+ "univers": [],
+ "ambiance": [],
+ "concept": [],
+ "depot": "sandrabarba-maquette",
+ "favorites_dans_la_bibliotheque": 7,
+ "favorites": [
+  {
+   "rang": 1,
+   "maquette": "coolcanyoning-maquette",
+   "client": "guide de canyoning, via ferrata et escalade diplômé d'État (Yann) dans le Verdon, l'arrière-pays de Nice et le Haut-Var",
+   "metier": "guide de canyoning",
+   "pourquoi": "favorite citée par la skill",
+   "proche": [
+    "activité proche"
+   ],
+   "lumiere": "mixte",
+   "note_maquette": 87,
+   "en_ligne": "https://coolcanyoning-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "coolcanyoning-maquette/heros",
+     "note_section": 4,
+     "titre": "Sauter.Glisser.Descendre.",
+     "capture": "medias/coolcanyoning-maquette/heros-p1440.jpg",
+     "video": "medias/coolcanyoning-maquette/heros-p720.mp4",
+     "fiche": "sections/coolcanyoning-maquette/heros.json",
+     "en_ligne": "https://coolcanyoning-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "manifeste",
+     "id": "coolcanyoning-maquette/le-principe",
+     "note_section": 4,
+     "titre": "La descente · −12 m",
+     "capture": "medias/coolcanyoning-maquette/le-principe-p1440.jpg",
+     "video": null,
+     "fiche": "sections/coolcanyoning-maquette/le-principe.json",
+     "en_ligne": "https://coolcanyoning-maquette.vercel.app"
+    },
+    {
+     "page": "canyoning",
+     "role": "ouverture",
+     "id": "coolcanyoning-maquette/canyoning-ph",
+     "note_section": 3,
+     "titre": "Choisir sa descente.",
+     "capture": "medias/coolcanyoning-maquette/canyoning-ph-p1440.jpg",
+     "video": null,
+     "fiche": "sections/coolcanyoning-maquette/canyoning-ph.json",
+     "en_ligne": "https://coolcanyoning-maquette.vercel.app/canyoning"
+    },
+    {
+     "page": "escalade",
+     "role": "étapes",
+     "id": "coolcanyoning-maquette/escalade-voie-t",
+     "note_section": 4,
+     "titre": "La voie, longueur par longueur",
+     "capture": "medias/coolcanyoning-maquette/escalade-voie-t-p1440.jpg",
+     "video": null,
+     "fiche": "sections/coolcanyoning-maquette/escalade-voie-t.json",
+     "en_ligne": "https://coolcanyoning-maquette.vercel.app/escalade"
+    }
+   ]
+  },
+  {
+   "rang": 2,
+   "maquette": "laure-polin-maquette",
+   "client": "sculptrice (ardoise taillée, bronze, pneu recyclé), atelier à Bagnolet, vente d'œuvres",
+   "metier": "sculptrice",
+   "pourquoi": "favorite citée par la skill",
+   "proche": [],
+   "lumiere": "sombre",
+   "note_maquette": 90,
+   "en_ligne": "https://laure-polin-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "laure-polin-maquette/hero",
+     "note_section": 5,
+     "titre": "Œuvres recomposées en poussière d'ardoise",
+     "capture": "medias/laure-polin-maquette/hero-p1440.jpg",
+     "video": "medias/laure-polin-maquette/hero-p720.mp4",
+     "fiche": "sections/laure-polin-maquette/hero.json",
+     "en_ligne": "https://laure-polin-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "manifeste",
+     "id": "laure-polin-maquette/manifeste",
+     "note_section": 4,
+     "titre": "Manifeste au portrait collant",
+     "capture": "medias/laure-polin-maquette/manifeste-p1440.jpg",
+     "video": "medias/laure-polin-maquette/manifeste-p720.mp4",
+     "fiche": "sections/laure-polin-maquette/manifeste.json",
+     "en_ligne": "https://laure-polin-maquette.vercel.app"
+    },
+    {
+     "page": "oeuvre",
+     "role": "ouverture",
+     "id": "laure-polin-maquette/oeuvre-fiche-entree",
+     "note_section": 3,
+     "titre": "Entrée de la fiche d'œuvre",
+     "capture": "medias/laure-polin-maquette/oeuvre-fiche-entree-p1440.jpg",
+     "video": null,
+     "fiche": "sections/laure-polin-maquette/oeuvre-fiche-entree.json",
+     "en_ligne": "https://laure-polin-maquette.vercel.app/oeuvre"
+    },
+    {
+     "page": "salle",
+     "role": "galerie",
+     "id": "laure-polin-maquette/salle-salle-zone",
+     "note_section": 4,
+     "titre": "Salle horizontale à l'échelle",
+     "capture": "medias/laure-polin-maquette/salle-salle-zone-p1440.jpg",
+     "video": "medias/laure-polin-maquette/salle-salle-zone-p720.mp4",
+     "fiche": "sections/laure-polin-maquette/salle-salle-zone.json",
+     "en_ligne": "https://laure-polin-maquette.vercel.app/salle"
+    }
+   ]
+  },
+  {
+   "rang": 3,
+   "maquette": "chateau-haut-piquat-maquette",
+   "client": "château viticole en Lussac Saint-Émilion : vins, boutique en ligne, visites et événements, site bilingue",
+   "metier": "château viticole, vigneron",
+   "pourquoi": "favorite citée par la skill",
+   "proche": [],
+   "lumiere": "mixte",
+   "note_maquette": 86,
+   "en_ligne": "https://chateau-haut-piquat-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "chateau-haut-piquat-maquette/hero",
+     "note_section": 4,
+     "titre": "Château Haut-Piquat",
+     "capture": "medias/chateau-haut-piquat-maquette/hero-p1440.jpg",
+     "video": "medias/chateau-haut-piquat-maquette/hero-p720.mp4",
+     "fiche": "sections/chateau-haut-piquat-maquette/hero.json",
+     "en_ligne": "https://chateau-haut-piquat-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "manifeste",
+     "id": "chateau-haut-piquat-maquette/terroir",
+     "note_section": 5,
+     "titre": "Sous la vigne, le calcaireBeneath the vines, limestone",
+     "capture": "medias/chateau-haut-piquat-maquette/terroir-p1440.jpg",
+     "video": "medias/chateau-haut-piquat-maquette/terroir-p720.mp4",
+     "fiche": "sections/chateau-haut-piquat-maquette/terroir.json",
+     "en_ligne": "https://chateau-haut-piquat-maquette.vercel.app"
+    },
+    {
+     "page": "oenotourisme",
+     "role": "ouverture",
+     "id": "chateau-haut-piquat-maquette/oenotourisme-ohero",
+     "note_section": 5,
+     "titre": "Passer l’archeThrough the arch",
+     "capture": "medias/chateau-haut-piquat-maquette/oenotourisme-ohero-p1440.jpg",
+     "video": "medias/chateau-haut-piquat-maquette/oenotourisme-ohero-p720.mp4",
+     "fiche": "sections/chateau-haut-piquat-maquette/oenotourisme-ohero.json",
+     "en_ligne": "https://chateau-haut-piquat-maquette.vercel.app/oenotourisme"
+    },
+    {
+     "page": "vins",
+     "role": "produits",
+     "id": "chateau-haut-piquat-maquette/vins-cave",
+     "note_section": 5,
+     "titre": "Le tour de la caveA tour of the cellar",
+     "capture": "medias/chateau-haut-piquat-maquette/vins-cave-p1440.jpg",
+     "video": "medias/chateau-haut-piquat-maquette/vins-cave-p720.mp4",
+     "fiche": "sections/chateau-haut-piquat-maquette/vins-cave.json",
+     "en_ligne": "https://chateau-haut-piquat-maquette.vercel.app/vins"
+    }
+   ]
+  },
+  {
+   "rang": 4,
+   "maquette": "les-plus-hautes-eaux-maquette",
+   "client": "compagnie de théâtre gestuel et clown pour tous publics, tournée dans le Grand Ouest",
+   "metier": "compagnie de théâtre",
+   "pourquoi": "favorite citée par la skill",
+   "proche": [],
+   "lumiere": "sombre",
+   "note_maquette": 90,
+   "en_ligne": "https://les-plus-hautes-eaux-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "les-plus-hautes-eaux-maquette/haut",
+     "note_section": 5,
+     "titre": "Héros sous la montée des eaux",
+     "capture": "medias/les-plus-hautes-eaux-maquette/haut-p1440.jpg",
+     "video": "medias/les-plus-hautes-eaux-maquette/haut-p720.mp4",
+     "fiche": "sections/les-plus-hautes-eaux-maquette/haut.json",
+     "en_ligne": "https://les-plus-hautes-eaux-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "manifeste",
+     "id": "les-plus-hautes-eaux-maquette/crue-1910",
+     "note_section": 4,
+     "titre": "L'origine du nom, 1910",
+     "capture": "medias/les-plus-hautes-eaux-maquette/crue-1910-p1440.jpg",
+     "video": "medias/les-plus-hautes-eaux-maquette/crue-1910-p720.mp4",
+     "fiche": "sections/les-plus-hautes-eaux-maquette/crue-1910.json",
+     "en_ligne": "https://les-plus-hautes-eaux-maquette.vercel.app"
+    },
+    {
+     "page": "spectacles/carnet-de-routes",
+     "role": "ouverture",
+     "id": "les-plus-hautes-eaux-maquette/spectacles-carnet-de-routes-f-hero",
+     "note_section": 4,
+     "titre": "Tête de fiche spectacle",
+     "capture": "medias/les-plus-hautes-eaux-maquette/spectacles-carnet-de-routes-f-hero-p1440.jpg",
+     "video": "medias/les-plus-hautes-eaux-maquette/spectacles-carnet-de-routes-f-hero-p720.mp4",
+     "fiche": "sections/les-plus-hautes-eaux-maquette/spectacles-carnet-de-routes-f-hero.json",
+     "en_ligne": "https://les-plus-hautes-eaux-maquette.vercel.app/spectacles/carnet-de-routes"
+    },
+    {
+     "page": "agenda",
+     "role": "agenda",
+     "id": "les-plus-hautes-eaux-maquette/agenda-t-venir",
+     "note_section": 4,
+     "titre": "Prochaines représentations",
+     "capture": "medias/les-plus-hautes-eaux-maquette/agenda-t-venir-p1440.jpg",
+     "video": "medias/les-plus-hautes-eaux-maquette/agenda-t-venir-p720.mp4",
+     "fiche": "sections/les-plus-hautes-eaux-maquette/agenda-t-venir.json",
+     "en_ligne": "https://les-plus-hautes-eaux-maquette.vercel.app/agenda"
+    }
+   ]
+  }
+ ]
+}

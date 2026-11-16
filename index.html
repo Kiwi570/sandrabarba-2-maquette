@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-curseur>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sandra Barba : psychothérapie et sophrologie à Aubignan et en visio</title>
+<meta name="description" content="Psychothérapie, sophrologie, coaching de couple et de famille à Aubignan (Vaucluse) et en visio, depuis 2005. Séance d&#39;une heure : 65 €.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://sandrabarba-2-maquette.vercel.app/">
+<style>:root{--fond:#F3EEE6;--texte:#2B2622;--voile-fond:#26332C;--ouverture-fond:#F3EEE6;--menu-fond:#F3EEE6}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/figtree.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#F3EEE6">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Sandra Barba">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Sandra Barba : psychothérapie et sophrologie à Aubignan et en visio">
+<meta property="og:description" content="Psychothérapie, sophrologie, coaching de couple et de famille à Aubignan (Vaucluse) et en visio, depuis 2005. Séance d&#39;une heure : 65 €.">
+<meta property="og:url" content="https://sandrabarba-2-maquette.vercel.app/">
+<meta property="og:image" content="https://sandrabarba-2-maquette.vercel.app/assets/partage/accueil-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Sandra Barba souriante, et l&#39;accroche « La vie est un combat, ne le vivez plus seul·e »">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Cabinet Sandra Barba, psychothérapie et sophrologie","description":"Psychothérapie, sophrologie, coaching de couple et de famille, à Aubignan et en visio, depuis 2005.","telephone":"+33760365832","email":"info@sandrabarba.fr","address":{"@type":"PostalAddress","streetAddress":"89 rue du Portail Neuf","postalCode":"84810","addressLocality":"Aubignan","addressCountry":"FR"},"priceRange":"65 €","sameAs":["https://www.facebook.com/psrcom","https://www.instagram.com/cabinet_psrcom/","https://www.linkedin.com/in/sandra-barba-37282977/"]}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="vague" aria-hidden="true"><svg class="voile-vague voile-vague--haut" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 120 C 240 20 480 20 720 70 S 1200 130 1440 40 V 120 H 0 Z"/></svg><svg class="voile-vague voile-vague--bas" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 0 C 240 100 480 100 720 50 S 1200 -10 1440 80 V 0 H 0 Z"/></svg><div class="voile-contenu"><img src="/assets/images/logo-clair.svg" alt="" width="64" height="47"><span data-voile-libelle>Accueil</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <div class="ouverture-souffle" data-ouverture-objet><span class="ouverture-mot ouverture-mot--in">Inspirez</span><span class="ouverture-mot ouverture-mot--out">Soufflez</span></div>
+  <p class="ouverture-nom">Sandra Barba</p>
+  <p class="ouverture-ligne">Psychothérapie · Sophrologie</p>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil" aria-current="page">
+      <img src="/assets/images/logo.svg" alt="" width="44" height="32"><span class="entete-nom">Sandra Barba<small>Psychothérapie · Sophrologie</small></span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/psychotherapie" data-libelle="Psychothérapie">Psychothérapie</a></li><li><a href="/sophrologie" data-libelle="Sophrologie">Sophrologie</a></li><li><a href="/violences" data-libelle="Violences">Violences</a></li><li><a href="/rendez-vous" data-libelle="Rendez-vous">Rendez-vous</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/rendez-vous#demande" data-libelle="Rendez-vous">Prendre rendez-vous</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil" aria-current="page">Accueil</a></li><li style="--i:1"><a href="/psychotherapie" class="menu-lien" data-libelle="Psychothérapie">Psychothérapie</a></li><li style="--i:2"><a href="/sophrologie" class="menu-lien" data-libelle="Sophrologie">Sophrologie</a></li><li style="--i:3"><a href="/violences" class="menu-lien" data-libelle="Violences">Violences</a></li><li style="--i:4"><a href="/rendez-vous" class="menu-lien" data-libelle="Rendez-vous">Rendez-vous</a></li></ul>
+  <p><a class="bouton" href="tel:+33760365832">Appeler 07 60 36 58 32</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="hero hero-accueil" id="debut">
+  <div class="hero-texte">
+    <p class="surtitre" data-anime="gsap"><span class="ouv-suite">Psychothérapie · Sophrologie · Aubignan et en visio</span></p>
+    <h1 class="hero-titre" data-anime="gsap"><span class="ligne-masque"><span class="ouv-ligne">La vie est un combat.</span></span><span class="ligne-masque"><span class="ouv-ligne">Ne le vivez</span></span><span class="ligne-masque"><span class="ouv-ligne"><em>plus seul·e.</em></span></span></h1>
+    <p class="hero-intro masque-ecran-tres-bas" data-anime="gsap"><span class="ouv-suite">Depuis 2005, Sandra Barba accompagne les adultes, seuls, en couple ou en famille. Un travail de parole, et la sophrologie pour retrouver son souffle.</span></p>
+    <p class="hero-actions" data-anime="gsap">
+      <span class="ouv-suite hero-boutons"><a href="/rendez-vous#demande" class="bouton" data-libelle="Rendez-vous" data-action-principale data-survol="magnetique">Prendre rendez-vous</a>
+      <a class="bouton bouton--contour" href="tel:+33760365832">07 60 36 58 32</a></span>
+    </p>
+    <p class="hero-info" data-info-cle data-anime="gsap"><span class="ouv-suite">Séance d&#39;une heure · 65 € · au cabinet ou en visio</span></p>
+  </div>
+  <div class="hero-portrait" data-boucle-css>
+    <div class="souffle-halo" data-effet="souffle" data-boucle-css data-audit-ignorer aria-hidden="true"><span></span><span></span><span></span></div>
+    <figure class="media hero-media" data-fx="parallaxe" data-fx-force="6" data-iris-centre="disque" style="--cadrage:46% 42%">
+  <picture>
+    <img src="/assets/images/sandra-rampe-1200.webp" srcset="/assets/images/sandra-rampe-480.webp 480w, /assets/images/sandra-rampe-800.webp 800w, /assets/images/sandra-rampe-1200.webp 1200w" sizes="(max-width: 760px) 40vw, 42vw" alt="Sandra Barba, souriante, accoudée à une rampe en fer forgé devant un mur de pierre" width="1200" height="1200" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+  </div>
+</section>
+<section class="section amene" id="ce-qui-vous-amene">
+  <div class="conteneur amene-grille">
+    <div class="amene-texte">
+      <h2 class="surtitre">Ce qui vous amène</h2>
+      <p class="phrase-eclaire" data-effet="phrase-eclaire"><span class="pe-mot">Un</span> <span class="pe-mot">deuil.</span> <span class="pe-mot">Une</span> <span class="pe-mot">séparation.</span> <span class="pe-mot">Un</span> <span class="pe-mot">burn-out.</span> <span class="pe-mot">Des</span> <span class="pe-mot">nuits</span> <span class="pe-mot">trop</span> <span class="pe-mot">courtes,</span> <span class="pe-mot">une</span> <span class="pe-mot">angoisse</span> <span class="pe-mot">qui</span> <span class="pe-mot">ne</span> <span class="pe-mot">part</span> <span class="pe-mot">pas,</span> <span class="pe-mot">un</span> <span class="pe-mot">couple</span> <span class="pe-mot">qui</span> <span class="pe-mot">ne</span> <span class="pe-mot">se</span> <span class="pe-mot">parle</span> <span class="pe-mot">plus.</span> <span class="pe-mot">Ou</span> <span class="pe-mot">un</span> <span class="pe-mot">passé</span> <span class="pe-mot">qui</span> <span class="pe-mot">remonte,</span> <span class="pe-mot">des</span> <span class="pe-mot">années</span> <span class="pe-mot">après.</span> </p>
+      <p class="amene-suite" data-anime>Vous n&#39;avez pas besoin de savoir par où commencer : la première séance sert à faire le point, ensemble.</p>
+    </div>
+    <figure class="media amene-media" data-grok data-fx="zoom" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/souffle-lin-784.webp" srcset="/assets/images/grok/souffle-lin-480.webp 480w, /assets/images/grok/souffle-lin-640.webp 640w, /assets/images/grok/souffle-lin-784.webp 784w" sizes="(max-width: 760px) 100vw, 34vw" alt="Un pan de lin naturel soulevé par un souffle d&#39;air devant une fenêtre ouverte" width="784" height="980" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  </div>
+</section>
+<section class="section offres fond-argile" id="accompagnements">
+  <div class="conteneur">
+    <p class="surtitre">Trois accompagnements</p>
+    <h2 class="titre-section" data-anime="lignes">Besoin d&#39;aide, de souffler, <em>ou de vous parler ?</em></h2>
+    <div class="offres-grille" data-anime="cascade">
+      <article class="offre" data-survol="incline" data-survol-force="4">
+        <figure class="media offre-media" data-grok style="--cadrage:50% 50%;aspect-ratio:4 / 5">
+  <picture>
+    <img src="/assets/images/grok/divan-784.webp" srcset="/assets/images/grok/divan-480.webp 480w, /assets/images/grok/divan-640.webp 640w, /assets/images/grok/divan-784.webp 784w" sizes="(max-width: 760px) 90vw, 30vw" alt="" width="784" height="980" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+        <div class="offre-corps">
+          <p class="offre-besoin">Besoin d&#39;aide</p>
+          <h3>Psychothérapie</h3>
+          <p>Affronter un moment difficile, se reconstruire, retrouver le sourire.</p>
+          <p class="offre-prix" data-prix>1 h · 65 € · au cabinet ou en visio</p>
+          <a href="/psychotherapie" class="lien-fleche" data-libelle="Psychothérapie">Découvrir<span class="visuellement-cache"> : Psychothérapie</span></a>
+        </div>
+      </article><article class="offre" data-survol="incline" data-survol-force="4">
+        <figure class="media offre-media" data-grok style="--cadrage:50% 50%;aspect-ratio:4 / 5">
+  <picture>
+    <img src="/assets/images/grok/olivier-fenetre-784.webp" srcset="/assets/images/grok/olivier-fenetre-480.webp 480w, /assets/images/grok/olivier-fenetre-640.webp 640w, /assets/images/grok/olivier-fenetre-784.webp 784w" sizes="(max-width: 760px) 90vw, 30vw" alt="" width="784" height="980" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+        <div class="offre-corps">
+          <p class="offre-besoin">Besoin de souffler</p>
+          <h3>Sophrologie</h3>
+          <p>Recontacter votre corps, gérer les stress, les tensions et les émotions.</p>
+          <p class="offre-prix" data-prix>1 h · 65 €</p>
+          <a href="/sophrologie" class="lien-fleche" data-libelle="Sophrologie">Découvrir<span class="visuellement-cache"> : Sophrologie</span></a>
+        </div>
+      </article><article class="offre" data-survol="incline" data-survol-force="4">
+        <figure class="media offre-media" data-grok style="--cadrage:50% 50%;aspect-ratio:4 / 5">
+  <picture>
+    <img src="/assets/images/grok/deux-fauteuils-784.webp" srcset="/assets/images/grok/deux-fauteuils-480.webp 480w, /assets/images/grok/deux-fauteuils-640.webp 640w, /assets/images/grok/deux-fauteuils-784.webp 784w" sizes="(max-width: 760px) 90vw, 30vw" alt="" width="784" height="980" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+        <div class="offre-corps">
+          <p class="offre-besoin">Besoin de communiquer</p>
+          <h3>Couple et famille</h3>
+          <p>Se comprendre, s&#39;écouter, se respecter.</p>
+          <p class="offre-prix" data-prix>Couple 1 h 15 · Famille 1 h · 65 €</p>
+          <a href="/psychotherapie#couple" class="lien-fleche" data-libelle="Psychothérapie">Découvrir<span class="visuellement-cache"> : Couple et famille</span></a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+<section class="section sandra" id="sandra">
+  <div class="conteneur sandra-grille">
+    <figure class="media sandra-media" data-anime="rideau" style="--cadrage:50% 40%">
+  <picture>
+    <img src="/assets/images/sandra-laine-784.webp" srcset="/assets/images/sandra-laine-480.webp 480w, /assets/images/sandra-laine-640.webp 640w, /assets/images/sandra-laine-784.webp 784w" sizes="(max-width: 760px) 90vw, 400px" alt="Sandra Barba souriante, emmitouflée dans un pull de laine blanc" width="784" height="980" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="sandra-texte">
+      <p class="surtitre">Avec Sandra Barba</p>
+      <h2 class="titre-section" data-anime="lignes">Je suis comme vous. <em>Une femme.</em></h2>
+      <blockquote class="citation" data-anime="mots"><p>« J&#39;ai toujours considéré la vie comme un combat. »</p></blockquote>
+      <p data-anime>Depuis 2005, Sandra Barba accompagne des adultes, seuls, en couple ou en famille. Formée à la psychanalyse et à la pratique de la psychothérapie à l&#39;EFPP d&#39;Aix-en-Provence, puis aux thérapies cognitives et comportementales et au stress post-traumatique, elle s&#39;est spécialisée dans l&#39;accompagnement des victimes de violences. Elle intervient aussi en structures sociales, donne des conférences et forme des professionnels.</p>
+      <div class="seule" data-anime>
+        <svg class="seule-icone" viewBox="0 0 40 40" aria-hidden="true"><path d="M8 11h24v15H18l-6 5v-5H8z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="15" cy="18.5" r="1.6"/><circle cx="20" cy="18.5" r="1.6"/><circle cx="25" cy="18.5" r="1.6"/></svg>
+        <div><h3>Plus jamais seule</h3><p>Entre deux séances, Sandra reste joignable par SMS et par e-mail, sans supplément : le lien ne s&#39;arrête pas à la porte du cabinet.</p></div>
+      </div>
+    </div>
+  </div>
+  <div class="conteneur formations">
+    <h3 class="formations-titre">Formations</h3>
+    <div class="formations-piste" tabindex="0" role="region" aria-label="Formations">
+    <ul class="formations-liste" data-anime="cascade">
+      <li id="diplome-efpp">
+        <a class="formation" href="#diplome-efpp" data-sans-transition data-visionneuse="diplome-efpp">
+          <img src="/assets/images/diplome-efpp-480.webp" alt="" width="480" height="350" loading="lazy" decoding="async">
+          <span class="formation-titre">Praticienne en psychothérapie</span>
+          <span class="formation-detail">EFPP, Aix-en-Provence</span>
+          <span class="formation-voir">Voir<span class="visuellement-cache"> : Praticienne en psychothérapie</span></span>
+        </a>
+      </li><li id="diplome-sophrologie">
+        <a class="formation" href="#diplome-sophrologie" data-sans-transition data-visionneuse="diplome-sophrologie">
+          <img src="/assets/images/diplome-sophrologie-480.webp" alt="" width="480" height="342" loading="lazy" decoding="async">
+          <span class="formation-titre">Sophrologie, relaxation dynamique et relationnelle</span>
+          <span class="formation-detail">École de Provence, 2002-2005, 414 heures</span>
+          <span class="formation-voir">Voir<span class="visuellement-cache"> : Sophrologie, relaxation dynamique et relationnelle</span></span>
+        </a>
+      </li><li id="diplome-stress">
+        <a class="formation" href="#diplome-stress" data-sans-transition data-visionneuse="diplome-stress">
+          <img src="/assets/images/diplome-stress-480.webp" alt="" width="480" height="339" loading="lazy" decoding="async">
+          <span class="formation-titre">Spécialiste du stress post-traumatique</span>
+          <span class="formation-detail">Décembre 2021</span>
+          <span class="formation-voir">Voir<span class="visuellement-cache"> : Spécialiste du stress post-traumatique</span></span>
+        </a>
+      </li><li id="diplome-couple">
+        <a class="formation" href="#diplome-couple" data-sans-transition data-visionneuse="diplome-couple">
+          <img src="/assets/images/diplome-couple-480.webp" alt="" width="480" height="339" loading="lazy" decoding="async">
+          <span class="formation-titre">Coaching conjugal</span>
+          <span class="formation-detail">Formalis, 2019</span>
+          <span class="formation-voir">Voir<span class="visuellement-cache"> : Coaching conjugal</span></span>
+        </a>
+      </li><li id="diplome-resilience">
+        <a class="formation" href="#diplome-resilience" data-sans-transition data-visionneuse="diplome-resilience">
+          <img src="/assets/images/diplome-resilience-480.webp" alt="" width="480" height="341" loading="lazy" decoding="async">
+          <span class="formation-titre">Les facteurs de résilience, avec Boris Cyrulnik</span>
+          <span class="formation-detail">Formation, 2019</span>
+          <span class="formation-voir">Voir<span class="visuellement-cache"> : Les facteurs de résilience, avec Boris Cyrulnik</span></span>
+        </a>
+      </li>
+    </ul>
+    </div>
+  </div>
+</section>
+<section class="section violences-bande fond-olive" id="violences">
+  <div class="lumiere" data-effet="lumiere" aria-hidden="true"></div>
+  <div class="conteneur vb-grille">
+    <div class="vb-texte">
+      <p class="surtitre">Spécialisation</p>
+      <h2 class="titre-section" data-anime="lignes">Victimes de violences, <em>dans l&#39;enfance ou dans le couple.</em></h2>
+      <p data-anime>Beaucoup de femmes cachent leur passé derrière une grande force de vie, jusqu&#39;au jour où tout remonte. Mettre des mots, en parler, sortir du silence, aidée par une professionnelle : c&#39;est le cœur de son travail depuis 2005.</p>
+      <p class="vb-certif" data-anime>Certifiée en accompagnement sur les violences sexuelles et l&#39;inceste.</p>
+      <p data-anime><a href="/violences" class="bouton bouton--clair" data-libelle="Violences" data-survol="magnetique">Sortir du silence</a></p>
+    </div>
+    <div class="vb-visuel" data-visuel>
+      <ul class="vb-formes" data-anime="cascade"><li>Psychologiques</li><li>Physiques</li><li>Sexuelles</li><li>Économiques</li></ul>
+      <div class="vb-numeros" data-anime="cascade">
+        <p><a href="tel:17"><strong>17</strong></a> En danger maintenant (ou le 112).</p>
+        <p><a href="tel:3919"><strong>3919</strong></a> Violences Femmes Info : écoute anonyme et gratuite.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section deroule" id="deroule">
+  <div class="conteneur deroule-grille">
+    <div>
+      <p class="surtitre">Comment ça se passe</p>
+      <h2 class="titre-section" data-anime="lignes">Un premier pas, <em>à votre rythme.</em></h2>
+      <div class="etapes-cadre">
+      <ol class="etapes" data-anime="cascade">
+        <li><span class="etape-num" aria-hidden="true">1</span><div><h3>Vous appelez ou vous écrivez</h3><p>Par téléphone, par SMS, par e-mail ou par la demande en ligne, du lundi au samedi.</p></div></li><li><span class="etape-num" aria-hidden="true">2</span><div><h3>La première séance fait le point</h3><p>On fait le point sur vos besoins, puis on choisit ensemble un accompagnement adapté, qui peut évoluer.</p></div></li><li><span class="etape-num" aria-hidden="true">3</span><div><h3>Au cabinet ou en visio</h3><p>À Aubignan ou de chez vous, de façon identique. C&#39;est vous qui décidez du rythme de vos séances.</p></div></li><li><span class="etape-num" aria-hidden="true">4</span><div><h3>Entre deux séances</h3><p>Un SMS ou un e-mail, si vous en avez besoin. Le lien ne s&#39;arrête pas à la fin de l&#39;heure.</p></div></li>
+      </ol>
+      <svg class="etapes-trait" viewBox="0 0 12 400" preserveAspectRatio="none" aria-hidden="true" data-fx="trace"><path d="M6 4 C 10 100, 2 200, 6 300 S 8 380, 6 396" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg>
+      </div>
+    </div>
+    <figure class="media deroule-media" data-grok data-anime="rideau" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/visio-784.webp" srcset="/assets/images/grok/visio-480.webp 480w, /assets/images/grok/visio-640.webp 640w, /assets/images/grok/visio-784.webp 784w" sizes="(max-width: 760px) 90vw, 340px" alt="Un ordinateur portable à demi ouvert sur un bureau en bois, à côté d&#39;une tasse et d&#39;un bocal de verre" width="784" height="980" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  </div>
+</section>
+<section class="section avis fond-argile" id="avis">
+  <div class="conteneur">
+    <p class="surtitre">Témoignages</p>
+    <h2 class="titre-section" data-anime="lettres">Elles en parlent</h2>
+    <svg class="avis-guillemet" viewBox="0 0 120 90" aria-hidden="true" data-visuel data-fx="trace"><path d="M48 10 C 22 18 8 40 10 64 C 12 80 26 86 36 82 C 48 78 50 62 40 56 C 30 50 18 56 18 56 M108 10 C 82 18 68 40 70 64 C 72 80 86 86 96 82 C 108 78 110 62 100 56 C 90 50 78 56 78 56" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+    <div class="avis-grille" data-anime="cascade">
+      <figure class="avis-carte"><blockquote><p>Une vraie écoute et attention qui me font sentir enfin prise en compte, et ça me motive tellement pour continuer à m’améliorer !</p></blockquote><figcaption>Fanny M. · Facebook</figcaption></figure><figure class="avis-carte"><blockquote><p>Le lien sans discontinuité. À l’écoute. Disponible, jamais seule. Rarissime.</p></blockquote><figcaption>Roze D. · Facebook</figcaption></figure><figure class="avis-carte"><blockquote><p>Elle a beau dire que c’est pas une magicienne, ça reste quelqu’un de surprenant, à l’écoute, jamais seule, attentive, attentionnée. Je recommande.</p></blockquote><figcaption>Claire P. · Resalib, novembre 2018</figcaption></figure>
+    </div>
+    <p class="avis-note">Avis publiés sur Facebook et Resalib, repris mot pour mot.</p>
+  </div>
+</section>
+<section class="cabinet" id="cabinet" data-fx="plein-ecran" data-fx-depart="inset(20% 26% 20% 26% round 32px)" style="--fx-longueur: 210svh">
+  <div data-collant>
+    <figure class="media cabinet-media" data-grok data-fx-cible style="--cadrage:55% 55%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/cabinet-lumiere-mobile-640.webp 640w, /assets/images/grok/cabinet-lumiere-mobile-1080.webp 1080w" sizes="100vw">
+    <img src="/assets/images/grok/cabinet-lumiere-1280.webp" srcset="/assets/images/grok/cabinet-lumiere-640.webp 640w, /assets/images/grok/cabinet-lumiere-1280.webp 1280w, /assets/images/grok/cabinet-lumiere-1920.webp 1920w" sizes="100vw" alt="La pièce du cabinet en lumière douce : poutres blanchies, divan de velours gris, fauteuil et lampe en bois flotté" width="1280" height="853" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <p class="cabinet-mot cabinet-mot--g" data-fx-ecarte="g" data-superpose aria-hidden="true">Aubignan</p>
+    <p class="cabinet-mot cabinet-mot--d" data-fx-ecarte="d" data-superpose aria-hidden="true">ou en visio</p>
+    <div class="cabinet-legende" data-fx-apres>
+      <h2>Un cabinet au calme, <em>à Aubignan.</em></h2>
+      <p class="cabinet-adresse">89 rue du Portail Neuf, 84810 Aubignan · Parking gratuit à proximité.</p>
+      <p class="masque-ecran-bas">La séance en visio se déroule de façon identique au cabinet. Pour les personnes à mobilité réduite, un rendez-vous à domicile est possible sur demande.</p>
+      <p><a href="/rendez-vous#acces" class="lien-fleche" data-libelle="Rendez-vous">Voir l&#39;accès</a></p>
+    </div>
+  </div>
+</section>
+<section class="fin fond-olive" id="fin">
+  <div class="conteneur fin-grille">
+    <figure class="media fin-portrait" data-fx="zoom" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/sandra-bibliotheque-480.webp" srcset="/assets/images/sandra-bibliotheque-320.webp 320w, /assets/images/sandra-bibliotheque-480.webp 480w" sizes="200px" alt="Sandra Barba, portrait en noir et blanc" width="480" height="480" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <div class="fin-texte">
+      <p class="surtitre">Un premier pas</p>
+      <h2 class="titre-section" data-anime="lignes">Et si vous commenciez <em>par en parler ?</em></h2>
+      <p class="fin-intro" data-anime>Un appel, un SMS ou un e-mail suffit. La première séance sert à faire le point sur vos besoins, à votre rythme.</p>
+      <p class="fin-actions" data-anime="cascade">
+        <a href="/rendez-vous#demande" class="bouton" data-libelle="Rendez-vous" data-survol="magnetique">Prendre rendez-vous</a>
+        <a class="bouton bouton--contour" href="tel:+33760365832" data-survol="magnetique">07 60 36 58 32</a>
+        <a class="bouton bouton--contour" href="sms:+33760365832" data-survol="magnetique">Envoyer un SMS</a>
+      </p>
+      <p class="fin-info">Du lundi au samedi, sur rendez-vous · au cabinet d&#39;Aubignan ou en visio</p>
+    </div>
+  </div>
+  <div class="fin-lueur" aria-hidden="true" data-effet="lueur" data-boucle-css data-audit-ignorer></div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <p class="pied-logo"><img src="/assets/images/logo-clair.svg" alt="" width="56" height="41"><strong>Sandra Barba</strong></p>
+      <p>Psychothérapie · Sophrologie<br>89 rue du Portail Neuf, 84810 Aubignan</p>
+      <p><a href="tel:+33760365832">07 60 36 58 32</a><br><a href="mailto:info@sandrabarba.fr">info@sandrabarba.fr</a></p>
+    </div>
+    <nav aria-label="Le site">
+      <p class="pied-titre">Le site</p>
+      <ul><li><a href="/" data-libelle="Accueil" aria-current="page">Accueil</a></li><li><a href="/psychotherapie" data-libelle="Psychothérapie">Psychothérapie</a></li><li><a href="/sophrologie" data-libelle="Sophrologie">Sophrologie</a></li><li><a href="/violences" data-libelle="Violences">Violences</a></li><li><a href="/rendez-vous" data-libelle="Rendez-vous">Rendez-vous</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Suivre le cabinet</p>
+      <ul><li><a href="https://www.facebook.com/psrcom" target="_blank" rel="noopener">Facebook<span class="visuellement-cache"> (s&#39;ouvre dans un nouvel onglet)</span></a></li><li><a href="https://www.instagram.com/cabinet_psrcom/" target="_blank" rel="noopener">Instagram<span class="visuellement-cache"> (s&#39;ouvre dans un nouvel onglet)</span></a></li><li><a href="https://www.linkedin.com/in/sandra-barba-37282977/" target="_blank" rel="noopener">LinkedIn<span class="visuellement-cache"> (s&#39;ouvre dans un nouvel onglet)</span></a></li><li><a href="#haut" data-sans-transition>Retour en haut</a></li></ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas">
+    <p>Pratique de psychothérapie hors du cadre réglementé du titre de psychothérapeute. SIRET 514 610 393 00019.</p>
+    <p class="a-completer">Mentions légales · à compléter</p>
+    <p class="a-completer">Politique de confidentialité · à compléter</p>
+    <p>Maquette de démonstration : formulaires simulés, rien n&#39;est envoyé. © Sandra Barba</p>
+  </div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33760365832">Appeler</a>
+  <a class="bouton" href="/rendez-vous#demande" data-libelle="Rendez-vous">Rendez-vous</a>
+</div>
+</body>
+</html>

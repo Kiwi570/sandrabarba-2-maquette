@@ -1,0 +1,7 @@
+[
+  { "id": "diplome-efpp", "image": "diplome-efpp", "titre": "Praticienne en psychothérapie", "detail": "EFPP, Aix-en-Provence" },
+  { "id": "diplome-sophrologie", "image": "diplome-sophrologie", "titre": "Sophrologie, relaxation dynamique et relationnelle", "detail": "École de Provence, 2002-2005, 414 heures" },
+  { "id": "diplome-stress", "image": "diplome-stress", "titre": "Spécialiste du stress post-traumatique", "detail": "Décembre 2021" },
+  { "id": "diplome-couple", "image": "diplome-couple", "titre": "Coaching conjugal", "detail": "Formalis, 2019" },
+  { "id": "diplome-resilience", "image": "diplome-resilience", "titre": "Les facteurs de résilience, avec Boris Cyrulnik", "detail": "Formation, 2019" }
+]
