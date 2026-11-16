@@ -661,3 +661,9 @@ html:not(.js) .hero-plein { min-height: calc(100svh - 80px); padding-top: 24px; 
   .hx-prix span span { display: none; }
   .hx-prix strong { font-size: clamp(2.4rem, 12vh, 3.4rem); }
 }
+
+/* v2 : les mots du cabinet restent dans les bandes libres au-dessus et au-dessous de l'image de départ
+   (découpe inset(20% 26%…)) : l'image ne les recouvre qu'en s'agrandissant. */
+.cabinet-mot { font-size: clamp(2.2rem, min(7.4vw, 10.5vh), 7.6rem); line-height: 1.05; }
+.cabinet-mot--g { top: 3vh; top: 3svh; }
+.cabinet-mot--d { bottom: calc(var(--barres-h) + 3vh); bottom: calc(var(--barres-h) + 3svh); }

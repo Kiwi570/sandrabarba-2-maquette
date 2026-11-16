@@ -1,5 +1,9 @@
 # Journal des versions
 
+## v2 · 16 novembre 2026
+
+- Accueil, le cabinet qui s'ouvre en plein écran : « Aubignan » et « ou en visio » se placent au-dessus et au-dessous de l'image de départ ; l'image ne les recouvre plus qu'en s'agrandissant (sur téléphone, « ou en visio » reste au-dessus de la barre du bas).
+
 ## v1 · 16 novembre 2026 · « Respirer »
 
 Nouvelle maquette, faite avec la skill v11.1. La première maquette (« La boîte à mots », dépôt sandrabarba-maquette) reste en ligne à part.

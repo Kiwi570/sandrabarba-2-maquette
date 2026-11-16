@@ -2,7 +2,7 @@
    l'en-tête, le menu, les boucles, les mesures et la bibliothèque d'effets (posés par attributs dans les pages).
    Effets du plan (data-effet) : souffle (halo du portrait, CSS), phrase-eclaire, lumiere, respiration, lueur (CSS).
    Interactions : visionneuse des diplômes et de la presse, « Quitter vite », formulaire par étapes, FAQ animée. */
-import { demarrer, boucle, versObjet, suivre, lacher, quand } from './socle/index.js?v=1';
+import { demarrer, boucle, versObjet, suivre, lacher, quand } from './socle/index.js?v=2';
 
 const gsap = window.gsap;
 const $ = (s, r = document) => r.querySelector(s);
@@ -133,7 +133,7 @@ async function formulaire() {
   const choisir = (id) => { const r = root.querySelector(`input[name="seance"][value="${id}"]`); if (r) r.checked = true; };
   const p = new URLSearchParams(location.search).get('seance');
   if (p) choisir(p);
-  const { init } = await import('./modules/formulaire-par-etapes.js?v=1');
+  const { init } = await import('./modules/formulaire-par-etapes.js?v=2');
   const f = await init(root, { mailto: 'info@sandrabarba.fr', sujet: 'Demande de rendez-vous depuis le site' });
   $$('[data-seance]').forEach((a) => a.addEventListener('click', (e) => {
     e.preventDefault();

@@ -106,6 +106,41 @@
       "effetsRetires": [],
       "grilleDispenses": {},
       "notes": "nouvelle maquette (dépôt sandrabarba-2-maquette), distincte de sandrabarba-maquette ; nom et numéro corrigés à la livraison à la demande de l'utilisateur"
+    },
+    {
+      "version": 2,
+      "skill": "v11.1",
+      "perimetre": [
+        "accueil"
+      ],
+      "etapes": [
+        {
+          "etape": "correction : mots du cabinet masqués par l'image",
+          "budget": 10,
+          "debut": "2026-11-16T16:07:00+01:00",
+          "fin": "2026-11-16T16:13:00+01:00"
+        },
+        {
+          "etape": "audit ciblé (accueil : fichiers, mesures, écran) et livraison",
+          "budget": 10,
+          "debut": "2026-11-16T16:09:00+01:00",
+          "fin": "2026-11-16T16:14:00+01:00"
+        }
+      ],
+      "attentes": [],
+      "allersRetours": 1,
+      "modules": [],
+      "audit": {
+        "niveau": "ciblé sur /",
+        "echecsPremierPassage": 0,
+        "relances": 0,
+        "corrections": [
+          "mots du cabinet hors de l'image de départ"
+        ]
+      },
+      "effetsRetires": [],
+      "grilleDispenses": {},
+      "notes": "retour de l'utilisateur sur la version en ligne"
     }
   ]
 }
